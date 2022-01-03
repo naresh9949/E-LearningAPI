@@ -10,6 +10,9 @@ const authRoutes = require("./router/auth.js");
 const courseRoutes = require("./router/courses.js");
 const reviewRoutes = require("./router/review.js");
 const feedbackRoutes = require("./router/feedback.js");
+const quizRoutes = require("./router/quiz.js");
+const homeRoutes = require("./router/home.js");
+
 
 mongoose
   .connect(process.env.MONGO_URL)
@@ -26,9 +29,11 @@ app.use(passport.session());
 
 app.use("/api/Courses", courseRoutes);
 app.use("/api/user", userRoutes);
-app.use("/api/authenticate", authRoutes);
-app.use("/api/reviews", reviewRoutes);
+app.use("/api/auth", authRoutes);
+app.use("/api/review", reviewRoutes);
 app.use("/api/feedback", feedbackRoutes);
+app.use("/api/quiz", quizRoutes);
+app.use("/api/home", homeRoutes);
 
 app.listen(process.env.PORT || 5000, () => {
   console.log(`Example AP listening at http://localhost:3000`);

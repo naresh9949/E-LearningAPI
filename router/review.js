@@ -6,14 +6,24 @@ const {
     verifyTokenAndAdmin,
   } = require("./verifyToken");
 
-router.get('/Getreviews',(req,res)=>{
-    Review.find().then((reviews)=>{
-        res.status(200).json(reviews);
-    })
+
+//get reviews
+
+router.get('/getReviews',(req,res)=>{
+    Review.aggregate([
+        {$sort: {rating: -1}},
+        {$limit: 10},
+        ]).then(data=>{
+            return res.status(200).json(data)
+        }).catch(err=>{
+            return res.status(404).json({message:"Something went wrong!"})
+        })
 })
 
 
-router.post('/Addreview',verifyToken,(req,res)=>{
+
+
+router.post('/addReview',verifyToken,(req,res)=>{
    if(!req.body.first_name ||!req.body.id || !req.body.last_name || !req.body.rating || !req.body.message)
    res.status(404).json({error:true,message : "all fields are required"})
    
@@ -30,5 +40,7 @@ router.post('/Addreview',verifyToken,(req,res)=>{
     res.status(404).json({error:true,message : "review submission failed"})
    })
 })
+
+
 
 module.exports = router;

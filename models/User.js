@@ -17,6 +17,19 @@ const userSchema = new Schema ({
         courseId : {type: String , required : true,unique : true},
         date : {type: Date,required : true}
     }],
+    createdQuizzes : [{
+        id : {type: String , required : true,unique:true},
+    }],
+    quizzes:[{
+        id : {type: String , required : true},
+        attempts : [
+            {
+                time : {type: String , required : true},
+                date : {type: String , required : true},
+                score : {type: Number , required : true},
+            }
+        ]
+    }],
     otps : [],
 },{timestamps:true}) 
 

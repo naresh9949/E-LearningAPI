@@ -15,10 +15,24 @@ router.post('/signup',async (req,res)=>{
         password:CryptoJs.AES.encrypt(password, process.env.PASS_SEC).toString()
     })
     console.log(newUser);
-    newUser.save().then((result)=>{
-        res.status(200).json(result);
-    }).catch((err)=>{
-        res.status(404).json({message:err});
+    User.exists({email:email}).then(user=>{
+        if(user)
+        res.status(401).json({message:'user already exists'});
+        else{
+            newUser.save().then((result)=>{
+                const accessToken = jwt.sign({
+                    id:result._id,
+                    isAdmin:result.isAdmin,
+                    email:result.email,
+                    verified:result.verified
+                },process.env.JWT_SEC,{expiresIn:'3d'});
+            res.status(200).json({token:accessToken})
+            }).catch((err)=>{
+                res.status(404).json({message:err});
+            })
+        }
+    }).catch(err=>{
+        res.status(401).json({message:'something went wrong!'});
     })
 
 })
@@ -45,12 +59,11 @@ router.post('/signin',async (req,res)=>{
         const accessToken = jwt.sign({
             id:user._id,
             isAdmin:user.isAdmin,
-            email:user.email
+            email:user.email,
+            verified:user.verified
         },process.env.JWT_SEC,{expiresIn:'3d'});
-        const {password,...others} = user._doc;
-        res.status(200).json({...others,accessToken})     
+        res.status(200).json({token:accessToken})     
     })
-
 })
 
 

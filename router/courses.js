@@ -6,6 +6,8 @@ const {
     verifyTokenAndAdmin,
   } = require("./verifyToken");
 
+
+  
 router.post('/wait/AddCourse',verifyTokenAndAdmin,(req,res)=>{
     const course = new Course(req.body);
     course.save().then((course)=>{
@@ -27,6 +29,8 @@ router.get('/GetCourses',(req,res)=>{
     })
 });
 
+
+
 router.get('/GetPopularCourses',(req,res)=>{
     var courseProjection = {
         name:true,
@@ -39,9 +43,19 @@ router.get('/GetPopularCourses',(req,res)=>{
     })
 });
 
+
+//get popular courses
 router.get('/GetCourse/:id',(req,res)=>{
-    res.status(200).json({message : 'done'})
+    const course_id = req.params.id;
+    Courses.find({_id:course_id}).then(course=>{
+        if(!course)
+        res.status(401).json({message:"invalid course id"});
+        res.status(200).json(course);
+    }).catch(err=>{
+        res.status(401).json({message:"invalid course id"});
+    });
 });
+
 
 
 router.get('/SearchCourses',(req,res)=>{
@@ -52,4 +66,26 @@ router.get('/SearchCourses',(req,res)=>{
 });
 
 
+// get by category
+router.get('/getByCategory/:category',(req,res)=>{
+    const category = req.params.category;
+    var courseProjection = {
+        name:true,
+        catrgory:true, 
+        image : true,
+        classes:true
+    };
+    Courses.find({catrgory:category},courseProjection).then(courses=>{
+        if(!courses)
+        res.status(401).json({message:"invalid course category"});
+        res.status(200).json(courses);
+    }).catch(err=>{
+        res.status(401).json({message:"invalid course category"});
+    });
+
+})
+
 module.exports = router;
+
+
+// api/courses/getbycategory/:category

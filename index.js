@@ -38,6 +38,6 @@ app.use("/api/feedback", feedbackRoutes);
 app.use("/api/quiz", quizRoutes);
 app.use("/api/home", homeRoutes);
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`Example AP listening at http://localhost:3000`);
 });

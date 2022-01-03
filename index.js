@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const passport = require("passport");
+const cors = require('cors')
 const session = require("express-session");
 dotenv.config();
 const userRoutes = require("./router/user.js");
@@ -24,8 +25,9 @@ mongoose
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(session({ secret: "secret", resave: true, saveUninitialized: true }));
-//app.use(passport.initialize());
-//app.use(passport.session());
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(cors()) 
 
 app.get("/",(req,res)=>{
   res.status(200).json({message:'ok'});

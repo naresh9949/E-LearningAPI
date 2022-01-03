@@ -6,6 +6,8 @@ const {
     verifyTokenAndAdmin,
   } = require("./verifyToken");
 
+
+  
 router.post('/wait/AddCourse',verifyTokenAndAdmin,(req,res)=>{
     const course = new Course(req.body);
     course.save().then((course)=>{
@@ -26,6 +28,8 @@ router.get('/GetCourses',(req,res)=>{
         res.status(200).json(courses);
     })
 });
+
+
 
 router.get('/GetPopularCourses',(req,res)=>{
     var courseProjection = {

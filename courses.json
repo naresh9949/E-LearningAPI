@@ -1,0 +1,5650 @@
+[
+  {
+    "_id": { "$oid": "611bc4e0260dd7087fe7c9f1" },
+    "duration": { "hours": "17", "minutes": "5" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "webapp",
+    "classes": "81",
+    "image": "https://trotons.com/wp-content/uploads/2019/10/Advantage-and-Disadvantage-of-PHP.jpg",
+    "cos": [
+      "Learn basics of PHP",
+      "Learn about variables,functions in PHP",
+      "Learn about PHP Laravel",
+      "Learn about PHP REST API",
+      "Learn about MySQL using PHP"
+    ],
+    "tags": ["PHP", "Tutorial", "Beginners"],
+    "name": "PHP Tutorial for Beginners",
+    "channelName": "ProgrammingKnowledge",
+    "videos": [
+      {
+        "duration": "9:07",
+        "id": "yMclPkD4sQg",
+        "title": "Getting Started and Introduction to PHP (For Absolute Beginners)",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9f2" }
+      },
+      {
+        "duration": "16:25",
+        "id": "3lfWcIWrHtc",
+        "title": " How to Install XAMPP",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9f3" }
+      },
+      {
+        "duration": "7:05",
+        "id": "2H6grMdxcHw",
+        "title": "How to Install Notepad++ as PHP Editor",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9f4" }
+      },
+      {
+        "duration": "12:50",
+        "id": "JCLlVu_0OiA",
+        "title": "First PHP Script and Hello World",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9f5" }
+      },
+      {
+        "duration": "15:39",
+        "id": "VGC8St0MH2E",
+        "title": "PHP Variables and Echo Function",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9f6" }
+      },
+      {
+        "duration": "11:43",
+        "id": "ncvpH2IkLNA",
+        "title": "Concatenation Operator and Escape sequences",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9f7" }
+      },
+      {
+        "duration": "4:43",
+        "id": "W68vp8wlA6M",
+        "title": "Arithmetic operation",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9f8" }
+      },
+      {
+        "duration": "6:43",
+        "id": "yc78XSUjNTI",
+        "title": " If, else and nested if/else Statements",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9f9" }
+      },
+      {
+        "duration": "9:51",
+        "id": "5-o5lfR3VNA",
+        "title": "Comparison operators and Logical operators",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9fa" }
+      },
+      {
+        "duration": "7:17",
+        "id": "b-AZsyofrlM",
+        "title": "Arrays in PHP",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9fb" }
+      },
+      {
+        "duration": "5:04",
+        "id": "Ek539mj6IEE",
+        "title": "Associative Arrays in PHP",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9fc" }
+      },
+      {
+        "duration": "10:47",
+        "id": "dJfjVK56Bmk",
+        "title": "Multidimensional Arrays in PHP",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9fd" }
+      },
+      {
+        "duration": "9:50",
+        "id": "1jBLkSuy1cQ",
+        "title": "While and Do While Loop in PHP",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9fe" }
+      },
+      {
+        "duration": "4:30",
+        "id": "jPhpsM8oSRs",
+        "title": "For Loop in PHP",
+        "_id": { "$oid": "611bc4e0260dd7087fe7c9ff" }
+      },
+      {
+        "duration": "9:59",
+        "id": "3f0efM27ajg",
+        "title": "PHP Foreach Loop",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca00" }
+      },
+      {
+        "duration": "9:01",
+        "id": "AZYgQ5Lolsk",
+        "title": "Switch Statement",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca01" }
+      },
+      {
+        "duration": "19:45",
+        "id": "k5uzEGxx0VE",
+        "title": " Using GET Variables in PHP",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca02" }
+      },
+      {
+        "duration": "12:58",
+        "id": "zmjPOF4wlQw",
+        "title": "Using POST Variables in PHP",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca03" }
+      },
+      {
+        "duration": "6:14",
+        "id": "XSLZBj5X2g0",
+        "title": "Basic Functions",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca04" }
+      },
+      {
+        "duration": "5:34",
+        "id": "WwoOyRsLX3Q",
+        "title": "Functions with Arguments",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca05" }
+      },
+      {
+        "duration": "6:43",
+        "id": "0FT4lwbMpYs",
+        "title": "Functions with a Return Value",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca06" }
+      },
+      {
+        "duration": "6:56",
+        "id": "-_xFKPyXkE8",
+        "title": " Date and Time Functions",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca07" }
+      },
+      {
+        "duration": "5:29",
+        "id": "uhx7hhPs2XI",
+        "title": "Global Variables and Functions",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca08" }
+      },
+      {
+        "duration": "11:34",
+        "id": "OAQZtNt8l4M",
+        "title": "include() and require() functions",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca09" }
+      },
+      {
+        "duration": "4:15",
+        "id": "yUmeKsxeXsQ",
+        "title": "Include_once() and require_once functions",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca0a" }
+      },
+      {
+        "duration": "9:21",
+        "id": "k0-ESSiN5jo",
+        "title": "PHP Sessions and Setting PHP Sessions",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca0b" }
+      },
+      {
+        "duration": "5:24",
+        "id": "ImtTqXrtBpw",
+        "title": "How to unset or destroy PHP Sessions",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca0c" }
+      },
+      {
+        "duration": "10:17",
+        "id": "gdYjBdM4hhc",
+        "title": "PHP Cookies",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca0d" }
+      },
+      {
+        "duration": "21:26",
+        "id": "Ty_tjx4W8MM",
+        "title": "Creating First MySQL Database With phpMyAdmin",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca0e" }
+      },
+      {
+        "duration": "15:38",
+        "id": "2gwXRo-FKW0",
+        "title": "How to connect to MySQL database using PHP",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca0f" }
+      },
+      {
+        "duration": "18:09",
+        "id": "DgdxUzvVjmY",
+        "title": "Getting Data from MySQL Database using PHP",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca10" }
+      },
+      {
+        "duration": "14:50",
+        "id": "Q7yWOVyhHrw",
+        "title": "PHP Md5 Encryption",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca11" }
+      },
+      {
+        "duration": "12:08",
+        "id": "N6ENnaRotmo",
+        "title": "How to Install XAMPP Server on Windows 10",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca12" }
+      },
+      {
+        "duration": "5:21:38",
+        "id": "DG0C3Tntl1M",
+        "title": "PHP Tutorials | PHP For Beginners",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca13" }
+      },
+      {
+        "duration": "10:32",
+        "id": "00Thb3oPJ74",
+        "title": "User Registration Form with PHP and MySQL Tutorial 1 - Creating a Registration Form",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca14" }
+      },
+      {
+        "duration": "11:53",
+        "id": "JC86E5CfIrw",
+        "title": "User Registration Form with PHP and MySQL Tutorial 2 - Work with Bootstrap For Responsive Web Design",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca15" }
+      },
+      {
+        "duration": "11:23",
+        "id": "gpM9hUKXLgk",
+        "title": "User Registration Form with PHP and MySQL Tutorial 3 - Connect A Signup Form With MySQL Database",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca16" }
+      },
+      {
+        "duration": "13:12",
+        "id": "J4eqDaHN1Mg",
+        "title": "User Registration Form with PHP and MySQL Tutorial 4 - Creating Nice Alerts with sweetAlert",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca17" }
+      },
+      {
+        "duration": "10:50",
+        "id": "3FSNgLDjors",
+        "title": "User Registration Form with PHP and MySQL Tutorial 5 - Add Form Validation + Final Demo",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca18" }
+      },
+      {
+        "duration": "10:28",
+        "id": "mdkxEJWB9ps",
+        "title": "How to Create A PHP Contact Form with Validation and Email Submit 1",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca19" }
+      },
+      {
+        "duration": "13:47",
+        "id": "af22YNMHqgo",
+        "title": "How to Create A PHP Contact Form with Validation and Email Submit 2",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca1a" }
+      },
+      {
+        "duration": "14:33",
+        "id": "sPPp0-NICUo",
+        "title": "How to Create A PHP Contact Form with Validation and Email Submit 3",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca1b" }
+      },
+      {
+        "duration": "55:01",
+        "id": "TCLTL7xveGc",
+        "title": "How To Create a Register Form Using PHP, MySQL And Bootstrap",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca1c" }
+      },
+      {
+        "duration": "50:07",
+        "id": "wdE5K-DvoZE",
+        "title": "How To Create a Login Form using PHP and MYSQL Database",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca1d" }
+      },
+      {
+        "duration": "37:17",
+        "id": "OftlvQWtyKY",
+        "title": "How to Create A PHP Contact Form | PHP Tutorial",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca1e" }
+      },
+      {
+        "duration": "23:25",
+        "id": "-g8FPtNihzM",
+        "title": "How to create a Blog using Bootstrap Tutorial",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca1f" }
+      },
+      {
+        "duration": "25:32",
+        "id": "1BDT_jjdA-8",
+        "title": "Learn to Build a Custom Component With Angular",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca20" }
+      },
+      {
+        "duration": "19:30",
+        "id": "nbrJ6ursWB",
+        "title": "Laravel PHP Framework Tutorial - Create Contact Form in Laravel",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca21" }
+      },
+      {
+        "duration": "11:26",
+        "id": "yifY51wjnSg",
+        "title": "PHP CRUD (Create, Read, Update, Delete) Tutorial with MySQL + Bootstrap 4 # PART 1",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca22" }
+      },
+      {
+        "duration": "11:41",
+        "id": "hMX5pZnXDOA",
+        "title": "PHP CRUD (Create, Read, Update, Delete) Tutorial with MySQL + Bootstrap 4 # PART 3",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca23" }
+      },
+      {
+        "duration": "13:21",
+        "id": "MFcavjs7MLA",
+        "title": "PHP CRUD (Create, Read, Update, Delete) Tutorial with MySQL + Bootstrap 4 # PART 4",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca24" }
+      },
+      {
+        "duration": "16:38",
+        "id": "--IPoRlsA9k",
+        "title": "PHP CRUD (Create, Read, Update, Delete) Tutorial with MySQL + Bootstrap 4 # PART 5",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca25" }
+      },
+      {
+        "duration": "1:05:16",
+        "id": "BchjaHlXXJA",
+        "title": "PHP CRUD Tutorial with MySQL & Bootstrap 4 [Create, Read, Update, Delete]",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca26" }
+      },
+      {
+        "duration": "1:44:52",
+        "id": "q_jDixroQkw",
+        "title": "How To Create Login & Register Form Using PHP, MySQL And Bootstrap",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca27" }
+      },
+      {
+        "duration": "16:22",
+        "id": "qxYZRw5pZc8",
+        "title": "How to Deploy Websites using Netlify",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca28" }
+      },
+      {
+        "duration": "16:57",
+        "id": "xiXRQginKH0",
+        "title": "Getting started with Materialize | Materialize CSS From Scratch",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca29" }
+      },
+      {
+        "duration": "13:31",
+        "id": "9OMpioZ-H50",
+        "title": "PHP Laravel Tutorial for Beginners 4 - Controllers in Laravel",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca2a" }
+      },
+      {
+        "duration": "10:37",
+        "id": "IpdI_Wv0bic",
+        "title": "PHP Laravel Tutorial for Beginners 5 - Laravel Blade Templating",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca2b" }
+      },
+      {
+        "duration": "10:47",
+        "id": "Ib1WThZ4uD4",
+        "title": "PHP Laravel Tutorial for Beginners 6 - How to Compile Assets in Laravel",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca2c" }
+      },
+      {
+        "duration": "11:40",
+        "id": "hKtTjCGrba4",
+        "title": "PHP Laravel Tutorial for Beginners 7 - Models and Migrations (Models & Database Migrations)",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca2d" }
+      },
+      {
+        "duration": "12:!0",
+        "id": "3rOtdXEAOMI",
+        "title": "PHP Laravel Tutorial for Beginners 8 - Fetching Data Using Eloquent ORM Part 1",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca2e" }
+      },
+      {
+        "duration": "11:32",
+        "id": "YrVpKRKmzhE",
+        "title": "PHP Laravel Tutorial for Beginners 9 - Fetching Data Using Eloquent ORM Part 2",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca2f" }
+      },
+      {
+        "duration": "12:25",
+        "id": "EoBO3MADR_Q",
+        "title": "PHP Laravel Tutorial for Beginners 10 - Fetching Data Using Eloquent ORM Part 3",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca30" }
+      },
+      {
+        "duration": "11:01",
+        "id": "PnvXLHhWNy8",
+        "title": "PHP Laravel Tutorial for Beginners 11 - Forms and Saving Data Part 1",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca31" }
+      },
+      {
+        "duration": "10:55",
+        "id": "-U6flwcgPr8",
+        "title": "PHP Laravel Tutorial for Beginners 12 - Forms and Saving Data Part 2",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca32" }
+      },
+      {
+        "duration": "15:17",
+        "id": "G--IVojM65E",
+        "title": "PHP Laravel Tutorial for Beginners 13 - Update and Delete record from MySQL in Laravel",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca33" }
+      },
+      {
+        "duration": "13:46",
+        "id": "xOymrJnCgcQ",
+        "title": "PHP Laravel Tutorial for Beginners 14 - User Authentication",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca34" }
+      },
+      {
+        "duration": "12:35",
+        "id": "_DxR7SUZQDk",
+        "title": "PHP Laravel Tutorial for Beginners 15 - Model Relationships",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca35" }
+      },
+      {
+        "duration": "12:23",
+        "id": "OffzaO7fB50",
+        "title": "PHP Laravel Tutorial for Beginners 16 - How to Add User Access Control",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca36" }
+      },
+      {
+        "duration": "10:25",
+        "id": "OEXOmfnH8UY",
+        "title": "PHP Laravel Tutorial for Beginners 17 - Laravel File Upload Example",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca37" }
+      },
+      {
+        "duration": "12:45",
+        "id": "nWc8FuThxf0",
+        "title": "PHP Laravel Tutorial for Beginners 18 - retrieve images from database",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca38" }
+      },
+      {
+        "duration": "13:!3",
+        "id": "eJZWRAIIcds",
+        "title": "PHP Laravel Tutorial for Beginners 19 - Finishing File Upload",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca39" }
+      },
+      {
+        "duration": "11:46",
+        "id": "SNUBVor7dnA",
+        "title": "PHP REST API Tutorial (Step By Step) 3 - Reading records from database (PART 1)",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca3a" }
+      },
+      {
+        "duration": "13:24",
+        "id": "55b6G5IXjIw",
+        "title": "PHP REST API Tutorial (Step By Step) 4 - Reading records from database (PART 2)",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca3b" }
+      },
+      {
+        "duration": "14:26",
+        "id": "R6ooI2_OaAk",
+        "title": "PHP REST API Tutorial (Step By Step) 5 - Using Postman for API testing",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca3c" }
+      },
+      {
+        "duration": "11:24",
+        "id": "myZ66m0C8VQ",
+        "title": "PHP REST API Tutorial (Step By Step) 6 - Create Record",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca3d" }
+      },
+      {
+        "duration": "10:10",
+        "id": "U9EJcsPdtxE",
+        "title": "PHP REST API Tutorial (Step By Step) 7 - Create Record Part 2",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca3e" }
+      },
+      {
+        "duration": "10:24",
+        "id": "Ov6HUNk1Bbk",
+        "title": "PHP REST API Tutorial (Step By Step) 8 - Adding updated feature to the PHP REST API",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca3f" }
+      },
+      {
+        "duration": "14:59",
+        "id": "zfHaBuzcz58",
+        "title": "PHP REST API Tutorial (Step By Step) 9 -Adding delete feature to the PHP REST API",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca40" }
+      },
+      {
+        "duration": "3:41:17",
+        "id": "EcYXsp78Xy8",
+        "title": "Laravel PHP Framework Tutorial - Full Course for Beginners (2020) | Build a Blog with Laravel",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca41" }
+      },
+      {
+        "duration": "1:43:36",
+        "id": "dlGtSoigdB0",
+        "title": "How to Create RESTful API in PHP | RESTful API With PHP & MySQL",
+        "_id": { "$oid": "611bc4e0260dd7087fe7ca42" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bc6045c3c78089035f4cc" },
+    "duration": { "hours": "5", "minutes": "27" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "webapp",
+    "classes": "35",
+    "image": "https://cdn.journaldev.com/wp-content/uploads/2013/09/Servlet-JSP-Tutorial.png",
+    "cos": [
+      "Learn basics of Servlet",
+      "Learn basics of JSP",
+      "Learn Tomcat server",
+      "Get,Post requests in servelets",
+      "Learn about Maven"
+    ],
+    "tags": ["Servlet", "Servlets", "JSP", "java"],
+    "name": "Servlet and JSP Tutorials",
+    "channelName": "Telusko",
+    "videos": [
+      {
+        "duration": "6:50",
+        "id": "7TOmdDJc14s",
+        "title": "Introduction to Servlets",
+        "_id": { "$oid": "611bc6045c3c78089035f4cd" }
+      },
+      {
+        "duration": "5:17",
+        "id": "NrdGCk5Cwls",
+        "title": "#1 Servlet and JSP Tutorial | Eclipse Setup and Tour",
+        "_id": { "$oid": "611bc6045c3c78089035f4ce" }
+      },
+      {
+        "duration": "5:09",
+        "id": "R7DlcnrXfYE",
+        "title": "#2 Servlet and JSP Tutorial | Configure Tomcat in Eclipse",
+        "_id": { "$oid": "611bc6045c3c78089035f4cf" }
+      },
+      {
+        "duration": "5:33",
+        "id": "9iHKCnxUWqQ",
+        "title": "#3 Servlet and JSP Tutorial | Eclipse and Tomcat Setup on Windows",
+        "_id": { "$oid": "611bc6045c3c78089035f4d0" }
+      },
+      {
+        "duration": "7:59",
+        "id": "EkacxN8gx08",
+        "title": "#4 Servlet and JSP Tutorial | Creating Web Project in Eclipse",
+        "_id": { "$oid": "611bc6045c3c78089035f4d1" }
+      },
+      {
+        "duration": "12:43",
+        "id": "wty6OROO__8",
+        "title": "#5 Servlet and JSP Tutorial | Create Servlet and web.xml Config",
+        "_id": { "$oid": "611bc6045c3c78089035f4d2" }
+      },
+      {
+        "duration": "6:44",
+        "id": "_6ISkXSC1js",
+        "title": "#6 Servlet and JSP Tutorial | Get and Post",
+        "_id": { "$oid": "611bc6045c3c78089035f4d3" }
+      },
+      {
+        "duration": "1:11",
+        "id": "Bwd9hr5Fz5E",
+        "title": "Support Telusko",
+        "_id": { "$oid": "611bc6045c3c78089035f4d4" }
+      },
+      {
+        "duration": "8:36",
+        "id": "EiuKnHNFwRU",
+        "title": "#7 Servlet and JSP Tutorial | RequestDispatcher | Calling a Servlet from Servlet",
+        "_id": { "$oid": "611bc6045c3c78089035f4d5" }
+      },
+      {
+        "duration": "4:34",
+        "id": "GbF_nBLHP6A",
+        "title": "HttpServletRequest and HttpServletResponse Theory",
+        "_id": { "$oid": "611bc6045c3c78089035f4d6" }
+      },
+      {
+        "duration": "5:31",
+        "id": "kYzyXWmh37A",
+        "title": "#8 Servlet and JSP Tutorial | RequestDispatcher and sendRedirect Theory",
+        "_id": { "$oid": "611bc6045c3c78089035f4d7" }
+      },
+      {
+        "duration": "7:35",
+        "id": "2HurrgxlTmg",
+        "title": "#9 Servlet and JSP Tutorial | sendRedirect | URL Rewriting",
+        "_id": { "$oid": "611bc6045c3c78089035f4d8" }
+      },
+      {
+        "duration": "11:39",
+        "id": "5tLGwdyPGRY",
+        "title": "#10 Servlet and JSP Tutorial | HttpSession | Cookie",
+        "_id": { "$oid": "611bc6045c3c78089035f4d9" }
+      },
+      {
+        "duration": "8:01",
+        "id": "uKoBbSp0J3Y",
+        "title": "ServletConfig and ServletContext",
+        "_id": { "$oid": "611bc6045c3c78089035f4da" }
+      },
+      {
+        "duration": "3:38",
+        "id": "TMlXF1iW9rE",
+        "title": "Servlet and JSP Tutorial | Servlet Annotation Configuration",
+        "_id": { "$oid": "611bc6045c3c78089035f4db" }
+      },
+      {
+        "duration": "8:38",
+        "id": "5Sz8z1Yreow",
+        "title": "Servlet and JSP Tutorial | Why JSP?",
+        "_id": { "$oid": "611bc6045c3c78089035f4dc" }
+      },
+      {
+        "duration": "13:07",
+        "id": "8M5fuIuhRHA",
+        "title": "How JSP translated into Servlets?",
+        "_id": { "$oid": "611bc6045c3c78089035f4dd" }
+      },
+      {
+        "duration": "7:46",
+        "id": "ji4SJYxv6GM",
+        "title": "JSP to Servlet Conversion | Netbeans",
+        "_id": { "$oid": "611bc6045c3c78089035f4de" }
+      },
+      {
+        "duration": "7:44",
+        "id": "NQ7xKNULkTk",
+        "title": "JSP Tags | Scriptlet | Declaration | Directive | Expression",
+        "_id": { "$oid": "611bc6045c3c78089035f4df" }
+      },
+      {
+        "duration": "9:30",
+        "id": "LlVcQhKGVbU",
+        "title": "JSP Directive | Page | Include | Taglib",
+        "_id": { "$oid": "611bc6045c3c78089035f4e0" }
+      },
+      {
+        "duration": "6:00",
+        "id": "mhrDVzj8pQM",
+        "title": "Implicit Objects in JSP",
+        "_id": { "$oid": "611bc6045c3c78089035f4e1" }
+      },
+      {
+        "duration": "7:04",
+        "id": "0LvRQmLX5eQ",
+        "title": "Exception Handling in JSP",
+        "_id": { "$oid": "611bc6045c3c78089035f4e2" }
+      },
+      {
+        "duration": "10:19",
+        "id": "MDHj4vgKY6Q",
+        "title": "MVC using Servlet and JSP",
+        "_id": { "$oid": "611bc6045c3c78089035f4e3" }
+      },
+      {
+        "duration": "7:17",
+        "id": "KmREMEhj5eE",
+        "title": "JSTL Tutorial part 1 EL",
+        "_id": { "$oid": "611bc6045c3c78089035f4e4" }
+      },
+      {
+        "duration": "12:57",
+        "id": "R0EnI9_ZMA0",
+        "title": "JSTL Tutorial part 2 Core Tags",
+        "_id": { "$oid": "611bc6045c3c78089035f4e5" }
+      },
+      {
+        "duration": "5:07",
+        "id": "WzY29qxoe2s",
+        "title": "JSTL Tutorial SQL tags Part 1",
+        "_id": { "$oid": "611bc6045c3c78089035f4e6" }
+      },
+      {
+        "duration": "4:05",
+        "id": "5u1VngVn2wk",
+        "title": "JSTL Tutorial SQL tags part 2",
+        "_id": { "$oid": "611bc6045c3c78089035f4e7" }
+      },
+      {
+        "duration": "9:12",
+        "id": "Qs1Mhd1rBKU",
+        "title": "JSTL Tutorial Function Tags",
+        "_id": { "$oid": "611bc6045c3c78089035f4e8" }
+      },
+      {
+        "duration": "8:35",
+        "id": "w5GfmTUHAnM",
+        "title": "Servlet Filter Tutorial Theory",
+        "_id": { "$oid": "611bc6045c3c78089035f4e9" }
+      },
+      {
+        "duration": "10:34",
+        "id": "preCXrKFISg",
+        "title": "Servlet Filter Practical",
+        "_id": { "$oid": "611bc6045c3c78089035f4ea" }
+      },
+      {
+        "duration": "13:17",
+        "id": "q7WcUweCTmQ",
+        "title": "Login using Servlet and JSP",
+        "_id": { "$oid": "611bc6045c3c78089035f4eb" }
+      },
+      {
+        "duration": "17:35",
+        "id": "cYc3FjhMMzI",
+        "title": "Login using Servlet and JSP practical Part 1",
+        "_id": { "$oid": "611bc6045c3c78089035f4ec" }
+      },
+      {
+        "duration": "13:59",
+        "id": "gQLQ0t9B5yk",
+        "title": "Login using Servlet and JSP | How to Prevent Back button after Logout? | Part 2",
+        "_id": { "$oid": "611bc6045c3c78089035f4ed" }
+      },
+      {
+        "duration": "16:25",
+        "id": "HYSrsxhyEik",
+        "title": "Login using Servlet and JSP | JDBC | Part 3",
+        "_id": { "$oid": "611bc6045c3c78089035f4ee" }
+      },
+      {
+        "duration": "37:31",
+        "id": "WXmTxgDg52o",
+        "title": "Servlet | JSP | JDBC | Maven Example",
+        "_id": { "$oid": "611bc6045c3c78089035f4ef" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bcb93a2b77708ad5f704c" },
+    "duration": { "hours": "2", "minutes": "52" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "csfunda",
+    "classes": "15",
+    "image": "https://images.idgesg.net/images/article/2020/03/jw_series_data_structure_algorithms_java_coding_programmer_2400x1600_davidgoh_akindo_gettyimages_531237630_473456596-100834690-large.jpg",
+    "cos": [
+      "Learn basics of Searching Algorithms",
+      "Learn about Jump Search",
+      "Learn about binary Search",
+      "Learn about KMP alrorithm",
+      "Learn about Linear vs Binary"
+    ],
+    "tags": ["Searching", "Algorithms", "Algorithm"],
+    "name": "Searching Algorithms",
+    "channelName": "TECH DOSE",
+    "videos": [
+      {
+        "duration": "9:01",
+        "id": "wNOoyZ45SmQ",
+        "title": "What is Jump Search and how does it work (with CODE)",
+        "_id": { "$oid": "611bcb93a2b77708ad5f704d" }
+      },
+      {
+        "duration": "11:05",
+        "id": "hF9iJEPegNc",
+        "title": "Interpolation Search algorithm (with Example & CODE)",
+        "_id": { "$oid": "611bcb93a2b77708ad5f704e" }
+      },
+      {
+        "duration": "11:23",
+        "id": "BDVYtuWXgXE",
+        "title": "Exponential Search - better than Binary search? (Explained)",
+        "_id": { "$oid": "611bcb93a2b77708ad5f704f" }
+      },
+      {
+        "duration": "17:48",
+        "id": "ziteu2FpYsA",
+        "title": "KMP algorithm | Pattern search algorithm | string search algorithm",
+        "_id": { "$oid": "611bcb93a2b77708ad5f7050" }
+      },
+      {
+        "duration": "4:16",
+        "id": "sSYQ1H9-Vks",
+        "title": "Linear search vs Binary search",
+        "_id": { "$oid": "611bcb93a2b77708ad5f7051" }
+      },
+      {
+        "duration": "9:42",
+        "id": "K2E5fMMAf5U",
+        "title": "Leftmost column with atleast a one | Ladder approach | Leetcode",
+        "_id": { "$oid": "611bcb93a2b77708ad5f7052" }
+      },
+      {
+        "duration": "4:44",
+        "id": "SiDMFIMldgg",
+        "title": "First bad version | Leetcode #278",
+        "_id": { "$oid": "611bcb93a2b77708ad5f7053" }
+      },
+      {
+        "duration": "17:54",
+        "id": "SiE1XFhYoaA",
+        "title": "Aggressive cow | SPOJ",
+        "_id": { "$oid": "611bcb93a2b77708ad5f7054" }
+      },
+      {
+        "duration": "8:59",
+        "id": "tSy8lDLPduU",
+        "title": "Valid Perfect Square | Leetcode #367",
+        "_id": { "$oid": "611bcb93a2b77708ad5f7055" }
+      },
+      {
+        "duration": "8:26",
+        "id": "nMGL2vlyJk0",
+        "title": "Single element in a sorted array | Leetcode #540",
+        "_id": { "$oid": "611bcb93a2b77708ad5f7056" }
+      },
+      {
+        "duration": "7:41",
+        "id": "0A40XJH_VvE",
+        "title": "Search Insert Position | Leetcode #35",
+        "_id": { "$oid": "611bcb93a2b77708ad5f7057" }
+      },
+      {
+        "duration": "17:37",
+        "id": "CjKJDloMnwE",
+        "title": "H Index II | Binary search | Leetcode #275",
+        "_id": { "$oid": "611bcb93a2b77708ad5f7058" }
+      },
+      {
+        "duration": "29:42",
+        "id": "FQ8hcOOzQMU",
+        "title": "Longest Duplicate Substring | TRIE | Rolling Hash | Binary Search | Leetcode #1044",
+        "_id": { "$oid": "611bcb93a2b77708ad5f7059" }
+      },
+      {
+        "duration": "12:01",
+        "id": "ob7scCrFCxc",
+        "title": "Trick to efficiently search string in corpus | String to integer | MAP | TRIE",
+        "_id": { "$oid": "611bcb93a2b77708ad5f705a" }
+      },
+      {
+        "duration": "2:31",
+        "id": "wjOjCfkv1mg",
+        "title": "H index | Leetcode #274",
+        "_id": { "$oid": "611bcb93a2b77708ad5f705b" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bcd2168d8ff08e89a7474" },
+    "duration": { "hours": "13", "minutes": "53" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "csfunda",
+    "classes": "99",
+    "image": "https://www.breezendtech.com/assets/resources/contents/network.jpg",
+    "cos": [
+      "Learn basics of Computer Networks",
+      "Learn basics of Routing Algorithms",
+      "Learn about The OSI Reference Model",
+      "Learn about The TCP/IP Protocol",
+      "Learn about Network Devices",
+      "Learn about Layering in Computer Networks"
+    ],
+    "tags": ["Computer", "Networks"],
+    "name": "Computer Networks",
+    "channelName": "Neso Academy",
+    "videos": [
+      {
+        "duration": "9:44",
+        "id": "VwN91x5i25g",
+        "title": "Introduction to Computer Networks",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7475" }
+      },
+      {
+        "duration": "8:57",
+        "id": "m8eNwVel5xI",
+        "title": "Computer Networks - Basic Characteristics",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7476" }
+      },
+      {
+        "duration": "12:26",
+        "id": "ly8ikWtAY7s",
+        "title": "Network Protocols & Communications (Part 1)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7477" }
+      },
+      {
+        "duration": "10:32",
+        "id": "iE_kY2LVBKA",
+        "title": "Network Protocols & Communications (Part 2)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7478" }
+      },
+      {
+        "duration": "9:55",
+        "id": "EBTP0mpCGBM",
+        "title": "Components of a Computer Network",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7479" }
+      },
+      {
+        "duration": "8:52",
+        "id": "9BIN99rHOCQ",
+        "title": "Classification of Computer Networks",
+        "_id": { "$oid": "611bcd2168d8ff08e89a747a" }
+      },
+      {
+        "duration": "13:36",
+        "id": "uSKdjjw5zow",
+        "title": "Network Topology",
+        "_id": { "$oid": "611bcd2168d8ff08e89a747b" }
+      },
+      {
+        "duration": "11:57",
+        "id": "qDN6oEUsUko",
+        "title": "Network Topology (Solved Questions)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a747c" }
+      },
+      {
+        "duration": "8:24",
+        "id": "Kx6i9gwNS3w",
+        "title": "Basics of IP Addressing",
+        "_id": { "$oid": "611bcd2168d8ff08e89a747d" }
+      },
+      {
+        "duration": "7:19",
+        "id": "FkiTOMn-XGw",
+        "title": "Basics of MAC Addressing",
+        "_id": { "$oid": "611bcd2168d8ff08e89a747e" }
+      },
+      {
+        "duration": "8:21",
+        "id": "AroUUkB-lsA",
+        "title": "Basics of Port Addressing",
+        "_id": { "$oid": "611bcd2168d8ff08e89a747f" }
+      },
+      {
+        "duration": "12:35",
+        "id": "-HlJ4psu5aU",
+        "title": "Switching Techniques in Computer Networks",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7480" }
+      },
+      {
+        "duration": "7:05",
+        "id": "FewtLNsjtRA",
+        "title": "Layering in Computer Networks",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7481" }
+      },
+      {
+        "duration": "7:54",
+        "id": "qBXmbJZQ5rY",
+        "title": "The OSI Reference Model (Part 1)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7482" }
+      },
+      {
+        "duration": "11:46",
+        "id": "xiGgrQioF2E",
+        "title": "The OSI Reference Model (Part 2)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7483" }
+      },
+      {
+        "duration": "16:26",
+        "id": "oQzueBVyAM4",
+        "title": "The OSI Reference Model (Part 3)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7484" }
+      },
+      {
+        "duration": "9:14",
+        "id": "XI8kMBMMS6o",
+        "title": "The OSI Reference Model (Part 4)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7485" }
+      },
+      {
+        "duration": "15:23",
+        "id": "yDTC6sbYFFE",
+        "title": "Addressing in Networking",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7486" }
+      },
+      {
+        "duration": "10:09",
+        "id": "wvPe4Zb0tUA",
+        "title": "The TCP/IP Protocol Suite",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7487" }
+      },
+      {
+        "duration": "14:11",
+        "id": "rurs7cdT5cc",
+        "title": "Basic Networking Commands (Part 1)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7488" }
+      },
+      {
+        "duration": "12:26",
+        "id": "frUQMHXhnvs",
+        "title": "Basics of Cisco Packet Tracer (Part 1)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7489" }
+      },
+      {
+        "duration": "13:44",
+        "id": "FZ8hRDakHvI",
+        "title": "Basics of Cisco Packet Tracer (Part 2) | Hub",
+        "_id": { "$oid": "611bcd2168d8ff08e89a748a" }
+      },
+      {
+        "duration": "11:58",
+        "id": "eFY6mi3lmRQ",
+        "title": "Basics of Cisco Packet Tracer (Part 3) | Switch",
+        "_id": { "$oid": "611bcd2168d8ff08e89a748b" }
+      },
+      {
+        "duration": "10:15",
+        "id": "xwaqSZHK8eM",
+        "title": "Basics of Router",
+        "_id": { "$oid": "611bcd2168d8ff08e89a748c" }
+      },
+      {
+        "duration": "14:36",
+        "id": "FnH1XUQsoD8",
+        "title": "Basics of Cisco Packet Tracer (Part 4) | Router",
+        "_id": { "$oid": "611bcd2168d8ff08e89a748d" }
+      },
+      {
+        "duration": "7:01",
+        "id": "Ip6H2VmfshY",
+        "title": "Basics of Cisco Packet Tracer (Part 5) | Repeater",
+        "_id": { "$oid": "611bcd2168d8ff08e89a748e" }
+      },
+      {
+        "duration": "5:18",
+        "id": "NSDAYnixdgc",
+        "title": "Basics of Bridge",
+        "_id": { "$oid": "611bcd2168d8ff08e89a748f" }
+      },
+      {
+        "duration": "4:47",
+        "id": "0pMm_QxCg3I",
+        "title": "Network Devices",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7490" }
+      },
+      {
+        "duration": "8:23",
+        "id": "-WhBOnH_jB8",
+        "title": "Network Devices (Solved Questions)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7491" }
+      },
+      {
+        "duration": "6:49",
+        "id": "rKzDbdGhcdY",
+        "title": "Physical Layer and Media (Part 1)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7492" }
+      },
+      {
+        "duration": "7:48",
+        "id": "JP-wJOVAvXc",
+        "title": "Physical Layer and Media (Part 2)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7493" }
+      },
+      {
+        "duration": "11:03",
+        "id": "fEygcbiniHQ",
+        "title": "Physical Layer and Media (Part 3)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7494" }
+      },
+      {
+        "duration": "6:23",
+        "id": "eGr2wJzFO9s",
+        "title": "Line Configuration",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7495" }
+      },
+      {
+        "duration": "9:14",
+        "id": "VBAuzvVzOQU",
+        "title": "Link Layer Services",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7496" }
+      },
+      {
+        "duration": "6:42",
+        "id": "N1apF49Ih28",
+        "title": "Sub-layers of the Data Link Layer",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7497" }
+      },
+      {
+        "duration": "7:12",
+        "id": "NhpzBldHOYo",
+        "title": "Framing (Part 1)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7498" }
+      },
+      {
+        "duration": "6:28",
+        "id": "ckcRxFxeOs4",
+        "title": "Framing (Part 2)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a7499" }
+      },
+      {
+        "duration": "4:16",
+        "id": "8sV_fOzJoqI",
+        "title": "Framing (Part 3)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a749a" }
+      },
+      {
+        "duration": "6:16",
+        "id": "N2tgsPUPEBE",
+        "title": "High-Level Data Link Control (HDLC)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a749b" }
+      },
+      {
+        "duration": "4:34",
+        "id": "toS0RXNaTaE",
+        "title": "Bit Stuffing",
+        "_id": { "$oid": "611bcd2168d8ff08e89a749c" }
+      },
+      {
+        "duration": "6:00",
+        "id": "EpVkN6YuDUk",
+        "title": "Binary Synchronous Communications Protocol (BISYNC)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a749d" }
+      },
+      {
+        "duration": "6:12",
+        "id": "kKCwkRT_U8I",
+        "title": "Point-to-Point Protocol (PPP)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a749e" }
+      },
+      {
+        "duration": "4:37",
+        "id": "whsTT8hnbJA",
+        "title": "Digital Data Communications Message Protocol (DDCMP)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a749f" }
+      },
+      {
+        "duration": "8:08",
+        "id": "EMrY-8m8D1E",
+        "title": "Error Detection",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74a0" }
+      },
+      {
+        "duration": "7:10",
+        "id": "UwERCzJv-y8",
+        "title": "Vertical Redundancy Check (VRC)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74a1" }
+      },
+      {
+        "duration": "7:26",
+        "id": "nNONvBsOtrE",
+        "title": "Longitudinal Redundancy Check (LRC)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74a2" }
+      },
+      {
+        "duration": "9:32",
+        "id": "AtVWnyDDaDI",
+        "title": "Checksum",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74a3" }
+      },
+      {
+        "duration": "9:08",
+        "id": "A9g6rTMblz4",
+        "title": "Cyclic Redundancy Check (CRC) - Part 1",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74a4" }
+      },
+      {
+        "duration": "5:45",
+        "id": "wQGwfBS3gpk",
+        "title": "Cyclic Redundancy Check (CRC) - Part 2",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74a5" }
+      },
+      {
+        "duration": "8:57",
+        "id": "tEkePtlujSA",
+        "title": "Cyclic Redundancy Check (Solved Problem)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74a6" }
+      },
+      {
+        "duration": "6:32",
+        "id": "5AVuUgEJu1E",
+        "title": "Network Performance",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74a7" }
+      },
+      {
+        "duration": "6:15",
+        "id": "wo3M5G9ZHo0",
+        "title": "Latency",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74a8" }
+      },
+      {
+        "duration": "5:01",
+        "id": "xr8PdnGt67k",
+        "title": "Latency (Simulation)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74a9" }
+      },
+      {
+        "duration": "5:23",
+        "id": "vPCKWhXSAEo",
+        "title": "Bandwidth Delay Product",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74aa" }
+      },
+      {
+        "duration": "3:49",
+        "id": "TBD_Bj9PCOw",
+        "title": "Delay (Solved Problem)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74ab" }
+      },
+      {
+        "duration": "3:33",
+        "id": "nT9F-USjtBg",
+        "title": "Round Trip Time (RTT)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74ac" }
+      },
+      {
+        "duration": "5:15",
+        "id": "ReQiSK8W3Ag",
+        "title": "Flow Control",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74ad" }
+      },
+      {
+        "duration": "7:26",
+        "id": "n09DfvemnTQ",
+        "title": "Stop-and-Wait Protocol",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74ae" }
+      },
+      {
+        "duration": "6:21",
+        "id": "YdkksvhkQGQ",
+        "title": "Stop-and-Wait ARQ Protocol",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74af" }
+      },
+      {
+        "duration": "7:54",
+        "id": "LnbvhoxHn8M",
+        "title": "Sliding Window Protocol",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74b0" }
+      },
+      {
+        "duration": "10:55",
+        "id": "QD3oCelHJ20",
+        "title": "Go-Back-N ARQ",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74b1" }
+      },
+      {
+        "duration": "15:21",
+        "id": "cqPWjo2iLgk",
+        "title": "Go-Back-N ARQ (Solved Problem 1)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74b2" }
+      },
+      {
+        "duration": "8:09",
+        "id": "PHcIuxvLSzc",
+        "title": "Go-Back-N ARQ (Solved Problem 2)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74b3" }
+      },
+      {
+        "duration": "5:07",
+        "id": "WfIhQ3o2xow",
+        "title": "Selective Repeat ARQ",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74b4" }
+      },
+      {
+        "duration": "5:19",
+        "id": "gG0xzEHH0iU",
+        "title": "Selective Repeat ARQ (Solved Problem 1)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74b5" }
+      },
+      {
+        "duration": "3:41",
+        "id": "D8-jK_gVzb0",
+        "title": "Selective Repeat ARQ (Solved Problem 2)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74b6" }
+      },
+      {
+        "duration": "3:44",
+        "id": "_amTFCVhXNw",
+        "title": "Sliding Window Protocol (Solved Problem 1)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74b7" }
+      },
+      {
+        "duration": "3:43",
+        "id": "CBIsClf9Dpc",
+        "title": "Sliding Window Protocol (Solved Problem 2)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74b8" }
+      },
+      {
+        "duration": "7:38",
+        "id": "YAjfUc7Tt24",
+        "title": "Multiple Access Protocols",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74b9" }
+      },
+      {
+        "duration": "12:10",
+        "id": "j4-r0e7DjqY",
+        "title": "Pure Aloha",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74ba" }
+      },
+      {
+        "duration": "9:24",
+        "id": "aqWTNk90zRA",
+        "title": "Slotted Aloha",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74bb" }
+      },
+      {
+        "duration": "12:47",
+        "id": "MAZi6VoekYw",
+        "title": "Carrier Sense Multiple Access (CSMA) – Part 1",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74bc" }
+      },
+      {
+        "duration": "13:01",
+        "id": "PyLlYQXuxvs",
+        "title": "Carrier Sense Multiple Access (CSMA) – Part 2",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74bd" }
+      },
+      {
+        "duration": "5:25",
+        "id": "baaPXiQ44vs",
+        "title": "Controlled Access Protocol – Reservation",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74be" }
+      },
+      {
+        "duration": "7:37",
+        "id": "Zp8UBSEVPdc",
+        "title": "Controlled Access Protocol – Polling",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74bf" }
+      },
+      {
+        "duration": "6:39",
+        "id": "ac5JI20hUjE",
+        "title": "Controlled Access Protocol – Token Passing",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74c0" }
+      },
+      {
+        "duration": "10:43",
+        "id": "KviHyRss-dE",
+        "title": "Channelization Protocols",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74c1" }
+      },
+      {
+        "duration": "13:06",
+        "id": "MzhiVE6OuQA",
+        "title": "Ethernet",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74c2" }
+      },
+      {
+        "duration": "14:06",
+        "id": "FL_Yn8CxMKY",
+        "title": "Ethernet (Solved Questions) - Part 1",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74c3" }
+      },
+      {
+        "duration": "8:03",
+        "id": "xFliq3EFN6I",
+        "title": "Ethernet (Solved Questions) - Part 2",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74c4" }
+      },
+      {
+        "duration": "11:43",
+        "id": "ZXqXEzioRSs",
+        "title": "Ethernet Transmitter Algorithm",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74c5" }
+      },
+      {
+        "duration": "5:44",
+        "id": "KaEPWr0ftvM",
+        "title": "Experience with Ethernet",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74c6" }
+      },
+      {
+        "duration": "3:12",
+        "id": "8i7dyojFOP4",
+        "title": "Ethernet (Solved Question 1)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74c7" }
+      },
+      {
+        "duration": "5:16",
+        "id": "0--YXSCgaa0",
+        "title": "Ethernet (Solved Question 2)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74c8" }
+      },
+      {
+        "duration": "4:27",
+        "id": "gtYNSkPbKto",
+        "title": "Ethernet (Solved Question 3)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74c9" }
+      },
+      {
+        "duration": "11:14",
+        "id": "t3FVP5wuG4g",
+        "title": "IEEE 802.11 Wireless Fidelity (Wi-Fi)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74ca" }
+      },
+      {
+        "duration": "15:05",
+        "id": "kcqpkl_HZSQ",
+        "title": "IEEE 802.11 Distribution System",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74cb" }
+      },
+      {
+        "duration": "8:47",
+        "id": "jy4kBAzJCKM",
+        "title": "IEEE 802.11 Wi-Fi Frame Format",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74cc" }
+      },
+      {
+        "duration": "4:14",
+        "id": "_oz4WTWRfGs",
+        "title": "Hidden Terminal Problem",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74cd" }
+      },
+      {
+        "duration": "3:49",
+        "id": "mhuXdaRoLzA",
+        "title": "Exposed Terminal Problem",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74ce" }
+      },
+      {
+        "duration": "9:53",
+        "id": "3F4DQINyx3g",
+        "title": "Multiple Access with Collision Avoidance (MACA)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74cf" }
+      },
+      {
+        "duration": "3:50",
+        "id": "Sn-vvwNlkck",
+        "title": "Wi-Fi (Solved Question)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74d0" }
+      },
+      {
+        "duration": "9:38",
+        "id": "ixY0Cau4mBM",
+        "title": "IEEE 802.15.1 Bluetooth",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74d1" }
+      },
+      {
+        "duration": "6:54",
+        "id": "eJKkEzeGuuo",
+        "title": "Bluetooth Protocol Stack",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74d2" }
+      },
+      {
+        "duration": "10:46",
+        "id": "ez24W5oTU3U",
+        "title": "Virtual LAN (VLAN)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74d3" }
+      },
+      {
+        "duration": "19:55",
+        "id": "GSKoQ8ZR8rw",
+        "title": "Spanning Tree Protocol (STP)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74d4" }
+      },
+      {
+        "duration": "9:14",
+        "id": "_kJo-Tj9rvg",
+        "title": "Spanning Tree Protocol (Solved Question)",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74d5" }
+      },
+      {
+        "duration": "1:23",
+        "id": "HDm9NQ-zarg",
+        "title": "Logical Addressing & Subnetting | Chapter-3 | Computer Networks",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74d6" }
+      },
+      {
+        "duration": "1:06",
+        "id": "JvrgljAHO5w",
+        "title": "Network Layer Protocols | Chapter-4 | Computer Networks",
+        "_id": { "$oid": "611bcd2168d8ff08e89a74d7" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd0ea5ef15b09265f86f0" },
+    "duration": { "hours": "4", "minutes": "11" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "webapp",
+    "classes": "50",
+    "image": "https://miro.medium.com/max/4540/1*_i_nCqMpR3KpjX0OTAuEIw.png",
+    "cos": [
+      "Learn basics of Node.js",
+      "Learn Data types in Node.js",
+      "Learn variables in Node.js",
+      "Learn functions in Node.js",
+      "Learn class in Node.js",
+      "Learn MongoDB with Node.js",
+      "Learn RESTAPI with Node.js"
+    ],
+    "tags": ["Node", "NodeJs", "web", "programming"],
+    "name": "Node.js Tutorials",
+    "channelName": "ProgrammingKnowledge",
+    "videos": [
+      {
+        "duration": "5:29",
+        "id": "spPtAEmwys4",
+        "title": "Node.js Introduction",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86f1" }
+      },
+      {
+        "duration": "10:18",
+        "id": "MSCtnotXKdo",
+        "title": "How to Install Node.js with NPM on Windows",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86f2" }
+      },
+      {
+        "duration": "9:53",
+        "id": "IvrpcaCU3Cc",
+        "title": "How to Install Node.js with NPM on Ubuntu Linux",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86f3" }
+      },
+      {
+        "duration": "5:39",
+        "id": "8tkuu0Rugg4",
+        "title": "How to install Visual Studio Code on Windows",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86f4" }
+      },
+      {
+        "duration": "14:03",
+        "id": "tcQclvrf2dc",
+        "title": "Run First NodeJs Web Server",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86f5" }
+      },
+      {
+        "duration": "7:05",
+        "id": "_X9UPThjJvg",
+        "title": "Cmder : A Better Command Prompt Tool for Windows",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86f6" }
+      },
+      {
+        "duration": "11:06",
+        "id": "rnZAD-X9KVg",
+        "title": "Node.js debugger",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86f7" }
+      },
+      {
+        "duration": "11:42",
+        "id": "jSKAO0pgslM",
+        "title": "Node.js Docs and The Global Object",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86f8" }
+      },
+      {
+        "duration": "10:38",
+        "id": "-8rfsOhH0ik",
+        "title": "Creating Custom Modules in Nodejs",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86f9" }
+      },
+      {
+        "duration": "7:20",
+        "id": "Dk1y06JCa7o",
+        "title": "How to install Atom editor in Ubuntu Linux",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86fa" }
+      },
+      {
+        "duration": "13:30",
+        "id": "8fssCpuqkLo",
+        "title": " Reading and Writing Files using fs module",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86fb" }
+      },
+      {
+        "duration": "8:29",
+        "id": "6RVANksAPTc",
+        "title": "Creating and Removing Directories using fs module",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86fc" }
+      },
+      {
+        "duration": "14:36",
+        "id": "xtzVdE3x5Ig",
+        "title": "Node.js Events and EventEmitter",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86fd" }
+      },
+      {
+        "duration": "11:35",
+        "id": "aIfhhTFOUAo",
+        "title": "Basics of Streams - Readable Stream",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86fe" }
+      },
+      {
+        "duration": "4:39",
+        "id": "VInSrQ929m4",
+        "title": "Basics of Streams - Writable Streams",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86ff" }
+      },
+      {
+        "duration": "8:41",
+        "id": "gljLhpD1QVY",
+        "title": "pipes",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8700" }
+      },
+      {
+        "duration": "4:14",
+        "id": "s_ye8VTeMmM",
+        "title": "Using node.js for serving HTML page",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8701" }
+      },
+      {
+        "duration": "6:37",
+        "id": "l4rhnxGJq0k",
+        "title": "Using node.js for serving JSON Data",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8702" }
+      },
+      {
+        "duration": "11:39",
+        "id": "EFGh69twwWY",
+        "title": "Basic Routing with node",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8703" }
+      },
+      {
+        "duration": "9:43",
+        "id": "K7jKuue3sXY",
+        "title": "Node Package Manager (npm)",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8704" }
+      },
+      {
+        "duration": "12:54",
+        "id": "zecpbG_qTDE",
+        "title": "npm init & package.json File",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8705" }
+      },
+      {
+        "duration": "8:39",
+        "id": "z_TIdpRN2b0",
+        "title": "Installing npm packages globally + install nodemon",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8706" }
+      },
+      {
+        "duration": "7:45",
+        "id": "uYE0XrM-VZA",
+        "title": "How to install Visual Studio Code on Ubuntu Linux",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8707" }
+      },
+      {
+        "duration": "10:!0",
+        "id": "tnUIKTttvXQ",
+        "title": "Introduction to Express.js",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8708" }
+      },
+      {
+        "duration": "6:56",
+        "id": "4p6s1JbL9qs",
+        "title": "Express.js route parameter",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8709" }
+      },
+      {
+        "duration": "14:55",
+        "id": "EYKjBJDPvEU",
+        "title": "Node.js template engine EJS in Express",
+        "_id": { "$oid": "611bd0ea5ef15b09265f870a" }
+      },
+      {
+        "duration": "9:09",
+        "id": "-ufYOOKyGoQ",
+        "title": "using JavaScript with EJS",
+        "_id": { "$oid": "611bd0ea5ef15b09265f870b" }
+      },
+      {
+        "duration": "5:17",
+        "id": "TQks1p7xjdI",
+        "title": "How to Install Node.js on Mac OS X",
+        "_id": { "$oid": "611bd0ea5ef15b09265f870c" }
+      },
+      {
+        "duration": "3:50:02",
+        "id": "q-JVfek1fc0",
+        "title": "Node.js Tutorials | Node.js Crash Course | Learn Node.js - Full Tutorial for Beginners",
+        "_id": { "$oid": "611bd0ea5ef15b09265f870d" }
+      },
+      {
+        "duration": "16:52",
+        "id": "KdweixONFyA",
+        "title": "What Is JSON ? JSON Crash Course",
+        "_id": { "$oid": "611bd0ea5ef15b09265f870e" }
+      },
+      {
+        "duration": "19:47",
+        "id": "fMXG_arerHA",
+        "title": "What is REST ? What is a RESTful API ?",
+        "_id": { "$oid": "611bd0ea5ef15b09265f870f" }
+      },
+      {
+        "duration": "18:37",
+        "id": "6XbgNXcLUSE",
+        "title": "Automation Testing With Selenium and Node.JS",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8710" }
+      },
+      {
+        "duration": "10:26",
+        "id": "mXT3d3ZRVYs",
+        "title": "Top 7 Programming Languages To Learn In 2020 | Best Programming Languages 2020",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8711" }
+      },
+      {
+        "duration": "17:30",
+        "id": "9O_4RW0dZjM",
+        "title": "Node.js Rest Api with Express & MongoDB 2 - Getting Started with ExpressJS",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8712" }
+      },
+      {
+        "duration": "28:05",
+        "id": "jqjT4TbkUzU",
+        "title": "Node.js Rest Api with Express & MongoDB 3 - Using a MongoDB Database with Node.js",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8713" }
+      },
+      {
+        "duration": "15:29",
+        "id": "hhKi1oCUqG4",
+        "title": "Node.js Rest Api with Express MongoDB 4 - An Introduction to Mongoose for MongoDB and NodeJS",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8714" }
+      },
+      {
+        "duration": "25:21",
+        "id": "HbkWIaT0lVI",
+        "title": "Node.js Rest Api with Express MongoDB 5 - Building a Restful CRUD API with Node.js, Express",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8715" }
+      },
+      {
+        "duration": "25:21",
+        "id": "HbkWIaT0lVI",
+        "title": "Node.js Rest Api with Express MongoDB 5 - Building a Restful CRUD API with Node.js, Express",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8716" }
+      },
+      {
+        "duration": "36:45",
+        "id": "K-2YRDHD8yM",
+        "title": "Node.js Rest Api with Express MongoDB 6 - (JSON Web Tokens) JWT based authentication in NodeJS",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8717" }
+      },
+      {
+        "duration": "20:16",
+        "id": "814RhciHwX0",
+        "title": "Node.js Rest Api with Express & MongoDB 7 - Mongoose relation between models",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8718" }
+      },
+      {
+        "duration": "11:23",
+        "id": "Tqe0Knpt6lY",
+        "title": "Node.js Rest Api with Express & MongoDB 8 - Filtering, Sorting, and Pagination",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8719" }
+      },
+      {
+        "duration": "25:38",
+        "id": "o4J5kHhNWeI",
+        "title": "Node.js Rest Api with Express & MongoDB 9 - File Upload With Multer in Node js and Express",
+        "_id": { "$oid": "611bd0ea5ef15b09265f871a" }
+      },
+      {
+        "duration": "15:34",
+        "id": "YtkBnc8Rffw",
+        "title": "How To Debug Node.js Code in Visual Studio Code | Debug Node.js using Visual Studio Code (VS code)",
+        "_id": { "$oid": "611bd0ea5ef15b09265f871b" }
+      },
+      {
+        "duration": "13:54",
+        "id": "7ldeQunzBtQ",
+        "title": "Jest Tutorial for Beginners - JavaScript unit testing with Jest framework",
+        "_id": { "$oid": "611bd0ea5ef15b09265f871c" }
+      },
+      {
+        "duration": "9:48",
+        "id": "kRQBuchIawU",
+        "title": "How to Test Asynchronous Code with Jest",
+        "_id": { "$oid": "611bd0ea5ef15b09265f871d" }
+      },
+      {
+        "duration": "21:!4",
+        "id": "X4uS1qsNIAo",
+        "title": "Testing Express APIs with Supertest | Testing NodeJs/Express API with Jest and Supertest",
+        "_id": { "$oid": "611bd0ea5ef15b09265f871e" }
+      },
+      {
+        "duration": "14:!0",
+        "id": "OMhMnj7SBRQ",
+        "title": "How To Install Node.js on Ubuntu 20.04 LTS (2020)",
+        "_id": { "$oid": "611bd0ea5ef15b09265f871f" }
+      },
+      {
+        "duration": "35:29",
+        "id": "cviedwnnMCY",
+        "title": "Getting Started with Node.JS (2020)",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8720" }
+      },
+      {
+        "duration": "44:49",
+        "id": "8gHEv5iNRKk",
+        "title": "Jest Tutorial | Testing NodeJS applications with JEST",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8721" }
+      },
+      {
+        "duration": "2:16:33",
+        "id": "ohVZkMuxN3o",
+        "title": "Node.js MongoDB Tutorial | Writing CRUD App with NodeJs, Express and MongoDB",
+        "_id": { "$oid": "611bd0ea5ef15b09265f8722" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd0ea5ef15b09265f86b0" },
+    "duration": { "hours": "2", "minutes": "12" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "placement",
+    "classes": "15",
+    "image": "https://mondaymorning.nitrkl.ac.in/uploads/post/Cover%20Pic.jpeg",
+    "cos": ["Learn basics of Aptitude", "Learn basics of Reasoning"],
+    "tags": ["Aptitude", "Reasoning", "Introduction"],
+    "name": "Aptitude & Reasoning for Placements",
+    "channelName": "Neso Academy",
+    "videos": [
+      {
+        "duration": "8:31",
+        "id": "AFh1-fqdaf4",
+        "title": "Introduction to Aptitude and Reasoning",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86b1" }
+      },
+      {
+        "duration": "8:25",
+        "id": "nKK4QguTQc8",
+        "title": "Ratio",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86b2" }
+      },
+      {
+        "duration": "7:10",
+        "id": "Y1maQ11iFlo",
+        "title": "Ratio (Solved Problems) - Part 1",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86b3" }
+      },
+      {
+        "duration": "7:38",
+        "id": "XgRCMe9TLsk",
+        "title": "Ratio (Solved Problems) - Part 2",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86b4" }
+      },
+      {
+        "duration": "8:44",
+        "id": "orBMHAcunbA",
+        "title": "Proportion",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86b5" }
+      },
+      {
+        "duration": "7:43",
+        "id": "q4ScLaSt8gQ",
+        "title": "Direct and Indirect Proportion",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86b6" }
+      },
+      {
+        "duration": "6:10",
+        "id": "dk9jqk8hg9g",
+        "title": "Proportion (Solved Problems)",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86b7" }
+      },
+      {
+        "duration": "16:47",
+        "id": "aTq_QSdHbXo",
+        "title": "Ratio and Proportion (10 Solved Problems)",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86b8" }
+      },
+      {
+        "duration": "10:05",
+        "id": "fzqhl65x3dw",
+        "title": "Classification of Numbers",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86b9" }
+      },
+      {
+        "duration": "6:12",
+        "id": "Pa3i-5MAnf0",
+        "title": "Prime and Composite Numbers",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86ba" }
+      },
+      {
+        "duration": "8:41",
+        "id": "r637OcBHeOU",
+        "title": "Number of Factors (Part 1)",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86bb" }
+      },
+      {
+        "duration": "5:08",
+        "id": "mdBYDCqiv5Y",
+        "title": "Number of Factors (Part 2)",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86bc" }
+      },
+      {
+        "duration": "7:20",
+        "id": "IxteegJUT1U",
+        "title": "Number of Even and Odd Factors",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86bd" }
+      },
+      {
+        "duration": "7:13",
+        "id": "CgkZs3DceHY",
+        "title": "Power of Prime Number in a Factorial",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86be" }
+      },
+      {
+        "duration": "7:56",
+        "id": "6S052GcSSQ0",
+        "title": "Power of Composite Number in a Factorial",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86bf" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd0ea5ef15b09265f86c0" },
+    "duration": { "hours": "5", "minutes": "06" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "mobileapp",
+    "classes": "7",
+    "image": "https://bugfender.com/wp-content/uploads/2017/06/kotlin-featured.png",
+    "cos": [
+      "Learn basics of Kotlin",
+      "Learn about variables and datatypes",
+      "Learn about functions in Kotlin",
+      "Learn about Exception handling in Kotlin",
+      "Learn about classes and Objects"
+    ],
+    "tags": ["Kotlin", "mobile", "app", "development"],
+    "name": "Kotlin Tutorials",
+    "channelName": "Telusko",
+    "videos": [
+      {
+        "duration": "4:08",
+        "id": "Org0vh-VSgA",
+        "title": "#0 Kotlin Tutorial | Welcome",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86c1" }
+      },
+      {
+        "duration": "4:43",
+        "id": "0isrdp5meyQ",
+        "title": "#1 Kotlin Tutorial | Introduction",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86c2" }
+      },
+      {
+        "duration": "10:31",
+        "id": "3C-e4dTvrSI",
+        "title": "#2 Kotlin Tutorial | Hello World",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86c3" }
+      },
+      {
+        "duration": "5:48",
+        "id": "glX5Yx63_Vs",
+        "title": "#3 Kotlin Tutorial | IntelliJ | Android Studio 3",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86c4" }
+      },
+      {
+        "duration": "5:52",
+        "id": "NpveMP5869U",
+        "title": "#4 Kotlin Tutorial | Class | Object",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86c5" }
+      },
+      {
+        "duration": "2:55",
+        "id": "4YF_DUMQqFA",
+        "title": "#5 Kotlin Tutorial | Var Val",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86c6" }
+      },
+      {
+        "duration": "5:28",
+        "id": "e-gZc-mZqE8",
+        "title": "#6 Kotlin Tutorial | Kotlin Java together",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86c7" }
+      },
+      {
+        "duration": "2:15",
+        "id": "YuRjPUxvcek",
+        "title": "#7 Kotlin Tutorial | Convert Java Kotlin",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86c8" }
+      },
+      {
+        "duration": "6:02",
+        "id": "8TW9zbgQnKc",
+        "title": "#8 Kotlin Tutorial | Decompile Bytecode",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86c9" }
+      },
+      {
+        "duration": "4:34",
+        "id": "q_XZWtP6KQg",
+        "title": "#9 Kotlin Tutorial | Operators",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86ca" }
+      },
+      {
+        "duration": "1:11",
+        "id": "Bwd9hr5Fz5E",
+        "title": "Support Telusko",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86cb" }
+      },
+      {
+        "duration": "3:32",
+        "id": "9XmGh4WgfSg",
+        "title": "#10 Kotlin Tutorial | String Template",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86cc" }
+      },
+      {
+        "duration": "4:00",
+        "id": "qaqKps5mNts",
+        "title": "#11 Kotlin Tutorial | If Else Expression",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86cd" }
+      },
+      {
+        "duration": "4:29",
+        "id": "Fh4chRUL5kE",
+        "title": "#12 Kotlin Tutorial | String Comparison",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86ce" }
+      },
+      {
+        "duration": "5:06",
+        "id": "AWM5cAipEp0",
+        "title": "#13 Kotlin Tutorial | Null Handling",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86cf" }
+      },
+      {
+        "duration": "7:43",
+        "id": "TrUGG0nENMo",
+        "title": "#14 Kotlin Tutorial When Expression",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86d0" }
+      },
+      {
+        "duration": "12:56",
+        "id": "bDmXJLV-HmA",
+        "title": "#15 Kotlin Tutorial Loops and Range",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86d1" }
+      },
+      {
+        "duration": "8:12",
+        "id": "FUqD6srpuPY",
+        "title": "#16 Kotlin Tutorial List and Map",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86d2" }
+      },
+      {
+        "duration": "9:23",
+        "id": "XOIC-aHyOag",
+        "title": "#17 Kotlin Tutorial | Function Expression",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86d3" }
+      },
+      {
+        "duration": "7:03",
+        "id": "n0fdpvOdIbo",
+        "title": "#18 Kotlin Tutorial | Function calling from Java",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86d4" }
+      },
+      {
+        "duration": "12:21",
+        "id": "fr1K_0duf78",
+        "title": "#19 Kotlin Tutorial | Default and Named Parameters",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86d5" }
+      },
+      {
+        "duration": "4:44",
+        "id": "4tlsFbNLrl8",
+        "title": "#20 Kotlin Tutorial | String to Integer",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86d6" }
+      },
+      {
+        "duration": "4:55",
+        "id": "RMe0v0JRuio",
+        "title": "#21 Kotlin Tutorial | Try Expression",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86d7" }
+      },
+      {
+        "duration": "8:27",
+        "id": "JzaKJNt4eXk",
+        "title": "#22 Kotlin Tutorial | Extension Function",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86d8" }
+      },
+      {
+        "duration": "6:56",
+        "id": "vqY58JbLr-U",
+        "title": "#23 Kotlin Tutorial | Infix and Operator Overloading",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86d9" }
+      },
+      {
+        "duration": "7:53",
+        "id": "d39zxt6NWNk",
+        "title": "#24 Kotlin Tutorial | Recursion",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86da" }
+      },
+      {
+        "duration": "6:57",
+        "id": "aKYKYOQYjI0",
+        "title": "#25 Kotlin Tutorial | Recursion | Factorial | Part 2",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86db" }
+      },
+      {
+        "duration": "5:38",
+        "id": "5rFOLyxjmOg",
+        "title": "#26 Kotlin Tutorial | Tail Recursion | Factorial",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86dc" }
+      },
+      {
+        "duration": "6:53",
+        "id": "6RIJrnZI7jk",
+        "title": "#27 Kotlin Tutorial | Constructor",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86dd" }
+      },
+      {
+        "duration": "5:58",
+        "id": "HZLr7XDW7ak",
+        "title": "#28 Kotlin Tutorial | Secondary Constructor",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86de" }
+      },
+      {
+        "duration": "11:04",
+        "id": "ssAt_qrQpi0",
+        "title": "#29 Kotlin Tutorial | Inheritance",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86df" }
+      },
+      {
+        "duration": "5:00",
+        "id": "XR3XueD8_yM",
+        "title": "#30 Kotlin Tutorial | Constructor in Inheritance",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86e0" }
+      },
+      {
+        "duration": "6:01",
+        "id": "kvpvem7BLq0",
+        "title": "#31 Kotlin Tutorial | Abstract class",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86e1" }
+      },
+      {
+        "duration": "9:16",
+        "id": "jpp6yAEPB0Y",
+        "title": "#32 Kotlin Tutorial | Interface",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86e2" }
+      },
+      {
+        "duration": "10:53",
+        "id": "dV5P8JVfiIc",
+        "title": "#33 Kotlin Tutorial | Data Class",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86e3" }
+      },
+      {
+        "duration": "7:02",
+        "id": "kH4pSAFSheU",
+        "title": "#34 Kotlin Tutorial | Object Keyword",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86e4" }
+      },
+      {
+        "duration": "6:39",
+        "id": "o1bty2jSHpg",
+        "title": "#35 Kotlin Tutorial | Anonymous inner class",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86e5" }
+      },
+      {
+        "duration": "6:01",
+        "id": "Xiqfy0OpZnc",
+        "title": "#36 Kotlin Tutorial | Companion Object",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86e6" }
+      },
+      {
+        "duration": "4:19",
+        "id": "HTGj9ZxfiSA",
+        "title": "#37 Kotlin Tutorial | Companion Object | Factory Pattern",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86e7" }
+      },
+      {
+        "duration": "3:39",
+        "id": "akiCZOVkQ_w",
+        "title": "#38 Kotlin Tutorial | Backtick As Escape Character",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86e8" }
+      },
+      {
+        "duration": "5:13",
+        "id": "UTEYWN64m-s",
+        "title": "#39 Kotlin Tutorial | User Input in Kotlin",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86e9" }
+      },
+      {
+        "duration": "10:08",
+        "id": "Mq4AbdNsFVw",
+        "title": "#40 Kotlin Tutorial | Array",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86ea" }
+      },
+      {
+        "duration": "8:19",
+        "id": "N53A_bdbBXE",
+        "title": "#41 Kotlin Tutorial | List",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86eb" }
+      },
+      {
+        "duration": "5:31",
+        "id": "dSsETZv9_8k",
+        "title": "#42 Kotlin Tutorial | List of Objects",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86ec" }
+      },
+      {
+        "duration": "14:05",
+        "id": "ESm5AX1ZbSg",
+        "title": "#43 Kotlin Tutorial | Higher Order Function",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86ed" }
+      },
+      {
+        "duration": "5:28",
+        "id": "MQTTkEsSKbI",
+        "title": "#44 Kotlin Tutorial | Filter and Map",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86ee" }
+      },
+      {
+        "duration": "1:11",
+        "id": "Bwd9hr5Fz5E",
+        "title": "Support Telusko",
+        "_id": { "$oid": "611bd0ea5ef15b09265f86ef" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd3a6cbb95e093e6613d0" },
+    "duration": { "hours": "2", "minutes": "12" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "programming_language",
+    "classes": "82",
+    "image": "https://cdn.ourcodeworld.com/public-media/articles/articleocw-5c65fbda1ea05.jpg",
+    "cos": [
+      "Learn basics of Python language",
+      "Learn basics of Object Oriented Programming",
+      "Learn Exception Handling in Python",
+      "Learn MySQL connection with Python",
+      "Learn how use PyCharm for Python programming"
+    ],
+    "tags": ["Python", "Tutorial", "Beginners"],
+    "name": "Python Tutorial for Beginners",
+    "channelName": "Telusko",
+    "videos": [
+      {
+        "duration": "01:06",
+        "id": "QXeEoD0pB3E",
+        "title": "Python Programming Tutorial for Beginners | Course Introduction",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613d1" }
+      },
+      {
+        "duration": "4:13",
+        "id": "hEgO047GxaQ",
+        "title": "Python Tutorial for Beginners | Introduction to Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613d2" }
+      },
+      {
+        "duration": "8:33",
+        "id": "mbryl4MZJms",
+        "title": "Python Tutorial for Beginners | Python Installation | PyCharm",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613d3" }
+      },
+      {
+        "duration": "14:49",
+        "id": "DWgzHbglNIo",
+        "title": "Python Tutorial for Beginners | Getting Started with Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613d4" }
+      },
+      {
+        "duration": "10:22",
+        "id": "TqPzwenhMj0",
+        "title": "Python Tutorial for Beginners | Variables in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613d5" }
+      },
+      {
+        "duration": "10:42",
+        "id": "Eaz5e6M8tL4",
+        "title": "Python Tutorial for Beginners | List in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613d6" }
+      },
+      {
+        "duration": "6:41",
+        "id": "Mf7eFtbVxFM",
+        "title": "Python Tutorial for Beginners | Tuple | Set in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613d7" }
+      },
+      {
+        "duration": "12:24",
+        "id": "2IsF7DEtVjg",
+        "title": "Dictionary in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613d8" }
+      },
+      {
+        "duration": "5:53",
+        "id": "4V14G5_CNGg",
+        "title": "Python Tutorial for Beginners | Python Set Path in Windows and Help",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613d9" }
+      },
+      {
+        "duration": "3:11",
+        "id": "1U8TI16AR4s",
+        "title": "Python Tutorial for Beginners | Python Editor | Sublime Text",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613da" }
+      },
+      {
+        "duration": "9:13",
+        "id": "_OZIAHg5i7M",
+        "title": "Python Tutorial for Beginners | More on Variables in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613db" }
+      },
+      {
+        "duration": "14:35",
+        "id": "gCCVsvgR2KU",
+        "title": "Python Tutorial for Beginners | Data Types in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613dc" }
+      },
+      {
+        "duration": "11:07",
+        "id": "v5MR5JnKcZI",
+        "title": "Python Tutorial for Beginners | Operators in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613dd" }
+      },
+      {
+        "duration": "8:16",
+        "id": "AWAjbtWBzGs",
+        "title": "Python Tutorial for Beginners | Number System Conversion in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613de" }
+      },
+      {
+        "duration": "4:52",
+        "id": "3dpJrMtxYeo",
+        "title": "Python Tutorial for Beginners | Swap 2 Variables in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613df" }
+      },
+      {
+        "duration": "2:59",
+        "id": "UAMMEmga0WI",
+        "title": "Python Tutorial for Beginners | IDLE Previous Command | Clear Screen?",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613e0" }
+      },
+      {
+        "duration": "12:42",
+        "id": "PyfKCvHALj8",
+        "title": "Python Tutorial for Beginners | Python BitWise Operators",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613e1" }
+      },
+      {
+        "duration": "7:39",
+        "id": "EkYrfV7M1ks",
+        "title": "Python Tutorial for Beginners | Import Math Functions in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613e2" }
+      },
+      {
+        "duration": "10:26",
+        "id": "akcEaEH91gI",
+        "title": "Python Tutorial for Beginners | Working with PyCharm | Run | Debug | Trace | py file",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613e3" }
+      },
+      {
+        "duration": "11:59",
+        "id": "4OX49nLNPEE",
+        "title": "Python Tutorial for Beginners | User input in Python | Command Line Input",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613e4" }
+      },
+      {
+        "duration": "15:38",
+        "id": "PqFKRqpHrjw",
+        "title": "Python Tutorial for Beginners | If Elif Else Statement in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613e5" }
+      },
+      {
+        "duration": "12:43",
+        "id": "HZARImviDxg",
+        "title": "Python Tutorial for Beginners | While Loop in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613e6" }
+      },
+      {
+        "duration": "7:27",
+        "id": "0ZvaDa8eT5s",
+        "title": "Python Tutorial for Beginners | For Loop in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613e7" }
+      },
+      {
+        "duration": "10:20",
+        "id": "yCZBnjF4_tU",
+        "title": "Python Tutorial for Beginners | Break Continue Pass in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613e8" }
+      },
+      {
+        "duration": "4:29",
+        "id": "JCRpVwtVL4I",
+        "title": "Python Tutorial for Beginners | Break vs Continue vs Pass in Python part 2",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613e9" }
+      },
+      {
+        "duration": "7:56",
+        "id": "k8SXsT5TLxQ",
+        "title": "Python Tutorial for Beginners | Printing Patterns in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ea" }
+      },
+      {
+        "duration": "5:12",
+        "id": "38svC3U7hVo",
+        "title": "Python Tutorial for Beginners | For Else in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613eb" }
+      },
+      {
+        "duration": "4:11",
+        "id": "SpTAxH_Geow",
+        "title": "Python Tutorial for Beginners | Prime Number in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ec" }
+      },
+      {
+        "duration": "15:57",
+        "id": "6a39OjkCN5I",
+        "title": "Python Tutorial for Beginners | Array in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ed" }
+      },
+      {
+        "duration": "10:02",
+        "id": "9c9qhIcB3NA",
+        "title": "Python Tutorial for Beginners | Array values from User in Python | Search in Array",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ee" }
+      },
+      {
+        "duration": "6:58",
+        "id": "8LlXhtfNZEQ",
+        "title": "Python Tutorial for Beginners | Why Numpy? Installing Numpy in Pycharm",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ef" }
+      },
+      {
+        "duration": "10:07",
+        "id": "NYPKbmE0H6E",
+        "title": "Python Tutorial for Beginners | Ways of Creating Arrays in Numpy",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613f0" }
+      },
+      {
+        "duration": "9:51",
+        "id": "8sF85TyunQA",
+        "title": "Python Tutorial for Beginners | Copying an Array in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613f1" }
+      },
+      {
+        "duration": "11:55",
+        "id": "Blzp9iuhZqo",
+        "title": "Python Tutorial for Beginners | Working with Matrix in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613f2" }
+      },
+      {
+        "duration": "11:13",
+        "id": "BVfCWuca9nw",
+        "title": "Python Tutorial for Beginners | Functions in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613f3" }
+      },
+      {
+        "duration": "7:52",
+        "id": "1U8TI16AR4s",
+        "title": "Python Tutorial for Beginners | Function Arguments in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613f4" }
+      },
+      {
+        "duration": "9:13",
+        "id": "ijXMGpoMkhQ",
+        "title": "Python Tutorial for Beginners | More on Variables in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613f5" }
+      },
+      {
+        "duration": "9:55",
+        "id": "eci9iU_s6Ag",
+        "title": "Python Tutorial for Beginners | Types of Arguments in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613f6" }
+      },
+      {
+        "duration": "4:52",
+        "id": "kB829ciAXo4",
+        "title": "Python Tutorial for Beginners | Keyworded Variable Length Arguments in Python | **kwargs",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613f7" }
+      },
+      {
+        "duration": "8:21",
+        "id": "QYUbLevwgDQ",
+        "title": "Python Tutorial for Beginners | Global Keyword in Python | Global vs Local Variable",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613f8" }
+      },
+      {
+        "duration": "4:19",
+        "id": "fsAzeNZXvkE",
+        "title": "Python Tutorial for Beginners | Pass List to a Function in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613f9" }
+      },
+      {
+        "duration": "8:01",
+        "id": "7Sv4NmvdHcw",
+        "title": "Python Tutorial for Beginners | Fibonacci Sequence",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613fa" }
+      },
+      {
+        "duration": "5:11",
+        "id": "gfhtaP5Wq7M",
+        "title": "Python Tutorial for Beginners | Factorial",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613fb" }
+      },
+      {
+        "duration": "5:43",
+        "id": "XkL3SUioNvo",
+        "title": "Python Tutorial for Beginners | Recursion",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613fc" }
+      },
+      {
+        "duration": "4:57",
+        "id": "TqqQld6m6A0",
+        "title": "Python Tutorial for Beginners | Factorial using Recursion",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613fd" }
+      },
+      {
+        "duration": "4:38",
+        "id": "hYzwCsKGRrg",
+        "title": "Python Tutorial for Beginners | Anonymous Functions | Lambda",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613fe" }
+      },
+      {
+        "duration": "11:34",
+        "id": "kj850Y8y8FI",
+        "title": "Python Tutorial for Beginners | Filter Map Reduce",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ff" }
+      },
+      {
+        "duration": "7:33",
+        "id": "yNzxXZfkLUA",
+        "title": "Python Tutorial for Beginners | Decorators",
+        "_id": { "$oid": "611bd3a6cbb95e093e661400" }
+      },
+      {
+        "duration": "7:20",
+        "id": "1RuMJ53CKds",
+        "title": "Python Tutorial for Beginners | Modules",
+        "_id": { "$oid": "611bd3a6cbb95e093e661401" }
+      },
+      {
+        "duration": "5:43",
+        "id": "pzNISmtmzcY",
+        "title": "Python Tutorial for Beginners | Special Variable __name__",
+        "_id": { "$oid": "611bd3a6cbb95e093e661402" }
+      },
+      {
+        "duration": "7:08",
+        "id": "7hjgRn-vfVQ",
+        "title": "Python Tutorial for Beginners | Special Variable __name__ part 2",
+        "_id": { "$oid": "611bd3a6cbb95e093e661403" }
+      },
+      {
+        "duration": "7:02",
+        "id": "gZwPdqC2Os0",
+        "title": "Python Tutorial for Beginners | Object Oriented Programming | Introduction",
+        "_id": { "$oid": "611bd3a6cbb95e093e661404" }
+      },
+      {
+        "duration": "11:01",
+        "id": "8O5kX73OkIY",
+        "title": "Python Tutorial for Beginners | Class and Object",
+        "_id": { "$oid": "611bd3a6cbb95e093e661405" }
+      },
+      {
+        "duration": "6:46",
+        "id": "WIP3-woodlU",
+        "title": "Python Tutorial for Beginners | __init__ method",
+        "_id": { "$oid": "611bd3a6cbb95e093e661406" }
+      },
+      {
+        "duration": "11:04",
+        "id": "ic6wdPxcHc0",
+        "title": "Python Tutorial for Beginners | Constructor, Self and Comparing Objects",
+        "_id": { "$oid": "611bd3a6cbb95e093e661407" }
+      },
+      {
+        "duration": "4:56",
+        "id": "RSQjxL5WRNM",
+        "title": "Python Tutorial for Beginners | Types of Variables",
+        "_id": { "$oid": "611bd3a6cbb95e093e661408" }
+      },
+      {
+        "duration": "11:38",
+        "id": "lVfGQOzzRCM",
+        "title": "Python Tutorial for Beginners | Types of Methods",
+        "_id": { "$oid": "611bd3a6cbb95e093e661409" }
+      },
+      {
+        "duration": "7:24",
+        "id": "b7JzgybKvys",
+        "title": "Python Tutorial for Beginners | Inner class",
+        "_id": { "$oid": "611bd3a6cbb95e093e66140a" }
+      },
+      {
+        "duration": "6:51",
+        "id": "Cn7AkDb4pIU",
+        "title": "Python Tutorial for Beginners | Inheritance",
+        "_id": { "$oid": "611bd3a6cbb95e093e66140b" }
+      },
+      {
+        "duration": "8:28",
+        "id": "6P-P879BcHQ",
+        "title": "Python Tutorial for Beginners | Constructor in Inheritance",
+        "_id": { "$oid": "611bd3a6cbb95e093e66140c" }
+      },
+      {
+        "duration": "1:46",
+        "id": "P1vH3Pfw6BI",
+        "title": "Python Tutorial for Beginners | Introduction to Polymorphism",
+        "_id": { "$oid": "611bd3a6cbb95e093e66140d" }
+      },
+      {
+        "duration": "6:17",
+        "id": "CuK0g8OFzwo",
+        "title": "Python Tutorial for Beginners | Duck Typing",
+        "_id": { "$oid": "611bd3a6cbb95e093e66140e" }
+      },
+      {
+        "duration": "14:29",
+        "id": "9wd50TKv_OQ",
+        "title": "Python Tutorial for Beginners | Operator Overloading | Polymorphism",
+        "_id": { "$oid": "611bd3a6cbb95e093e66140f" }
+      },
+      {
+        "duration": "10:17",
+        "id": "CcTzTuIsoFk",
+        "title": "Python Tutorial for Beginners | Method Overloading and Method Overriding",
+        "_id": { "$oid": "611bd3a6cbb95e093e661410" }
+      },
+      {
+        "duration": "12:29",
+        "id": "UDmJGvM-OUw",
+        "title": "Abstract Class and Abstract Method in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e661411" }
+      },
+      {
+        "duration": "10:48",
+        "id": "Dyu08G2l71c",
+        "title": "Python Tutorial for Beginners | Iterator",
+        "_id": { "$oid": "611bd3a6cbb95e093e661412" }
+      },
+      {
+        "duration": "6:11",
+        "id": "mziIj4M_uwk",
+        "title": "Python Tutorial for Beginners | Generators",
+        "_id": { "$oid": "611bd3a6cbb95e093e661413" }
+      },
+      {
+        "duration": "15:59",
+        "id": "6SPDvPK38tw",
+        "title": "Python Tutorial for Beginners | Exception Handling",
+        "_id": { "$oid": "611bd3a6cbb95e093e661414" }
+      },
+      {
+        "duration": "14:45",
+        "id": "GqHLztqy0PU",
+        "title": "Python Tutorial for Beginners | MultiThreading",
+        "_id": { "$oid": "611bd3a6cbb95e093e661415" }
+      },
+      {
+        "duration": "12:14",
+        "id": "aequTxAvQq4",
+        "title": "Python Tutorial for Beginners | File handling",
+        "_id": { "$oid": "611bd3a6cbb95e093e661416" }
+      },
+      {
+        "duration": "3:43",
+        "id": "ECxZtt6n90E",
+        "title": "Python Tutorial for Beginners | Comments",
+        "_id": { "$oid": "611bd3a6cbb95e093e661417" }
+      },
+      {
+        "duration": "6:48",
+        "id": "0BhSWyDEDC4",
+        "title": "Python Tutorial for Beginners | is Python Compiled or Interpreted Language?",
+        "_id": { "$oid": "611bd3a6cbb95e093e661418" }
+      },
+      {
+        "duration": "7:17",
+        "id": "UldZOLylez4",
+        "title": "Python Tutorial for Beginners | Linear Search using Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e661419" }
+      },
+      {
+        "duration": "9:22",
+        "id": "DE-ye0t0oxE",
+        "title": "Python Tutorial for Beginners | Binary Search Using Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e66141a" }
+      },
+      {
+        "duration": "7:21",
+        "id": "Vca808JTbI8",
+        "title": "Python Tutorial for Beginners | Bubble Sort in python | List Sort",
+        "_id": { "$oid": "611bd3a6cbb95e093e66141b" }
+      },
+      {
+        "duration": "7:35",
+        "id": "5KjapFQNxUo",
+        "title": "Python Tutorial for Beginners | Selection Sort using Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e66141c" }
+      },
+      {
+        "duration": "8:01",
+        "id": "WDEyt2VHpj4",
+        "title": "MySQL Workbench Setup | Python Database Connection",
+        "_id": { "$oid": "611bd3a6cbb95e093e66141d" }
+      },
+      {
+        "duration": "7:42",
+        "id": "vR5utJvN4JY",
+        "title": "Python Database Connection | MySQL",
+        "_id": { "$oid": "611bd3a6cbb95e093e66141e" }
+      },
+      {
+        "duration": "10:53",
+        "id": "UBLONzkmReE",
+        "title": "Python | Git | PyCharm | GitHub",
+        "_id": { "$oid": "611bd3a6cbb95e093e66141f" }
+      },
+      {
+        "duration": "9:17",
+        "id": "udO6gSLXujU",
+        "title": "Python Tutorial for Beginners | Python GitHub Code Contribution",
+        "_id": { "$oid": "611bd3a6cbb95e093e661420" }
+      },
+      {
+        "duration": "3:51",
+        "id": "qj-V2Ep4coY",
+        "title": "Zip Function in Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e661421" }
+      },
+      {
+        "duration": "17:07",
+        "id": "u4kr7EFxAKk",
+        "title": "Socket Programming Using Python",
+        "_id": { "$oid": "611bd3a6cbb95e093e661422" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd3a6cbb95e093e66142b" },
+    "duration": { "hours": "0", "minutes": "54" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "webapp",
+    "classes": "15",
+    "image": "https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/v1536390809/rtum7myajmkixdwpap8i.png",
+    "cos": ["Learn basics of Rest API", "Learn about Spring in Java"],
+    "tags": ["Rest", "API", "Using", "Spring"],
+    "name": "Rest API Using Spring",
+    "channelName": "Telusko",
+    "videos": [
+      {
+        "duration": "7:47",
+        "id": "PCG6Y7LoF1w",
+        "title": "Spring Boot | Data JPA | MVC | H2",
+        "_id": { "$oid": "611bd3a6cbb95e093e66142c" }
+      },
+      {
+        "duration": "4:44",
+        "id": "_hN7dkwQDcY",
+        "title": "Spring Boot | Data JPA | MVC | H2",
+        "_id": { "$oid": "611bd3a6cbb95e093e66142d" }
+      },
+      {
+        "duration": "4:48",
+        "id": "ugQAupn9XFU",
+        "title": "Postman | Spring Boot | Data JPA | MVC | H2",
+        "_id": { "$oid": "611bd3a6cbb95e093e66142e" }
+      },
+      {
+        "duration": "8:24",
+        "id": "J8K9bEkfUVg",
+        "title": "Content Negotiation | Spring Boot | Data JPA | MVC | H2",
+        "_id": { "$oid": "611bd3a6cbb95e093e66142f" }
+      },
+      {
+        "duration": "8:12",
+        "id": "LROheXuCwMY",
+        "title": "Spring Boot | MVC | REST Post ",
+        "_id": { "$oid": "611bd3a6cbb95e093e661430" }
+      },
+      {
+        "duration": "9:05",
+        "id": "0ongdoMUzEA",
+        "title": "Spring Boot | MVC | REST PUT DELETE",
+        "_id": { "$oid": "611bd3a6cbb95e093e661431" }
+      },
+      {
+        "duration": "11:41",
+        "id": "XmAISyK2FsU",
+        "title": "Spring Boot Data REST Example",
+        "_id": { "$oid": "611bd3a6cbb95e093e661432" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd3a6cbb95e093e66137b" },
+    "duration": { "hours": "3", "minutes": "24" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "csfunda",
+    "classes": "84",
+    "image": "https://miro.medium.com/max/3464/1*j_q2JLBItsU-rgo-SOKuiA.png",
+    "cos": [
+      "Learn basics Algorithms",
+      "Learn about greedy method",
+      "Learn about Dynamic programming",
+      "Learn about Back tracking",
+      "Learn about Branch & Bound"
+    ],
+    "tags": ["Algorithms", "Algorithm"],
+    "name": "Algorithms",
+    "channelName": "Abdul Bari",
+    "videos": [
+      {
+        "duration": "11:49",
+        "id": "0IAPZzGSbME",
+        "title": "1. Introduction to Algorithms",
+        "_id": { "$oid": "611bd3a6cbb95e093e66137c" }
+      },
+      {
+        "duration": "1:48",
+        "id": "-JTq1BFBwmo",
+        "title": "1.1 Priori Analysis and Posteriori Testing",
+        "_id": { "$oid": "611bd3a6cbb95e093e66137d" }
+      },
+      {
+        "duration": "5:37",
+        "id": "FbYzBWdhMb0",
+        "title": "1.2 Characteristics of Algorithm",
+        "_id": { "$oid": "611bd3a6cbb95e093e66137e" }
+      },
+      {
+        "duration": "10:37",
+        "id": "xGYsEqe9Vl0",
+        "title": "1.3 How Write and Analyze Algorithm",
+        "_id": { "$oid": "611bd3a6cbb95e093e66137f" }
+      },
+      {
+        "duration": "12:22",
+        "id": "1U3Uwct45IY",
+        "title": "1.4 Frequency Count Method",
+        "_id": { "$oid": "611bd3a6cbb95e093e661380" }
+      },
+      {
+        "duration": "9:44",
+        "id": "9TlHvipP5yA",
+        "title": "1.5.1 Time Complexity",
+        "_id": { "$oid": "611bd3a6cbb95e093e661381" }
+      },
+      {
+        "duration": "14:13",
+        "id": "9SgLBjXqwd4",
+        "title": "1.5.2 Time Complexity Example",
+        "_id": { "$oid": "611bd3a6cbb95e093e661382" }
+      },
+      {
+        "duration": "21:54",
+        "id": "p1EnSvS3urU",
+        "title": "1.5.3 Time Complexity of While and if",
+        "_id": { "$oid": "611bd3a6cbb95e093e661383" }
+      },
+      {
+        "duration": "3:10",
+        "id": "w7t4_JUUTeg",
+        "title": "1.6 Classes of functions",
+        "_id": { "$oid": "611bd3a6cbb95e093e661384" }
+      },
+      {
+        "duration": "5:11",
+        "id": "5v-tKX2uRAk",
+        "title": "1.7 Compare Class of Functions",
+        "_id": { "$oid": "611bd3a6cbb95e093e661385" }
+      },
+      {
+        "duration": "15:46",
+        "id": "A03oI0znAoc",
+        "title": "1.8.1 Asymptotic Notations Big Oh - Omega - Theta",
+        "_id": { "$oid": "611bd3a6cbb95e093e661386" }
+      },
+      {
+        "duration": "10:08",
+        "id": "Nd0XDY-jVHs",
+        "title": "1.8.2 Asymptotic Notations - Big Oh - Omega - Theta",
+        "_id": { "$oid": "611bd3a6cbb95e093e661387" }
+      },
+      {
+        "duration": "11:57",
+        "id": "NI4OKSvGAgM",
+        "title": "1.9 Properties of Asymptotic Notations",
+        "_id": { "$oid": "611bd3a6cbb95e093e661388" }
+      },
+      {
+        "duration": "9:28",
+        "id": "mwN18xfwNhk",
+        "title": "1.10.1 Comparison of Functions",
+        "_id": { "$oid": "611bd3a6cbb95e093e661389" }
+      },
+      {
+        "duration": "10:26",
+        "id": "WlBBTSL0ZRc",
+        "title": "1.10.2 Comparison of Functions",
+        "_id": { "$oid": "611bd3a6cbb95e093e66138a" }
+      },
+      {
+        "duration": "18:56",
+        "id": "lj3E24nnPjI",
+        "title": "1.11 Best Worst and Average Case Analysis",
+        "_id": { "$oid": "611bd3a6cbb95e093e66138b" }
+      },
+      {
+        "duration": "26:04",
+        "id": "wU6udHRIkcc",
+        "title": "1.12 Disjoint Sets Data Structure - Weighted Union and Collapsing Find",
+        "_id": { "$oid": "611bd3a6cbb95e093e66138c" }
+      },
+      {
+        "duration": "7:04",
+        "id": "2Rr2tW9zvRg",
+        "title": "2 Divide And Conquer",
+        "_id": { "$oid": "611bd3a6cbb95e093e66138d" }
+      },
+      {
+        "duration": "13:43",
+        "id": "4V30R3I1vLI",
+        "title": "2.1.1 Recurrence Relation (T(n)= T(n-1) + 1) ",
+        "_id": { "$oid": "611bd3a6cbb95e093e66138e" }
+      },
+      {
+        "duration": "16:00",
+        "id": "IawM82BQ4II",
+        "title": "2.1.2 Recurrence Relation (T(n)= T(n-1) + n) ",
+        "_id": { "$oid": "611bd3a6cbb95e093e66138f" }
+      },
+      {
+        "duration": "12:25",
+        "id": "MhT7XmxhaCE",
+        "title": "2.1.3 Recurrence Relation (T(n)= T(n-1) + log n)",
+        "_id": { "$oid": "611bd3a6cbb95e093e661390" }
+      },
+      {
+        "duration": "10:42",
+        "id": "JvcqtZk2mng",
+        "title": "2.1.4 Recurrence Relation T(n)=2 T(n-1)+1",
+        "_id": { "$oid": "611bd3a6cbb95e093e661391" }
+      },
+      {
+        "duration": "8:10",
+        "id": "CyknhZbfMqc",
+        "title": "2.2 Masters Theorem Decreasing Function",
+        "_id": { "$oid": "611bd3a6cbb95e093e661392" }
+      },
+      {
+        "duration": "8:41",
+        "id": "8gt0D0IqU5w",
+        "title": "2.3.1 Recurrence Relation Dividing Function T(n)=T(n/2)+1",
+        "_id": { "$oid": "611bd3a6cbb95e093e661393" }
+      },
+      {
+        "duration": "7:26",
+        "id": "XcZw01FuH18",
+        "title": "2.3.2 Recurrence Relation Dividing [ T(n)=T(n/2)+ n].",
+        "_id": { "$oid": "611bd3a6cbb95e093e661394" }
+      },
+      {
+        "duration": "11:20",
+        "id": "1K9ebQJosvo",
+        "title": "2.3.3 Recurrence Relation [ T(n)= 2T(n/2) +n]",
+        "_id": { "$oid": "611bd3a6cbb95e093e661395" }
+      },
+      {
+        "duration": "16:50",
+        "id": "OynWkEj0S-s",
+        "title": "2.4.1 Masters Theorem in Algorithms for Dividing Function",
+        "_id": { "$oid": "611bd3a6cbb95e093e661396" }
+      },
+      {
+        "duration": "5:41",
+        "id": "kGcO-nAm9Vc",
+        "title": "2.4.2 Examples for Master Theorem ",
+        "_id": { "$oid": "611bd3a6cbb95e093e661397" }
+      },
+      {
+        "duration": "5:37",
+        "id": "9rVuyjxzwgM",
+        "title": "2.5 Root function (Recurrence Relation)",
+        "_id": { "$oid": "611bd3a6cbb95e093e661398" }
+      },
+      {
+        "duration": "19:36",
+        "id": "C2apEw9pgtw",
+        "title": "2.6.1 Binary Search Iterative Method",
+        "_id": { "$oid": "611bd3a6cbb95e093e661399" }
+      },
+      {
+        "duration": "7:11",
+        "id": "uEUXGcc2VXM",
+        "title": "2.6.2 Binary Search Recursive Method",
+        "_id": { "$oid": "611bd3a6cbb95e093e66139a" }
+      },
+      {
+        "duration": "51:08",
+        "id": "HqPJF2L5h9U",
+        "title": "2.6.3 Heap - Heap Sort - Heapify - Priority Queues",
+        "_id": { "$oid": "611bd3a6cbb95e093e66139b" }
+      },
+      {
+        "duration": "20:19",
+        "id": "6pV2IF0fgKY",
+        "title": "2.7.1 Two Way MergeSort - Iterative method",
+        "_id": { "$oid": "611bd3a6cbb95e093e66139c" }
+      },
+      {
+        "duration": "20:23",
+        "id": "mB5HXBb_HY8",
+        "title": "2.7.2. Merge Sort Algorithm",
+        "_id": { "$oid": "611bd3a6cbb95e093e66139d" }
+      },
+      {
+        "duration": "13:28",
+        "id": "ak-pz7tS5DE",
+        "title": "2.7.3 MergeSort in-depth Analysis",
+        "_id": { "$oid": "611bd3a6cbb95e093e66139e" }
+      },
+      {
+        "duration": "13:43",
+        "id": "7h1s2SojIRw",
+        "title": "2.8.1 QuickSort Algorithm",
+        "_id": { "$oid": "611bd3a6cbb95e093e66139f" }
+      },
+      {
+        "duration": "11:37",
+        "id": "-qOVVRIZzao",
+        "title": "2.8.2 QuickSort Analysis",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613a0" }
+      },
+      {
+        "duration": "23:40",
+        "id": "0oJyNmEbS4w",
+        "title": "2.9 Strassens Matrix Multiplication",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613a1" }
+      },
+      {
+        "duration": "12:02",
+        "id": "ARvQcqJ_-NY",
+        "title": "3. Greedy Method - Introduction",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613a2" }
+      },
+      {
+        "duration": "15:30",
+        "id": "oTTzNMHM05I",
+        "title": "3.1 Knapsack Problem - Greedy Method",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613a3" }
+      },
+      {
+        "duration": "13:29",
+        "id": "zPtI8q9gvX8",
+        "title": "3.2 Job Sequencing with Deadlines - Greedy Method",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613a4" }
+      },
+      {
+        "duration": "9:33",
+        "id": "HHIc5JZyenI",
+        "title": "3.3 Optimal Merge Pattern - Greedy Method",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613a5" }
+      },
+      {
+        "duration": "17:33",
+        "id": "co4_ahEDCho",
+        "title": "3.4 Huffman Coding - Greedy Method",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613a6" }
+      },
+      {
+        "duration": "20:12",
+        "id": "4ZlRH0eK-qQ",
+        "title": "3.5 Prims and Kruskals Algorithms - Greedy Method",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613a7" }
+      },
+      {
+        "duration": "18:35",
+        "id": "XB4MIexjvY0",
+        "title": "3.6 Dijkstra Algorithm - Single Source Shortest Path - Greedy Method",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613a8" }
+      },
+      {
+        "duration": "14:52",
+        "id": "5dRGRueKU3M",
+        "title": "4 Principle of Optimality - Dynamic Programming introduction",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613a9" }
+      },
+      {
+        "duration": "21:07",
+        "id": "9iE9Mj4m8jk",
+        "title": "4.1 MultiStage Graph - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613aa" }
+      },
+      {
+        "duration": "14:26",
+        "id": "FcScLYJI42E",
+        "title": "4.1.1 MultiStage Graph (Program) - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ab" }
+      },
+      {
+        "duration": "14:13",
+        "id": "oNI0rf2P9gE",
+        "title": "4.2 All Pairs Shortest Path (Floyd-Warshall) - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ac" }
+      },
+      {
+        "duration": "23:00",
+        "id": "prx1psByp7U",
+        "title": "4.3 Matrix Chain Multiplication - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ad" }
+      },
+      {
+        "duration": "52:02",
+        "id": "_WncuhSJZyA",
+        "title": "Matrix Chain Multiplication using Dynamic Programming Formula",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ae" }
+      },
+      {
+        "duration": "18:40",
+        "id": "eKkXU3uu2zk",
+        "title": "4.3.1 Matrix Chain Multiplication (Program) - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613af" }
+      },
+      {
+        "duration": "17:12",
+        "id": "FtN3BYH2Zes",
+        "title": "4.4 Bellman Ford Algorithm - Single Source Shortest Path - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613b0" }
+      },
+      {
+        "duration": "28:24",
+        "id": "nLmhmB6NzcM",
+        "title": "4.5 0/1 Knapsack - Two Methods - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613b1" }
+      },
+      {
+        "duration": "17:00",
+        "id": "zRza99HPvkQ",
+        "title": "4.5.1 0/1 Knapsack Problem (Program) - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613b2" }
+      },
+      {
+        "duration": "30:19",
+        "id": "vLS-zRCHo-Y",
+        "title": "4.6 Optimal Binary Search Tree (Successful Search Only) - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613b3" }
+      },
+      {
+        "duration": "57:00",
+        "id": "wAy6nDMPYAE",
+        "title": "4.6.2 [New] Optimal Binary Search Tree Successful and Unsuccessful Probability - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613b4" }
+      },
+      {
+        "duration": "17:18",
+        "id": "Q4zHb-Swzro",
+        "title": "4.7 [New] Traveling Salesman Problem - Dynamic Programming using Formula",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613b5" }
+      },
+      {
+        "duration": "26:32",
+        "id": "uJOmqBwENB8",
+        "title": "4.8 Reliability Design - Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613b6" }
+      },
+      {
+        "duration": "23:35",
+        "id": "sSno9rV8Rhg",
+        "title": "4.9 Longest Common Subsequence (LCS) - Recursion and Dynamic Programming",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613b7" }
+      },
+      {
+        "duration": "18:30",
+        "id": "pcKY4hjDrxk",
+        "title": "5.1 Graph Traversals - BFS & DFS -Breadth First Search and Depth First Search",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613b8" }
+      },
+      {
+        "duration": "8:36",
+        "id": "jFZsDDB0-vo",
+        "title": "5.2 Articulation Point and Biconnected Components",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613b9" }
+      },
+      {
+        "duration": "8:15",
+        "id": "DKCbsiDBN6c",
+        "title": "6 Introduction to Backtracking - Brute Force Approach",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ba" }
+      },
+      {
+        "duration": "13:41",
+        "id": "xFv_Hl4B83A",
+        "title": "6.1 N Queens Problem using Backtracking",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613bb" }
+      },
+      {
+        "duration": "12:19",
+        "id": "kyLxTdsT8ws",
+        "title": "6.2 Sum Of Subsets Problem - Backtracking",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613bc" }
+      },
+      {
+        "duration": "15:52",
+        "id": "052VkKhIaQ4",
+        "title": "6.3 Graph Coloring Problem - Backtracking",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613bd" }
+      },
+      {
+        "duration": "18:35",
+        "id": "dQr4wZCiJJ4",
+        "title": "6.4 Hamiltonian Cycle - Backtracking",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613be" }
+      },
+      {
+        "duration": "9:40",
+        "id": "3RBNPc0_Q6g",
+        "title": "7 Branch and Bound Introduction",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613bf" }
+      },
+      {
+        "duration": "10:56",
+        "id": "M7Fl_z7_J2k",
+        "title": "7.1 Job Sequencing with Deadline - Branch and Bound",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613c0" }
+      },
+      {
+        "duration": "10:48",
+        "id": "yV1d-b_NeK8",
+        "title": "7.2 0/1 Knapsack using Branch and Bound",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613c1" }
+      },
+      {
+        "duration": "24:42",
+        "id": "1FEP_sNb62k",
+        "title": "7.3 Traveling Salesman Problem - Branch and Bound",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613c2" }
+      },
+      {
+        "duration": "31:53",
+        "id": "e2cF8a5aAhE",
+        "title": "8. NP-Hard and NP-Complete Problems",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613c3" }
+      },
+      {
+        "duration": "17:14",
+        "id": "qZs767KQcvE",
+        "title": "8.1 NP-Hard Graph Problem - Clique Decision Problem",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613c4" }
+      },
+      {
+        "duration": "18:56",
+        "id": "V5-7GzOfADQ",
+        "title": "9.1 Knuth-Morris-Pratt KMP String Matching Algorithm",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613c5" }
+      },
+      {
+        "duration": "23:50",
+        "id": "qQ8vS2btsxI",
+        "title": "9.2 Rabin-Karp String Matching Algorithm",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613c6" }
+      },
+      {
+        "duration": "43:08",
+        "id": "jDM6_TnYIqE",
+        "title": "10.1 AVL Tree - Insertion and Rotations",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613c7" }
+      },
+      {
+        "duration": "39:41",
+        "id": "aZjYr87r1b8",
+        "title": "10.2 B Trees and B+ Trees. How they are useful in Databases",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613c8" }
+      },
+      {
+        "duration": "22:44",
+        "id": "ddsP7NecEBk",
+        "title": "Asymptotic Notations - Simplified",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613c9" }
+      },
+      {
+        "duration": "17:04",
+        "id": "mFY0J5W8Udk",
+        "title": "Hashing Technique - Simplified",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ca" }
+      },
+      {
+        "duration": "26:13",
+        "id": "2raV0H9KqY8",
+        "title": "Shortest Path Algorithms (Dijkstra and Bellman-Ford) - Simplified",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613cb" }
+      },
+      {
+        "duration": "19:13",
+        "id": "kyUpc_5705s",
+        "title": "BFS DFS - Simplified",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613cc" }
+      },
+      {
+        "duration": "9:32",
+        "id": "q6RicK1FCUs",
+        "title": "Tower of Hanoi Problem - Made Easy",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613cd" }
+      },
+      {
+        "duration": "19:16",
+        "id": "MJZd6uPi88E",
+        "title": "Row-Major and Column-Major Mapping",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613ce" }
+      },
+      {
+        "duration": "16:38",
+        "id": "zXhWPrMLXGo",
+        "title": "Merge Sort Algorithm - Hindi",
+        "_id": { "$oid": "611bd3a6cbb95e093e6613cf" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd3a6cbb95e093e661423" },
+    "duration": { "hours": "0", "minutes": "53" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "recomended",
+    "classes": "7",
+    "image": "https://techies-world.com/wp-content/uploads/2016/08/git_logo.png",
+    "cos": [
+      "Learn basics of git",
+      "Learn how to use Git",
+      "Learn how to upload projects in Git"
+    ],
+    "tags": ["Git"],
+    "name": "Git Tutorials",
+    "channelName": "Telusko",
+    "videos": [
+      {
+        "duration": "12:47",
+        "id": "OdbBmvfThJY",
+        "title": "#0 Git Tutorial | What is Git? | Github",
+        "_id": { "$oid": "611bd3a6cbb95e093e661424" }
+      },
+      {
+        "duration": "6:55",
+        "id": "WdncOs2FANQ",
+        "title": "#1 Git Tutorial | GitHub SignUp",
+        "_id": { "$oid": "611bd3a6cbb95e093e661425" }
+      },
+      {
+        "duration": "8:54",
+        "id": "WfhRyz3Wf4o",
+        "title": "#2 Git Tutorial | GitHub Creating Repository",
+        "_id": { "$oid": "611bd3a6cbb95e093e661426" }
+      },
+      {
+        "duration": "1:11",
+        "id": "Bwd9hr5Fz5E",
+        "title": "Support Telusko",
+        "_id": { "$oid": "611bd3a6cbb95e093e661427" }
+      },
+      {
+        "duration": "7:39",
+        "id": "OVQK2zzb6U8",
+        "title": "Creating Branch in GitHub | Pull Request | Merge",
+        "_id": { "$oid": "611bd3a6cbb95e093e661428" }
+      },
+      {
+        "duration": "7:46",
+        "id": "l5NrYIa_aG4",
+        "title": "GitHub Fork",
+        "_id": { "$oid": "611bd3a6cbb95e093e661429" }
+      },
+      {
+        "duration": "8:!5",
+        "id": "Huwf0TgWrOw",
+        "title": "How to Upload Project on GitHub using Eclipse",
+        "_id": { "$oid": "611bd3a6cbb95e093e66142a" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd7508c8a8c09572c8945" },
+    "duration": { "hours": "3", "minutes": "55" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "webapp",
+    "classes": "26",
+    "image": "https://blog.crowdbotics.com/content/images/2019/12/python-django.png",
+    "cos": [
+      "Learn basics of Django",
+      "Learn about how to set up Django",
+      "Learn about Templates in Django",
+      "Learn about Get,Post,HTTP handling in Django",
+      "Learn about static files in Django",
+      "Learn how to pass dynamic data into HTML"
+    ],
+    "tags": ["Django", "web", "app", "development"],
+    "name": "Django Tutorials",
+    "channelName": "Telusko",
+    "videos": [
+      {
+        "duration": "5:13",
+        "id": "SIyxjRJ8VNY",
+        "title": "#1 Django tutorials | What is Django? | Python Web Framework",
+        "_id": { "$oid": "611bd7508c8a8c09572c8946" }
+      },
+      {
+        "duration": "11:16",
+        "id": "VuETrwKYLTM",
+        "title": "#2 Django tutorials | Setup",
+        "_id": { "$oid": "611bd7508c8a8c09572c8947" }
+      },
+      {
+        "duration": "8:25",
+        "id": "ykpuyNy5oUM",
+        "title": "#3 Django tutorials | First App in Django - part 1",
+        "_id": { "$oid": "611bd7508c8a8c09572c8948" }
+      },
+      {
+        "duration": "7:54",
+        "id": "4UMs7DxWn_Q",
+        "title": "#4 Django tutorials | First App Django - part 2",
+        "_id": { "$oid": "611bd7508c8a8c09572c8949" }
+      },
+      {
+        "duration": "8:45",
+        "id": "GNlIe5zvBeQ",
+        "title": "#5 Django tutorials | Django Template Language | DTL",
+        "_id": { "$oid": "611bd7508c8a8c09572c894a" }
+      },
+      {
+        "duration": "4:00",
+        "id": "Kz-G6GnumsI",
+        "title": "#6 Django tutorials | Django Template Language - part 2",
+        "_id": { "$oid": "611bd7508c8a8c09572c894b" }
+      },
+      {
+        "duration": "8:22",
+        "id": "_xBMAoDfydg",
+        "title": "#7 Django tutorials | Addition of Two Numbers in Django",
+        "_id": { "$oid": "611bd7508c8a8c09572c894c" }
+      },
+      {
+        "duration": "6:07",
+        "id": "QD4GlXtf-WU",
+        "title": "#8 Django tutorials | GET vs POST | HTTP Methods",
+        "_id": { "$oid": "611bd7508c8a8c09572c894d" }
+      },
+      {
+        "duration": "5:54",
+        "id": "GGkFg52Ot5o",
+        "title": "#9 Django tutorials | Model View Template in Django | MVT",
+        "_id": { "$oid": "611bd7508c8a8c09572c894e" }
+      },
+      {
+        "duration": "1:11",
+        "id": "Bwd9hr5Fz5E",
+        "title": "Support Telusko",
+        "_id": { "$oid": "611bd7508c8a8c09572c894f" }
+      },
+      {
+        "duration": "7:31",
+        "id": "K8Uem148uOU",
+        "title": "#10 Django tutorials | Static Files - 1",
+        "_id": { "$oid": "611bd7508c8a8c09572c8950" }
+      },
+      {
+        "duration": "10:02",
+        "id": "Tt3mgy2ECug",
+        "title": "#11 Django tutorials | Static Files - 2",
+        "_id": { "$oid": "611bd7508c8a8c09572c8951" }
+      },
+      {
+        "duration": "10:56",
+        "id": "Huk9tIRD_rQ",
+        "title": "#12 Django tutorials | Passing Dynamic Data in Html part 1",
+        "_id": { "$oid": "611bd7508c8a8c09572c8952" }
+      },
+      {
+        "duration": "9:56",
+        "id": "cHBn87eRFwo",
+        "title": "#13 Django tutorials | Passing Dynamic Data in Html - part 2",
+        "_id": { "$oid": "611bd7508c8a8c09572c8953" }
+      },
+      {
+        "duration": "5:30",
+        "id": "nuW0o4-dSpo",
+        "title": "#14 Django tutorials | If Statement",
+        "_id": { "$oid": "611bd7508c8a8c09572c8954" }
+      },
+      {
+        "duration": "4:41",
+        "id": "7E1M1W9o7PA",
+        "title": "#15 Django tutorials | ORM | Object Relational Mapper | Theory",
+        "_id": { "$oid": "611bd7508c8a8c09572c8955" }
+      },
+      {
+        "duration": "5:06",
+        "id": "d--mEqEUybA",
+        "title": "#16 Django tutorials | Postgres and PgAdmin Setup",
+        "_id": { "$oid": "611bd7508c8a8c09572c8956" }
+      },
+      {
+        "duration": "12:!3",
+        "id": "69YkZqZgz9s",
+        "title": "#17 Django tutorials | Models and Migrations",
+        "_id": { "$oid": "611bd7508c8a8c09572c8957" }
+      },
+      {
+        "duration": "2:57",
+        "id": "sU7_reASCAw",
+        "title": "#18 Django tutorials | Re-Migration",
+        "_id": { "$oid": "611bd7508c8a8c09572c8958" }
+      },
+      {
+        "duration": "6:26",
+        "id": "iLhcV7t3zug",
+        "title": "#19 Django tutorials | Admin Panel",
+        "_id": { "$oid": "611bd7508c8a8c09572c8959" }
+      },
+      {
+        "duration": "9:13",
+        "id": "ExTaxRmDnP8",
+        "title": "#20 Django tutorials | Add and Fetch data from Database",
+        "_id": { "$oid": "611bd7508c8a8c09572c895a" }
+      },
+      {
+        "duration": "13:45",
+        "id": "6Q5OVCKufBU",
+        "title": "#21 Django tutorials | User Registration - 1",
+        "_id": { "$oid": "611bd7508c8a8c09572c895b" }
+      },
+      {
+        "duration": "10:20",
+        "id": "JXBCw_4gwc0",
+        "title": "#22 Django tutorials | User Registration - 2",
+        "_id": { "$oid": "611bd7508c8a8c09572c895c" }
+      },
+      {
+        "duration": "6:45",
+        "id": "Mf_97YaUKag",
+        "title": "#23 Django tutorials | Passing Messages",
+        "_id": { "$oid": "611bd7508c8a8c09572c895d" }
+      },
+      {
+        "duration": "8:13",
+        "id": "teaeVbcT9BI",
+        "title": "#24 Django tutorials | User login",
+        "_id": { "$oid": "611bd7508c8a8c09572c895e" }
+      },
+      {
+        "duration": "5:26",
+        "id": "iT15mk4y1iw",
+        "title": "#25 Django Tutorials | User Logout",
+        "_id": { "$oid": "611bd7508c8a8c09572c895f" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd7508c8a8c09572c887e" },
+    "duration": { "hours": "19", "minutes": "48" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "mobileapp",
+    "classes": "86",
+    "image": "https://elysiumacademy.org/wp-content/uploads/2018/12/Android.jpg",
+    "cos": [
+      "Learn basics of Android Studio",
+      "Learn how to install Android Studio",
+      "Learn Android Activity Lifecycle State",
+      "Learn how to use ActionBarLearn how to use SQLite Database"
+    ],
+    "tags": ["Android", "Studio"],
+    "name": "Android Studio Tutorials",
+    "channelName": "ProgrammingKnowledge",
+    "videos": [
+      {
+        "duration": "7:39",
+        "id": "EknEIzswvC0",
+        "title": "Introduction and Installing and Configuring Java JDK",
+        "_id": { "$oid": "611bd7508c8a8c09572c887f" }
+      },
+      {
+        "duration": "9:27",
+        "id": "SLNTnJkg6EE",
+        "title": "How to install Android Studio",
+        "_id": { "$oid": "611bd7508c8a8c09572c8880" }
+      },
+      {
+        "duration": "14:57",
+        "id": "taSwS5rhtmc",
+        "title": "Building Your First Android App (Hello World Example)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8881" }
+      },
+      {
+        "duration": "14:59",
+        "id": "MWZ2rVFOQWw",
+        "title": "How to Install and Setup Genymotion for Android Studio ( GenyMotion Android Emulator )",
+        "_id": { "$oid": "611bd7508c8a8c09572c8882" }
+      },
+      {
+        "duration": "12:06",
+        "id": "myjSxtAk9XM",
+        "title": "Basic Overview of an Android App",
+        "_id": { "$oid": "611bd7508c8a8c09572c8883" }
+      },
+      {
+        "duration": "7:42",
+        "id": "odqACn2Vgic",
+        "title": "Android Activity Lifecycle",
+        "_id": { "$oid": "611bd7508c8a8c09572c8884" }
+      },
+      {
+        "duration": "9:25",
+        "id": "ecZEMtpw-Gs",
+        "title": "Android Activity Lifecycle State change Example",
+        "_id": { "$oid": "611bd7508c8a8c09572c8885" }
+      },
+      {
+        "duration": "14:34",
+        "id": "7OQJIaXNmT4",
+        "title": "Adding Two Numbers App (Simple Calculator)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8886" }
+      },
+      {
+        "duration": "12:42",
+        "id": "V7HPQ6DVvug",
+        "title": "wrap_content, fill_parent, Password Field and Toast in Android",
+        "_id": { "$oid": "611bd7508c8a8c09572c8887" }
+      },
+      {
+        "duration": "14:37",
+        "id": "HO7CsnUEJAs",
+        "title": "Android Checkbox Basics and Example",
+        "_id": { "$oid": "611bd7508c8a8c09572c8888" }
+      },
+      {
+        "duration": "11:15",
+        "id": "cTlWwuAvRpE",
+        "title": "Android RadioButton Basics With Example",
+        "_id": { "$oid": "611bd7508c8a8c09572c8889" }
+      },
+      {
+        "duration": "10:08",
+        "id": "0MrPs4yk9pU",
+        "title": "Android RatingBar Basics",
+        "_id": { "$oid": "611bd7508c8a8c09572c888a" }
+      },
+      {
+        "duration": "12:53",
+        "id": "oqEXYBepqus",
+        "title": "Android Alert Dialog Example",
+        "_id": { "$oid": "611bd7508c8a8c09572c888b" }
+      },
+      {
+        "duration": "12:14",
+        "id": "3f0NAn5xFy4",
+        "title": "How to Start New Activity On Button Click via Intent",
+        "_id": { "$oid": "611bd7508c8a8c09572c888c" }
+      },
+      {
+        "duration": "7:01",
+        "id": "xRXg7RaXG64",
+        "title": "Android Analogclock And Digitalclock Example",
+        "_id": { "$oid": "611bd7508c8a8c09572c888d" }
+      },
+      {
+        "duration": "13:09",
+        "id": "PQqEKrr8KSQ",
+        "title": "Android Login Screen Example Part 1",
+        "_id": { "$oid": "611bd7508c8a8c09572c888e" }
+      },
+      {
+        "duration": "14:52",
+        "id": "ihHdHra7zF8",
+        "title": "Android Login Screen Example Part 2",
+        "_id": { "$oid": "611bd7508c8a8c09572c888f" }
+      },
+      {
+        "duration": "14:49",
+        "id": "IgbGeOIPu8w",
+        "title": "Android ImageView example",
+        "_id": { "$oid": "611bd7508c8a8c09572c8890" }
+      },
+      {
+        "duration": "11:16",
+        "id": "DmPO6ZWF8-s",
+        "title": "Android ListView",
+        "_id": { "$oid": "611bd7508c8a8c09572c8891" }
+      },
+      {
+        "duration": "10:12",
+        "id": "l5FrTkGoeX8",
+        "title": "SeekBar",
+        "_id": { "$oid": "611bd7508c8a8c09572c8892" }
+      },
+      {
+        "duration": "9:41",
+        "id": "nB-relROsrY",
+        "title": "Android WebView Example",
+        "_id": { "$oid": "611bd7508c8a8c09572c8893" }
+      },
+      {
+        "duration": "14:33",
+        "id": "L27EhVTLcng",
+        "title": "Android Gestures (Using Touch Gestures)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8894" }
+      },
+      {
+        "duration": "14:55",
+        "id": "mcF28h9WiGQ",
+        "title": "Fragments in Android - Part 1",
+        "_id": { "$oid": "611bd7508c8a8c09572c8895" }
+      },
+      {
+        "duration": "10:02",
+        "id": "FF-e6CnBwYY",
+        "title": "Fragments in Android - Part 2",
+        "_id": { "$oid": "611bd7508c8a8c09572c8896" }
+      },
+      {
+        "duration": "7:53",
+        "id": "JpgYAoHXuBk",
+        "title": "Android AutoCompleteTextView Control",
+        "_id": { "$oid": "611bd7508c8a8c09572c8897" }
+      },
+      {
+        "duration": "7:27",
+        "id": "yTjLqTFtjOw",
+        "title": "Android TimePicker",
+        "_id": { "$oid": "611bd7508c8a8c09572c8898" }
+      },
+      {
+        "duration": "13:35",
+        "id": "GDAjPcXRZho",
+        "title": "Android TimePicker Dialog ( TimePickerDialog )",
+        "_id": { "$oid": "611bd7508c8a8c09572c8899" }
+      },
+      {
+        "duration": "13:55",
+        "id": "czKLAx750N0",
+        "title": "Android DatePicker Dialog ( DatePickerDialog)",
+        "_id": { "$oid": "611bd7508c8a8c09572c889a" }
+      },
+      {
+        "duration": "10:07",
+        "id": "GQPyXkbikXw",
+        "title": "Showing Notifications and using NotificationManager",
+        "_id": { "$oid": "611bd7508c8a8c09572c889b" }
+      },
+      {
+        "duration": "10:54",
+        "id": "cp2rL3sAFmI",
+        "title": "Android SQLite Database Tutorial 1 # Introduction + Creating Database and Tables (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c889c" }
+      },
+      {
+        "duration": "14:39",
+        "id": "p8TaTgr4uKM",
+        "title": "Android SQLite Database Tutorial 2 # Introduction + Creating Database and Tables (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c889d" }
+      },
+      {
+        "duration": "14:01",
+        "id": "T0ClYrJukPA",
+        "title": "Android SQLite Database Tutorial 3 # Insert values to SQLite Database table using Android",
+        "_id": { "$oid": "611bd7508c8a8c09572c889e" }
+      },
+      {
+        "duration": "14:38",
+        "id": "KUq5wf3Mh0c",
+        "title": "Android SQLite Database Tutorial 4 # Show SQLite Database table Values using Android",
+        "_id": { "$oid": "611bd7508c8a8c09572c889f" }
+      },
+      {
+        "duration": "14:59",
+        "id": "PA4A9IesyCg",
+        "title": "Android SQLite Database Tutorial 5 # Update values in SQLite Database table using Android",
+        "_id": { "$oid": "611bd7508c8a8c09572c88a0" }
+      },
+      {
+        "duration": "10:18",
+        "id": "neaCUaHa2Ek",
+        "title": "Android SQLite Database Tutorial 6 # Delete values in SQLite Database table using Android",
+        "_id": { "$oid": "611bd7508c8a8c09572c88a1" }
+      },
+      {
+        "duration": "10:06",
+        "id": "o4WeEitmF9E",
+        "title": "Action Bar (ActionBar)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88a2" }
+      },
+      {
+        "duration": "12:44",
+        "id": "SF3Hh31clqQ",
+        "title": "Action Bar (ActionBar) # Overflow Menu Items and Icons",
+        "_id": { "$oid": "611bd7508c8a8c09572c88a3" }
+      },
+      {
+        "duration": "11:03",
+        "id": "m7BWTh6xPsw",
+        "title": "Add Up Button for Low-level Activities to Action Bar",
+        "_id": { "$oid": "611bd7508c8a8c09572c88a4" }
+      },
+      {
+        "duration": "11:06",
+        "id": "uAZn1M9v06E",
+        "title": "Explicit and Implicit Intents in Android",
+        "_id": { "$oid": "611bd7508c8a8c09572c88a5" }
+      },
+      {
+        "duration": "12:57",
+        "id": "L29UVUm8aro",
+        "title": "Introduction to Services and Creating Started Service",
+        "_id": { "$oid": "611bd7508c8a8c09572c88a6" }
+      },
+      {
+        "duration": "10:05",
+        "id": "c7kjSs2l7iM",
+        "title": "Service and Thread in Android",
+        "_id": { "$oid": "611bd7508c8a8c09572c88a7" }
+      },
+      {
+        "duration": "8:08",
+        "id": "p3RHxwA2-8A",
+        "title": "Creating Service Using IntentService",
+        "_id": { "$oid": "611bd7508c8a8c09572c88a8" }
+      },
+      {
+        "duration": "15:02",
+        "id": "cJsqMisTaa8",
+        "title": "Bound Services",
+        "_id": { "$oid": "611bd7508c8a8c09572c88a9" }
+      },
+      {
+        "duration": "6:14",
+        "id": "x0UkbmhxT6c",
+        "title": "Applying Styles on Components",
+        "_id": { "$oid": "611bd7508c8a8c09572c88aa" }
+      },
+      {
+        "duration": "3:59",
+        "id": "E-wJJQFlQBs",
+        "title": "Style inheritance in Android",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ab" }
+      },
+      {
+        "duration": "10:08",
+        "id": "_15mKw--RG0",
+        "title": "How to Save a File on Internal Storage",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ac" }
+      },
+      {
+        "duration": "28:47",
+        "id": "HK515-8-Q_w",
+        "title": "Android MySQL Database Tutorial 1 - Creating Database And Writing PHP Script",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ad" }
+      },
+      {
+        "duration": "33:55",
+        "id": "eldh8l8yPew",
+        "title": "Android MySQL Database Tutorial 2 - Android Login with PHP MySQL",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ae" }
+      },
+      {
+        "duration": "16:47",
+        "id": "UqY4DY2rHOs",
+        "title": "Android MySQL Database Tutorial 3 - Connecting Android App to Online MySQL Database",
+        "_id": { "$oid": "611bd7508c8a8c09572c88af" }
+      },
+      {
+        "duration": "25:31",
+        "id": "age2l7Rrwtc",
+        "title": "Android MySQL Database Tutorial 4 - Insert Data in Mysql Database using Registration Form",
+        "_id": { "$oid": "611bd7508c8a8c09572c88b0" }
+      },
+      {
+        "duration": "12:54",
+        "id": "a5dlmqM9Oo8",
+        "title": "How to Convert a Website into Android Application using Android Studio",
+        "_id": { "$oid": "611bd7508c8a8c09572c88b1" }
+      },
+      {
+        "duration": "16:52",
+        "id": "KdweixONFyA",
+        "title": "What Is JSON ? JSON Crash Course",
+        "_id": { "$oid": "611bd7508c8a8c09572c88b2" }
+      },
+      {
+        "duration": "7:14:53",
+        "id": "6iHGTS4-wWs",
+        "title": "Android Tutorial | Learn Android Development",
+        "_id": { "$oid": "611bd7508c8a8c09572c88b3" }
+      },
+      {
+        "duration": "11:37",
+        "id": "br-1VuwIjd8",
+        "title": "How to Install Android Studio on Mac + Build Your First App in Android Studio",
+        "_id": { "$oid": "611bd7508c8a8c09572c88b4" }
+      },
+      {
+        "duration": "9:04",
+        "id": "74pE3kLerAU",
+        "title": "How to install Java JDK 10 on Windows 10 ( with JAVA_HOME )",
+        "_id": { "$oid": "611bd7508c8a8c09572c88b5" }
+      },
+      {
+        "duration": "1:17:54",
+        "id": "kDZES1wtKUY",
+        "title": "Android SQLite Tutorial | Android CRUD Tutorial with SQLite (Create, Read, Update, Delete)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88b6" }
+      },
+      {
+        "duration": "30:02",
+        "id": "uPg1ydmnzpk",
+        "title": "How to Integrate Google Sign In Your Android App using Android Studio",
+        "_id": { "$oid": "611bd7508c8a8c09572c88b7" }
+      },
+      {
+        "duration": "14:31",
+        "id": "qAN9KYhOSec",
+        "title": "How to Integrate Facebook Login In Your Android App using Android Studio",
+        "_id": { "$oid": "611bd7508c8a8c09572c88b8" }
+      },
+      {
+        "duration": "5:51",
+        "id": "HYzw8LFvmw4",
+        "title": "Firebase Tutorial for Android 1 - Getting Started + Add Firebase to Android project",
+        "_id": { "$oid": "611bd7508c8a8c09572c88b9" }
+      },
+      {
+        "duration": "12:53",
+        "id": "xJ_6eMKpVLQ",
+        "title": "Firebase Android Tutorial 2 - Firebase User Registration / Authentication using Android Studio",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ba" }
+      },
+      {
+        "duration": "11:15",
+        "id": "ItqsK5uhLBg",
+        "title": "Firebase Android Tutorial 3 - Firebase Login Authentication and Sign Out",
+        "_id": { "$oid": "611bd7508c8a8c09572c88bb" }
+      },
+      {
+        "duration": "10:57",
+        "id": "XhdR2ffYGoE",
+        "title": "Firebase Android Tutorial 4 - Saving Data in Firebase Realtime Database",
+        "_id": { "$oid": "611bd7508c8a8c09572c88bc" }
+      },
+      {
+        "duration": "11:16",
+        "id": "XactTKR0Wfc",
+        "title": "Firebase Android Tutorial 5 - Retrieving Data from Firebase Realtime Database",
+        "_id": { "$oid": "611bd7508c8a8c09572c88bd" }
+      },
+      {
+        "duration": "14:17",
+        "id": "y2op1D0W8oE",
+        "title": "Firebase Android Tutorial 6 - Add data to Cloud Firestore",
+        "_id": { "$oid": "611bd7508c8a8c09572c88be" }
+      },
+      {
+        "duration": "8:51",
+        "id": "kfvOqGSCmW4",
+        "title": "Firebase Android Tutorial 7 - How to Get data with Cloud Firestore",
+        "_id": { "$oid": "611bd7508c8a8c09572c88bf" }
+      },
+      {
+        "duration": "13:08",
+        "id": "Ey2imp7iaP8",
+        "title": "Firebase Android Tutorial 8 - How to Upload an image on Firebase storage",
+        "_id": { "$oid": "611bd7508c8a8c09572c88c0" }
+      },
+      {
+        "duration": "15:26",
+        "id": "ZOlRWjaeo-w",
+        "title": "Firebase Android Tutorial 9 - Instagram Like App using Firebase (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88c1" }
+      },
+      {
+        "duration": "12:52",
+        "id": "KRzHNHmF4Rs",
+        "title": "Firebase Android Tutorial 10 - Instagram Like App using Firebase (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88c2" }
+      },
+      {
+        "duration": "13:58",
+        "id": "5FXLJAKeRWE",
+        "title": "Firebase Android Tutorial 11 - Instagram Like App using Firebase (Part 3)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88c3" }
+      },
+      {
+        "duration": "19:24",
+        "id": "C4OySvF6GqE",
+        "title": "Firebase Android Tutorial 12 - Instagram Like App using Firebase (Part 4) Sending email",
+        "_id": { "$oid": "611bd7508c8a8c09572c88c4" }
+      },
+      {
+        "duration": "9:23",
+        "id": "kftHcxKjbxA",
+        "title": "Firebase Android Tutorial 13 - Instagram Like App using Firebase (Part 5)-Login User Activity UI",
+        "_id": { "$oid": "611bd7508c8a8c09572c88c5" }
+      },
+      {
+        "duration": "9:04",
+        "id": "c2dl9Ig4T10",
+        "title": "Firebase Android Tutorial 14 - Instagram Like App using Firebase (Part 6)- Main Activity UI design",
+        "_id": { "$oid": "611bd7508c8a8c09572c88c6" }
+      },
+      {
+        "duration": "10:39",
+        "id": "AdSDlN-8TV0",
+        "title": "Firebase Android Tutorial 15 - Instagram Like App using Firebase (Part 7)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88c7" }
+      },
+      {
+        "duration": "9:33",
+        "id": "Mls6lOLYWW4",
+        "title": "Firebase Android Tutorial 16 - Instagram Like App using Firebase (Part 8) (Post Activity UI)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88c8" }
+      },
+      {
+        "duration": "10:05",
+        "id": "HyMbCNWll9M",
+        "title": "Firebase Android Tutorial 17 - Instagram Like App using Firebase (Part 9) (Post Activity Code)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88c9" }
+      },
+      {
+        "duration": "11:55",
+        "id": "KERULjBIKhE",
+        "title": "Firebase Android Tutorial 18 - Instagram Like App using Firebase (Part 10) (Post Activity Code)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ca" }
+      },
+      {
+        "duration": "10:17",
+        "id": "uMUR_6j1uLY",
+        "title": "Firebase Android Tutorial 19 - Instagram Like App using Firebase (Part 11) (Search Fragment UI)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88cb" }
+      },
+      {
+        "duration": "13:09",
+        "id": "aRMLYVpwJfA",
+        "title": "Firebase Android Tutorial 20 - Instagram Like App using Firebase (Part 12)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88cc" }
+      },
+      {
+        "duration": "7:25",
+        "id": "uKe5ZHcj3Lg",
+        "title": "Firebase Android Tutorial 21 - Instagram Like App using Firebase (Part 13)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88cd" }
+      },
+      {
+        "duration": "6:30",
+        "id": "olzCJJEg98o",
+        "title": "How to Install and Use Vysor on Windows 10 | Mirror Android Device in Windows 10",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ce" }
+      },
+      {
+        "duration": "10:03",
+        "id": "gVDlVHYEUrU",
+        "title": "How to Setup GenyMobile Scrcpy | How to Mirror your Android Screen to PC with Scrcpy",
+        "_id": { "$oid": "611bd7508c8a8c09572c88cf" }
+      },
+      {
+        "duration": "6:43",
+        "id": "ya83dBdMcSk",
+        "title": "How to Mirror/Cast Your Android Display to a Windows 10 (Without Any Software)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88d0" }
+      },
+      {
+        "duration": "17:52",
+        "id": "0zx_eFyHRU0",
+        "title": "How to Install Android Studio on Windows 10 (2020)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88d1" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd7508c8a8c09572c8960" },
+    "duration": { "hours": "5", "minutes": "57" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "webapp",
+    "classes": "77",
+    "image": "https://reactjs.org/logo-og.png",
+    "cos": [
+      "Learn basics of ReactJS",
+      "Learn components in ReactJS",
+      "Learn HTTP of ReactJS",
+      "Learn Hooks Update of ReactJS",
+      "Learn JSX,Props of ReactJS"
+    ],
+    "tags": ["ReactJS", "react"],
+    "name": "ReactJS Tutorials",
+    "channelName": "Codevolution",
+    "videos": [
+      {
+        "duration": "9:34",
+        "id": "QFaFIcGhPoM",
+        "title": "ReactJS Tutorial - 1 - Introduction",
+        "_id": { "$oid": "611bd7508c8a8c09572c8961" }
+      },
+      {
+        "duration": "4:54",
+        "id": "9hb_0TZ_MVI",
+        "title": "ReactJS Tutorial - 2 - Hello World",
+        "_id": { "$oid": "611bd7508c8a8c09572c8962" }
+      },
+      {
+        "duration": "5:35",
+        "id": "9VIiLJL0H4Y",
+        "title": "ReactJS Tutorial - 3 - Folder Structure",
+        "_id": { "$oid": "611bd7508c8a8c09572c8963" }
+      },
+      {
+        "duration": "4:59",
+        "id": "Y2hgEGPzTZY",
+        "title": "ReactJS Tutorial - 4 - Components",
+        "_id": { "$oid": "611bd7508c8a8c09572c8964" }
+      },
+      {
+        "duration": "6:33",
+        "id": "Cla1WwguArA",
+        "title": "ReactJS Tutorial - 5 - Functional Components",
+        "_id": { "$oid": "611bd7508c8a8c09572c8965" }
+      },
+      {
+        "duration": "6:22",
+        "id": "lnV34uLEzis",
+        "title": "ReactJS Tutorial - 6 - Class Components",
+        "_id": { "$oid": "611bd7508c8a8c09572c8966" }
+      },
+      {
+        "duration": "3:54",
+        "id": "oecI26cWqzk",
+        "title": "ReactJS Tutorial - 7 - Hooks Update",
+        "_id": { "$oid": "611bd7508c8a8c09572c8967" }
+      },
+      {
+        "duration": "11:25",
+        "id": "7fPXI_MnBOY",
+        "title": "ReactJS Tutorial - 8 - JSX",
+        "_id": { "$oid": "611bd7508c8a8c09572c8968" }
+      },
+      {
+        "duration": "11:37",
+        "id": "m7OWXtbiXX8",
+        "title": "ReactJS Tutorial - 9 - Props",
+        "_id": { "$oid": "611bd7508c8a8c09572c8969" }
+      },
+      {
+        "duration": "10:35",
+        "id": "4ORZ1GmjaMc",
+        "title": "ReactJS Tutorial - 10 - State",
+        "_id": { "$oid": "611bd7508c8a8c09572c896a" }
+      },
+      {
+        "duration": "14:30",
+        "id": "uirRaVjRsf4",
+        "title": "ReactJS Tutorial - 11 - setState",
+        "_id": { "$oid": "611bd7508c8a8c09572c896b" }
+      },
+      {
+        "duration": "4:45",
+        "id": "5_PdMS9CLLI",
+        "title": "ReactJS Tutorial - 12 - Destructuring props and state",
+        "_id": { "$oid": "611bd7508c8a8c09572c896c" }
+      },
+      {
+        "duration": "7:36",
+        "id": "Znqv84xi8Vs",
+        "title": "ReactJS Tutorial - 13 - Event Handling",
+        "_id": { "$oid": "611bd7508c8a8c09572c896d" }
+      },
+      {
+        "duration": "11:56",
+        "id": "kVWpBtRjkCk",
+        "title": "ReactJS Tutorial - 14 - Binding Event Handlers",
+        "_id": { "$oid": "611bd7508c8a8c09572c896e" }
+      },
+      {
+        "duration": "8:45",
+        "id": "QpfyjwhY9kg",
+        "title": "ReactJS Tutorial - 15 - Methods as props",
+        "_id": { "$oid": "611bd7508c8a8c09572c896f" }
+      },
+      {
+        "duration": "11:46",
+        "id": "7o5FPaVA9m0",
+        "title": "ReactJS Tutorial - 16 - Conditional Rendering",
+        "_id": { "$oid": "611bd7508c8a8c09572c8970" }
+      },
+      {
+        "duration": "11:57",
+        "id": "5s8Ol9uw-yM",
+        "title": "ReactJS Tutorial - 17 - List Rendering",
+        "_id": { "$oid": "611bd7508c8a8c09572c8971" }
+      },
+      {
+        "duration": "7:32",
+        "id": "0sasRxl35_8",
+        "title": "ReactJS Tutorial - 18 - Lists and Keys",
+        "_id": { "$oid": "611bd7508c8a8c09572c8972" }
+      },
+      {
+        "duration": "11:00",
+        "id": "xlPxnc5uUPQ",
+        "title": "ReactJS Tutorial - 19 - Index as Key Anti-pattern",
+        "_id": { "$oid": "611bd7508c8a8c09572c8973" }
+      },
+      {
+        "duration": "11:40",
+        "id": "j5P9FHiBVNo",
+        "title": "ReactJS Tutorial - 20 - Styling and CSS Basics",
+        "_id": { "$oid": "611bd7508c8a8c09572c8974" }
+      },
+      {
+        "duration": "13:49",
+        "id": "7Vo_VCcWupQ",
+        "title": "ReactJS Tutorial - 21 - Basics of Form Handling",
+        "_id": { "$oid": "611bd7508c8a8c09572c8975" }
+      },
+      {
+        "duration": "2:39",
+        "id": "qnN_FuFNq2g",
+        "title": "ReactJS Tutorial - 22 - Component Lifecycle Methods",
+        "_id": { "$oid": "611bd7508c8a8c09572c8976" }
+      },
+      {
+        "duration": "10:37",
+        "id": "KDXZibVdiEI",
+        "title": "ReactJS Tutorial - 23 - Component Mounting Lifecycle Methods",
+        "_id": { "$oid": "611bd7508c8a8c09572c8977" }
+      },
+      {
+        "duration": "10:35",
+        "id": "DyPkojd1fas",
+        "title": "ReactJS Tutorial - 24 - Component Updating Lifecycle Methods",
+        "_id": { "$oid": "611bd7508c8a8c09572c8978" }
+      },
+      {
+        "duration": "9:43",
+        "id": "bHdh1T0-US4",
+        "title": "ReactJS Tutorial - 25 - Fragments",
+        "_id": { "$oid": "611bd7508c8a8c09572c8979" }
+      },
+      {
+        "duration": "12:45",
+        "id": "YCRuTT31qR0",
+        "title": "ReactJS Tutorial - 26 - Pure",
+        "_id": { "$oid": "611bd7508c8a8c09572c897a" }
+      },
+      {
+        "duration": "4:21",
+        "id": "7TaBhrnPH78",
+        "title": "ReactJS Tutorial - 27 - Memo",
+        "_id": { "$oid": "611bd7508c8a8c09572c897b" }
+      },
+      {
+        "duration": "9:33",
+        "id": "FXa9mMTKOu8",
+        "title": "ReactJS Tutorial - 28 - Refs",
+        "_id": { "$oid": "611bd7508c8a8c09572c897c" }
+      },
+      {
+        "duration": "5:41",
+        "id": "8aCXVC9Qmto",
+        "title": "ReactJS Tutorial - 29 - Refs with Class Components",
+        "_id": { "$oid": "611bd7508c8a8c09572c897d" }
+      },
+      {
+        "duration": "7:27",
+        "id": "RLWniwmfdq4",
+        "title": "ReactJS Tutorial - 30 - Forwarding Refs",
+        "_id": { "$oid": "611bd7508c8a8c09572c897e" }
+      },
+      {
+        "duration": "9:19",
+        "id": "HpHLa-5Wdys",
+        "title": "ReactJS Tutorial - 31 - Portals",
+        "_id": { "$oid": "611bd7508c8a8c09572c897f" }
+      },
+      {
+        "duration": "10:53",
+        "id": "DNYXgtZBRPE",
+        "title": "ReactJS Tutorial - 32 - Error Boundary",
+        "_id": { "$oid": "611bd7508c8a8c09572c8980" }
+      },
+      {
+        "duration": "6:50",
+        "id": "B6aNv8nkUSw",
+        "title": "ReactJS Tutorial - 33 - Higher Order Components (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8981" }
+      },
+      {
+        "duration": "12:39",
+        "id": "rsBQj6X7UK8",
+        "title": "ReactJS Tutorial - 34 - Higher Order Components (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8982" }
+      },
+      {
+        "duration": "3:42",
+        "id": "l8V59zIdBXU",
+        "title": "ReactJS Tutorial - 35 - Higher Order Components (Part 3)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8983" }
+      },
+      {
+        "duration": "4:57",
+        "id": "NdapMDgNhtE",
+        "title": "ReactJS Tutorial - 36 - Render Props (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8984" }
+      },
+      {
+        "duration": "11:10",
+        "id": "EZil2OTyB4w",
+        "title": "ReactJS Tutorial - 37 - Render Props (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8985" }
+      },
+      {
+        "duration": "3:25",
+        "id": "j3j8St50fNY",
+        "title": "ReactJS Tutorial - 38 - Context (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8986" }
+      },
+      {
+        "duration": "7:25",
+        "id": "lTjQjWemKgE",
+        "title": "ReactJS Tutorial - 39 - Context (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8987" }
+      },
+      {
+        "duration": "4:44",
+        "id": "A9WlkhdLnn0",
+        "title": "ReactJS Tutorial - 40 - Context (Part 3)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8988" }
+      },
+      {
+        "duration": "3:17",
+        "id": "GTmjthNvrxY",
+        "title": "ReactJS Tutorial - 41 - HTTP and React",
+        "_id": { "$oid": "611bd7508c8a8c09572c8989" }
+      },
+      {
+        "duration": "7:46",
+        "id": "NEYrSUM4Umw",
+        "title": "ReactJS Tutorial - 42 - HTTP GET Request",
+        "_id": { "$oid": "611bd7508c8a8c09572c898a" }
+      },
+      {
+        "duration": "7:15",
+        "id": "x9UEDRbLhJE",
+        "title": "ReactJS Tutorial - 43 - HTTP Post Request",
+        "_id": { "$oid": "611bd7508c8a8c09572c898b" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd7508c8a8c09572c88d2" },
+    "duration": { "hours": "19", "minutes": "48" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "csfunda",
+    "classes": "114",
+    "image": "https://i.ytimg.com/vi/58N2N7zJGrQ/maxresdefault.jpg",
+    "cos": [
+      "Learn basics of TOC",
+      "Learn about Finite State Machine",
+      "Learn about DFA,NFA",
+      "Learn about conversions",
+      "Learn about basics of Automata",
+      "Learn about Regular Grammar"
+    ],
+    "tags": ["toc", "Theory", "Computation", "Automata"],
+    "name": "Theory of Computation",
+    "channelName": "Neso Academy",
+    "videos": [
+      {
+        "duration": "11:35",
+        "id": "58N2N7zJGrQ",
+        "title": "Introduction to Theory of Computation",
+        "_id": { "$oid": "611bd7508c8a8c09572c88d3" }
+      },
+      {
+        "duration": "15:32",
+        "id": "TpIBUeyOuv8",
+        "title": "Finite State Machine (Prerequisites)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88d4" }
+      },
+      {
+        "duration": "11:05",
+        "id": "Qa6csfkK7_I",
+        "title": "Finite State Machine (Finite Automata)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88d5" }
+      },
+      {
+        "duration": "9:48",
+        "id": "40i4PKpM0cI",
+        "title": "Deterministic Finite Automata (Example 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88d6" }
+      },
+      {
+        "duration": "11:21",
+        "id": "2KindKcLjos",
+        "title": "Deterministic Finite Automata (Example 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88d7" }
+      },
+      {
+        "duration": "17:29",
+        "id": "_2cKtLkdwnc",
+        "title": "Deterministic Finite Automata (Example 3)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88d8" }
+      },
+      {
+        "duration": "11:15",
+        "id": "Fpmr1nHqYrw",
+        "title": "Deterministic Finite Automata (Example 4)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88d9" }
+      },
+      {
+        "duration": "6:37",
+        "id": "WrzaPNj9OZ4",
+        "title": "Regular Languages",
+        "_id": { "$oid": "611bd7508c8a8c09572c88da" }
+      },
+      {
+        "duration": "7:45",
+        "id": "6aRJQNYYz4s",
+        "title": "Operations on Regular Languages",
+        "_id": { "$oid": "611bd7508c8a8c09572c88db" }
+      },
+      {
+        "duration": "6:27",
+        "id": "ehy0jGIYRtE",
+        "title": "Non-Deterministic Finite Automata",
+        "_id": { "$oid": "611bd7508c8a8c09572c88dc" }
+      },
+      {
+        "duration": "10:45",
+        "id": "egXhe55dAIk",
+        "title": "Formal Definition of Non-Deterministic Finite Automata (NFA)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88dd" }
+      },
+      {
+        "duration": "7:05",
+        "id": "4bjqVsoy6bA",
+        "title": "Non-Deterministic Finite Automata (Solved Example 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88de" }
+      },
+      {
+        "duration": "8:54",
+        "id": "Bcen1W_uFEU",
+        "title": "Non-Deterministic Finite Automata (Solved Example 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88df" }
+      },
+      {
+        "duration": "9:10",
+        "id": "NGF-b3QVeJU",
+        "title": "Non-Deterministic Finite Automata (Solved Example 3)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88e0" }
+      },
+      {
+        "duration": "9:28",
+        "id": "--CSVsFIDng",
+        "title": "Conversion of NFA to DFA",
+        "_id": { "$oid": "611bd7508c8a8c09572c88e1" }
+      },
+      {
+        "duration": "9:06",
+        "id": "pnyXgIXpKnc",
+        "title": "Conversion of NFA to DFA (Example 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88e2" }
+      },
+      {
+        "duration": "12:01",
+        "id": "i-fk9o46oVY",
+        "title": "Conversion of NFA to DFA (Example 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88e3" }
+      },
+      {
+        "duration": "7:59",
+        "id": "dY1bCC6syLI",
+        "title": "Conversion of NFA to DFA (Example 3)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88e4" }
+      },
+      {
+        "duration": "11:35",
+        "id": "Y92dtMnarAU",
+        "title": "Conversion of NFA to DFA (Example 4)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88e5" }
+      },
+      {
+        "duration": "6:10",
+        "id": "hOzc4BUIXRk",
+        "title": "Minimization of Deterministic Finite Automata (DFA)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88e6" }
+      },
+      {
+        "duration": "15:56",
+        "id": "0XaGAkY09",
+        "title": "Minimization of DFA (Example 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88e7" }
+      },
+      {
+        "duration": "11:15",
+        "id": "ex9sPLq5CRg",
+        "title": "Minimization of DFA (Example 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88e8" }
+      },
+      {
+        "duration": "9:09",
+        "id": "DV8cZp-2VmM",
+        "title": "Minimization of DFA (With Multiple Final States)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88e9" }
+      },
+      {
+        "duration": "7:16",
+        "id": "kYMqDgB2GbU",
+        "title": "Minimization of DFA (With Unreachable States)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ea" }
+      },
+      {
+        "duration": "19:40",
+        "id": "UiXkJUTkp44",
+        "title": "Myhill Nerode Theorem - Table Filling Method",
+        "_id": { "$oid": "611bd7508c8a8c09572c88eb" }
+      },
+      {
+        "duration": "15:05",
+        "id": "Dx2RJ2DXRYs",
+        "title": "Myhill Nerode Theorem - Table Filling Method (Example)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ec" }
+      },
+      {
+        "duration": "10:37",
+        "id": "EzMWYmRkHFQ",
+        "title": "Finite Automata With Outputs",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ed" }
+      },
+      {
+        "duration": "9:14",
+        "id": "LioitkXDfmA",
+        "title": "Construction of Mealy Machine",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ee" }
+      },
+      {
+        "duration": "6:31",
+        "id": "s-Ul9dIS9AE",
+        "title": "Construction of Mealy Machine (Example 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ef" }
+      },
+      {
+        "duration": "9:12",
+        "id": "fkdufhcBraw",
+        "title": "Construction of Mealy Machine (Example 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88f0" }
+      },
+      {
+        "duration": "8:52",
+        "id": "MFnRF07SoFo",
+        "title": "Construction of Moore Machine",
+        "_id": { "$oid": "611bd7508c8a8c09572c88f1" }
+      },
+      {
+        "duration": "9:39",
+        "id": "BQPSt8dRX1Q",
+        "title": "Construction of Moore Machine (Example 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88f2" }
+      },
+      {
+        "duration": "6:25",
+        "id": "UKTzwXSJiIk",
+        "title": "Construction of Moore Machine (Example 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88f3" }
+      },
+      {
+        "duration": "6:41",
+        "id": "HEVWx4irOx4",
+        "title": "Conversion of Moore Machine to Mealy Machine",
+        "_id": { "$oid": "611bd7508c8a8c09572c88f4" }
+      },
+      {
+        "duration": "6:16",
+        "id": "lqvVtBdazvg",
+        "title": "Conversion of Moore Machine to Mealy Machine (Example 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88f5" }
+      },
+      {
+        "duration": "6:37",
+        "id": "GHStZkC080k",
+        "title": "Conversion of Moore Machine to Mealy Machine (Example 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88f6" }
+      },
+      {
+        "duration": "10:30",
+        "id": "-etILQcfgTg",
+        "title": "Conversion of Mealy Machine to Moore Machine",
+        "_id": { "$oid": "611bd7508c8a8c09572c88f7" }
+      },
+      {
+        "duration": "11:16",
+        "id": "rkgbhngdJ5Y",
+        "title": "Conversion of Mealy Machine to Moore Machine (Example 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88f8" }
+      },
+      {
+        "duration": "9:45",
+        "id": "t48LqMDqNrA",
+        "title": "Conversion of Mealy Machine to Moore Machine (Example 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88f9" }
+      },
+      {
+        "duration": "8:45",
+        "id": "j8IkqBJNMwA",
+        "title": "Conversion of Mealy Machine to Moore Machine (Using Transition Table)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88fa" }
+      },
+      {
+        "duration": "5:49",
+        "id": "84oNUttWlN4",
+        "title": "Epsilon NFA",
+        "_id": { "$oid": "611bd7508c8a8c09572c88fb" }
+      },
+      {
+        "duration": "9:41",
+        "id": "WSGcmaHNBFM",
+        "title": "Conversion of Epsilon NFA to NFA",
+        "_id": { "$oid": "611bd7508c8a8c09572c88fc" }
+      },
+      {
+        "duration": "7:09",
+        "id": "I6GFKekMr7s",
+        "title": "Conversion of Epsilon NFA to NFA - Examples (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88fd" }
+      },
+      {
+        "duration": "7:20",
+        "id": "Jz4YQ09nOxA",
+        "title": "Conversion of Epsilon NFA to NFA - Examples (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c88fe" }
+      },
+      {
+        "duration": "4:43",
+        "id": "upu_TeZImN0",
+        "title": "Regular Expression",
+        "_id": { "$oid": "611bd7508c8a8c09572c88ff" }
+      },
+      {
+        "duration": "5:32",
+        "id": "paOPoZyjzdg",
+        "title": "Regular Expression - Examples",
+        "_id": { "$oid": "611bd7508c8a8c09572c8900" }
+      },
+      {
+        "duration": "6:44",
+        "id": "yp4pYgXfYD8",
+        "title": "Identities of Regular Expression",
+        "_id": { "$oid": "611bd7508c8a8c09572c8901" }
+      },
+      {
+        "duration": "7:35",
+        "id": "Idl_0mPzZjE",
+        "title": "Arden’s Theorem",
+        "_id": { "$oid": "611bd7508c8a8c09572c8902" }
+      },
+      {
+        "duration": "5:49",
+        "id": "TkqcPh0BFUw",
+        "title": "An Example Proof using Identities of Regular Expressions",
+        "_id": { "$oid": "611bd7508c8a8c09572c8903" }
+      },
+      {
+        "duration": "6:55",
+        "id": "FOhEmW_nMRs",
+        "title": "Designing Regular Expressions",
+        "_id": { "$oid": "611bd7508c8a8c09572c8904" }
+      },
+      {
+        "duration": "13:37",
+        "id": "OKFrju0HB7k",
+        "title": "NFA to Regular Expression Conversion",
+        "_id": { "$oid": "611bd7508c8a8c09572c8905" }
+      },
+      {
+        "duration": "6:19",
+        "id": "SmT1DXLl3f4",
+        "title": "DFA to Regular Expression Conversion",
+        "_id": { "$oid": "611bd7508c8a8c09572c8906" }
+      },
+      {
+        "duration": "8:27",
+        "id": "fRVljh8y7Qw",
+        "title": "DFA to Regular Expression Conversion (when the DFA has Multiple Final States)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8907" }
+      },
+      {
+        "duration": "4:27",
+        "id": "RxfXyvfTsgQ",
+        "title": "Conversion of Regular Expression to Finite Automata",
+        "_id": { "$oid": "611bd7508c8a8c09572c8908" }
+      },
+      {
+        "duration": "8:54",
+        "id": "62JAy4oH6lU",
+        "title": "Conversion of Regular Expression to Finite Automata - Examples (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8909" }
+      },
+      {
+        "duration": "6:20",
+        "id": "RsSQPwUIR8U",
+        "title": "Conversion of Regular Expression to Finite Automata - Examples (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c890a" }
+      },
+      {
+        "duration": "6:48",
+        "id": "zSHS_7omxRY",
+        "title": "Conversion of Regular Expression to Finite Automata - Examples (Part 3)",
+        "_id": { "$oid": "611bd7508c8a8c09572c890b" }
+      },
+      {
+        "duration": "10:58",
+        "id": "nX4JrcHgpZY",
+        "title": "Equivalence of Two Finite Automata",
+        "_id": { "$oid": "611bd7508c8a8c09572c890c" }
+      },
+      {
+        "duration": "6:02",
+        "id": "5Jg3KqRQTvM",
+        "title": "Equivalence of Two Finite Automata (Example)",
+        "_id": { "$oid": "611bd7508c8a8c09572c890d" }
+      },
+      {
+        "duration": "8:08",
+        "id": "dikEDuepOtI",
+        "title": "Pumping Lemma (For Regular Languages)",
+        "_id": { "$oid": "611bd7508c8a8c09572c890e" }
+      },
+      {
+        "duration": "14:16",
+        "id": "Ty9tpikilAo",
+        "title": "Pumping Lemma (For Regular Languages) | Example 1",
+        "_id": { "$oid": "611bd7508c8a8c09572c890f" }
+      },
+      {
+        "duration": "8:38",
+        "id": "kZzH8E-s-9o",
+        "title": "Pumping Lemma (For Regular Languages) | Example 2",
+        "_id": { "$oid": "611bd7508c8a8c09572c8910" }
+      },
+      {
+        "duration": "10:14",
+        "id": "WgEsPTAL55Q",
+        "title": "Regular Grammar",
+        "_id": { "$oid": "611bd7508c8a8c09572c8911" }
+      },
+      {
+        "duration": "9:49",
+        "id": "ejXgLRSIxsA",
+        "title": "Derivations from a Grammar",
+        "_id": { "$oid": "611bd7508c8a8c09572c8912" }
+      },
+      {
+        "duration": "7:52",
+        "id": "5_tfVe7ED3g",
+        "title": "Context Free Grammar & Context Free Language",
+        "_id": { "$oid": "611bd7508c8a8c09572c8913" }
+      },
+      {
+        "duration": "18:50",
+        "id": "_dfj__KOo8U",
+        "title": "Regular Languages & Finite Automata (Solved Problem 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8914" }
+      },
+      {
+        "duration": "3:48",
+        "id": "efKSarb5oxM",
+        "title": "Regular Languages & Finite Automata (Solved Problem 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8915" }
+      },
+      {
+        "duration": "11:20",
+        "id": "rtAy-CDYJeo",
+        "title": "Regular Languages & Finite Automata (Solved Problem 3)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8916" }
+      },
+      {
+        "duration": "11:31",
+        "id": "XIHctzKa6P4",
+        "title": "Regular Languages & Finite Automata (Solved Problem 4)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8917" }
+      },
+      {
+        "duration": "5:!5",
+        "id": "gLSLHDYsE38",
+        "title": "Regular Languages & Finite Automata (Solved Problem 5)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8918" }
+      },
+      {
+        "duration": "6:16",
+        "id": "x7jO9Dai6Go",
+        "title": "Regular Languages & Finite Automata (Solved Problem 6)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8919" }
+      },
+      {
+        "duration": "11:31",
+        "id": "htoFbcwES28",
+        "title": "Method to find whether a string belong to a Grammar or not",
+        "_id": { "$oid": "611bd7508c8a8c09572c891a" }
+      },
+      {
+        "duration": "12:33",
+        "id": "u4-rpIlV9NI",
+        "title": "Derivation Tree (Left & Right Derivation Trees)",
+        "_id": { "$oid": "611bd7508c8a8c09572c891b" }
+      },
+      {
+        "duration": "5:44",
+        "id": "wQjppolFdas",
+        "title": "Ambiguous Grammar",
+        "_id": { "$oid": "611bd7508c8a8c09572c891c" }
+      },
+      {
+        "duration": "13:57",
+        "id": "EF09zxzpVbk",
+        "title": "Simplification of CFG (Reduction of CFG)",
+        "_id": { "$oid": "611bd7508c8a8c09572c891d" }
+      },
+      {
+        "duration": "8:36",
+        "id": "B2o75KpzfU4",
+        "title": "Simplification of CFG (Removal of Unit Productions)",
+        "_id": { "$oid": "611bd7508c8a8c09572c891e" }
+      },
+      {
+        "duration": "8:31",
+        "id": "mlXYQ8ug2v4",
+        "title": "Simplification of CFG (Removal of Null Productions)",
+        "_id": { "$oid": "611bd7508c8a8c09572c891f" }
+      },
+      {
+        "duration": "6:38",
+        "id": "Mh-UQVmAxnw",
+        "title": "Chomsky Normal Form & CFG to CNF Conversion",
+        "_id": { "$oid": "611bd7508c8a8c09572c8920" }
+      },
+      {
+        "duration": "12:58",
+        "id": "FNPSlnj3Vt0",
+        "title": "Conversion of CFG to Chomsky Normal Form",
+        "_id": { "$oid": "611bd7508c8a8c09572c8921" }
+      },
+      {
+        "duration": "13:17",
+        "id": "ZCbJan6CGNM",
+        "title": "Greibach Normal Form & CFG to GNF Conversion",
+        "_id": { "$oid": "611bd7508c8a8c09572c8922" }
+      },
+      {
+        "duration": "11:20",
+        "id": "rauqqM0nfuI",
+        "title": "CFG to GNF Conversion (Removal of Left Recursion)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8923" }
+      },
+      {
+        "duration": "8:06",
+        "id": "jRhqx1_KcCk",
+        "title": "Pumping Lemma (For Context Free Languages)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8924" }
+      },
+      {
+        "duration": "12:22",
+        "id": "eQ0XkUk3qGk",
+        "title": "Pumping Lemma (For Context Free Languages) - Examples (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8925" }
+      },
+      {
+        "duration": "17:44",
+        "id": "DPs8sBcIjs8",
+        "title": "Pumping Lemma (For Context Free Languages) - Examples (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8926" }
+      },
+      {
+        "duration": "7:07",
+        "id": "4ejIAmp_Atw",
+        "title": "Pushdown Automata (Introduction)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8927" }
+      },
+      {
+        "duration": "9:!6",
+        "id": "JtRyd7Svlew",
+        "title": "Pushdown Automata (Formal Definition)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8928" }
+      },
+      {
+        "duration": "12:12",
+        "id": "eY7fwj5jvC4",
+        "title": "Pushdown Automata (Graphical Notation)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8929" }
+      },
+      {
+        "duration": "14:11",
+        "id": "TEQcJybMMFU",
+        "title": "Pushdown Automata Example (Even Palindrome) PART-1",
+        "_id": { "$oid": "611bd7508c8a8c09572c892a" }
+      },
+      {
+        "duration": "19:19",
+        "id": "BxA-aI2dyRo",
+        "title": "Pushdown Automata Example (Even Palindrome) PART-2",
+        "_id": { "$oid": "611bd7508c8a8c09572c892b" }
+      },
+      {
+        "duration": "13:49",
+        "id": "xHj2WI1Rrl4",
+        "title": "Pushdown Automata Example (Even Palindrome) PART-3",
+        "_id": { "$oid": "611bd7508c8a8c09572c892c" }
+      },
+      {
+        "duration": "22:49",
+        "id": "FjGrU7vczyg",
+        "title": "Equivalence of CFG and PDA (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c892d" }
+      },
+      {
+        "duration": "21:47",
+        "id": "kyvLetfjOhc",
+        "title": "Equivalence of CFG and PDA (Part 2a)",
+        "_id": { "$oid": "611bd7508c8a8c09572c892e" }
+      },
+      {
+        "duration": "19:33",
+        "id": "DjbukiTf-48",
+        "title": "Equivalence of CFG and PDA (Part 2b)",
+        "_id": { "$oid": "611bd7508c8a8c09572c892f" }
+      },
+      {
+        "duration": "8:05",
+        "id": "PvLaPKPzq2I",
+        "title": "Turing Machine - Introduction (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8930" }
+      },
+      {
+        "duration": "9:53",
+        "id": "GPSk9tRsK2I",
+        "title": "Turing Machine - Introduction (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8931" }
+      },
+      {
+        "duration": "9:38",
+        "id": "yFEdBR-rP9g",
+        "title": "Turing Machine (Formal Definition)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8932" }
+      },
+      {
+        "duration": "10:35",
+        "id": "D9eF_B8URnw",
+        "title": "Turing Machine (Example 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8933" }
+      },
+      {
+        "duration": "13:51",
+        "id": "cR4Re0YfoOo",
+        "title": "Turing Machine (Example 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8934" }
+      },
+      {
+        "duration": "13:25",
+        "id": "0D7yInuKvKs",
+        "title": "The Church-Turing Thesis",
+        "_id": { "$oid": "611bd7508c8a8c09572c8935" }
+      },
+      {
+        "duration": "15:49",
+        "id": "KW9md3j4_cU",
+        "title": "Turing Machine for Even Palindromes",
+        "_id": { "$oid": "611bd7508c8a8c09572c8936" }
+      },
+      {
+        "duration": "11:28",
+        "id": "BKhQJP4sa_8",
+        "title": "Turing Machine Programming Techniques (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8937" }
+      },
+      {
+        "duration": "9:39",
+        "id": "23vQEJWXc-k",
+        "title": "Turing Machine Programming Techniques (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8938" }
+      },
+      {
+        "duration": "7:57",
+        "id": "CyB3aQhH9u4",
+        "title": "Turing Machine Programming Techniques (Part 3)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8939" }
+      },
+      {
+        "duration": "17:33",
+        "id": "CLLutxGVDY4",
+        "title": "Multitape Turing Machine",
+        "_id": { "$oid": "611bd7508c8a8c09572c893a" }
+      },
+      {
+        "duration": "15:49",
+        "id": "gQnPM6sydkk",
+        "title": "Nondeterministic Turing Machine (Part 1)",
+        "_id": { "$oid": "611bd7508c8a8c09572c893b" }
+      },
+      {
+        "duration": "13:58",
+        "id": "9Bk11XgiC1E",
+        "title": "Nondeterministic Turing Machine (Part 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c893c" }
+      },
+      {
+        "duration": "12:04",
+        "id": "f_1GptvagSw",
+        "title": "Turing Machine as Problem Solvers",
+        "_id": { "$oid": "611bd7508c8a8c09572c893d" }
+      },
+      {
+        "duration": "7:42",
+        "id": "JfX7VK7ocRU",
+        "title": "Decidability and Undecidability",
+        "_id": { "$oid": "611bd7508c8a8c09572c893e" }
+      },
+      {
+        "duration": "8:20",
+        "id": "eKCX-4_jzck",
+        "title": "Universal Turing Machine",
+        "_id": { "$oid": "611bd7508c8a8c09572c893f" }
+      },
+      {
+        "duration": "7:26",
+        "id": "6XZvw9W9QSc",
+        "title": "The Halting Problem",
+        "_id": { "$oid": "611bd7508c8a8c09572c8940" }
+      },
+      {
+        "duration": "8:00",
+        "id": "_eM0-KfAmhQ",
+        "title": "Undecidability of the Halting Problem",
+        "_id": { "$oid": "611bd7508c8a8c09572c8941" }
+      },
+      {
+        "duration": "14:29",
+        "id": "VZNN1OGoqr8",
+        "title": "The Post Correspondence Problem",
+        "_id": { "$oid": "611bd7508c8a8c09572c8942" }
+      },
+      {
+        "duration": "27:46",
+        "id": "7w9elZjJ9Ko",
+        "title": "Undecidability of the Post Correspondence Problem",
+        "_id": { "$oid": "611bd7508c8a8c09572c8943" }
+      },
+      {
+        "duration": "7:32",
+        "id": "BBuBv3P2aSs",
+        "title": "TOC – Conclusion and Summary",
+        "_id": { "$oid": "611bd7508c8a8c09572c8944" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "611bd7508c8a8c09572c8822" },
+    "duration": { "hours": "54", "minutes": "19" },
+    "price": "FREE",
+    "rating": "0",
+    "noenrolls": { "$numberInt": "0" },
+    "branch": "computer science",
+    "catrgory": "programming_language",
+    "classes": "91",
+    "image": "https://engineering.fb.com/wp-content/uploads/2015/06/1522635669452_11.jpg",
+    "cos": [
+      "Learn basics of C++ Programming",
+      "Learn Data types in C++",
+      "Learn variables in C++ Programming",
+      "Learn functions in C++ Programming",
+      "Learn class in C++ ProgrammingLearn Files I/O in C++ Programming"
+    ],
+    "tags": ["c", "c++", "programming"],
+    "name": "C++ Programming Tutorials",
+    "channelName": "ProgrammingKnowledge",
+    "videos": [
+      {
+        "duration": "12:09",
+        "id": "e1YafrxYOWw",
+        "title": "Installing CodeBlocks and Getting Started (For Absolute Beginners)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8823" }
+      },
+      {
+        "duration": "14:33",
+        "id": "XWE3hA4PAol",
+        "title": "Understanding  C++ Program Structure",
+        "_id": { "$oid": "611bd7508c8a8c09572c8824" }
+      },
+      {
+        "duration": "11:16",
+        "id": "tkPjecc0ViY",
+        "title": "Understanding Variables",
+        "_id": { "$oid": "611bd7508c8a8c09572c8825" }
+      },
+      {
+        "duration": "9:59",
+        "id": "fta0zpX05vk",
+        "title": "Basic Calculator",
+        "_id": { "$oid": "611bd7508c8a8c09572c8826" }
+      },
+      {
+        "duration": "4:35",
+        "id": "sqgR26VHBa0",
+        "title": "Understanding Basic Arithmetic",
+        "_id": { "$oid": "611bd7508c8a8c09572c8827" }
+      },
+      {
+        "duration": "10:18",
+        "id": "MTjDwDHbcv0",
+        "title": "if and Else Statements",
+        "_id": { "$oid": "611bd7508c8a8c09572c8828" }
+      },
+      {
+        "duration": "9:50",
+        "id": "uvODOG3_hQk",
+        "title": "Switch Statements",
+        "_id": { "$oid": "611bd7508c8a8c09572c8829" }
+      },
+      {
+        "duration": "8:18",
+        "id": "98Ga_B8LpwU",
+        "title": "Using 'For Loop'",
+        "_id": { "$oid": "611bd7508c8a8c09572c882a" }
+      },
+      {
+        "duration": "7:06",
+        "id": "ahAU6mHHuTs",
+        "title": "Increment,Decrement and Assignment Operators",
+        "_id": { "$oid": "611bd7508c8a8c09572c882b" }
+      },
+      {
+        "duration": "8:17",
+        "id": "pvfUXIG6KEc",
+        "title": "While Loops",
+        "_id": { "$oid": "611bd7508c8a8c09572c882c" }
+      },
+      {
+        "duration": "7:29",
+        "id": "MXnfeqcZcfQ",
+        "title": "Do While Loops",
+        "_id": { "$oid": "611bd7508c8a8c09572c882d" }
+      },
+      {
+        "duration": "8:49",
+        "id": "gWsCOHTI1nA",
+        "title": "Functions in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c882e" }
+      },
+      {
+        "duration": "9:05",
+        "id": "gDGfz4oalkQ",
+        "title": "Passing Parameters and Arguments in Function",
+        "_id": { "$oid": "611bd7508c8a8c09572c882f" }
+      },
+      {
+        "duration": "9:28",
+        "id": "Zaj7OzqEo1E",
+        "title": "Return Values in Functions",
+        "_id": { "$oid": "611bd7508c8a8c09572c8830" }
+      },
+      {
+        "duration": "6:28",
+        "id": "HGwNczk1n0Y",
+        "title": "Default Function Parameter",
+        "_id": { "$oid": "611bd7508c8a8c09572c8831" }
+      },
+      {
+        "duration": "7:59",
+        "id": "mk-hKbRebHk",
+        "title": "Variables Scope and Unary Scope Resolution Operator",
+        "_id": { "$oid": "611bd7508c8a8c09572c8832" }
+      },
+      {
+        "duration": "7:33",
+        "id": "VMvCCrBU5Rw",
+        "title": "Function Overloading",
+        "_id": { "$oid": "611bd7508c8a8c09572c8833" }
+      },
+      {
+        "duration": "8:00",
+        "id": "ExcwHSLkZ9A",
+        "title": "Arrays in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8834" }
+      },
+      {
+        "duration": "4:26",
+        "id": "VcHXsiMPCeQ",
+        "title": "Getting the sum of values in an arrays",
+        "_id": { "$oid": "611bd7508c8a8c09572c8835" }
+      },
+      {
+        "duration": "9:00",
+        "id": "si5nWWhijRt0",
+        "title": "Multidimensional Arrays",
+        "_id": { "$oid": "611bd7508c8a8c09572c8836" }
+      },
+      {
+        "duration": "8:19",
+        "id": "aOVputhO2Ow",
+        "title": "Pointers in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8837" }
+      },
+      {
+        "duration": "6:24",
+        "id": "amn6wHUrv4U",
+        "title": "Pass by Reference/Value in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8838" }
+      },
+      {
+        "duration": "10:21",
+        "id": "XS16aIJYY7w",
+        "title": "Data Structures or Struct(C++)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8839" }
+      },
+      {
+        "duration": "5:45",
+        "id": "IMFDdTUre4Q",
+        "title": "How to pass a structure to a function in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c883a" }
+      },
+      {
+        "duration": "9:32",
+        "id": "b8Luumpu_kE",
+        "title": "Introduction to C++ Classes and Objects",
+        "_id": { "$oid": "611bd7508c8a8c09572c883b" }
+      },
+      {
+        "duration": "8:31",
+        "id": "gJYPaiGQunc",
+        "title": "Setter/Getter functions in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c883c" }
+      },
+      {
+        "duration": "10:56",
+        "id": "2BTFA8TEzIU",
+        "title": "Introduction To Constructors in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c883d" }
+      },
+      {
+        "duration": "7:11",
+        "id": "bFNcauq7bCA",
+        "title": "Destructors in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c883e" }
+      },
+      {
+        "duration": "18:33",
+        "id": "FNnPScv9Qkg",
+        "title": "Placing Classes in Separate Files in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c883f" }
+      },
+      {
+        "duration": "9:34",
+        "id": "8FL-fDuASyk",
+        "title": "Arrow Member Selction Operator And Pointers To classes",
+        "_id": { "$oid": "611bd7508c8a8c09572c8840" }
+      },
+      {
+        "duration": "16:16",
+        "id": "yUtY63Fk3hM",
+        "title": "Operator Overloading In C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8841" }
+      },
+      {
+        "duration": "0:23",
+        "id": "IMyknvJOb7s",
+        "title": "Please Support ProgrammingKnoweldge",
+        "_id": { "$oid": "611bd7508c8a8c09572c8842" }
+      },
+      {
+        "duration": "18:03",
+        "id": "HXsj-IF8JE",
+        "title": "C++ Inheritence",
+        "_id": { "$oid": "611bd7508c8a8c09572c8843" }
+      },
+      {
+        "duration": "8:00",
+        "id": "miydHp2y_Rg",
+        "title": "C++ Multiple Inheritence",
+        "_id": { "$oid": "611bd7508c8a8c09572c8844" }
+      },
+      {
+        "duration": "8:43",
+        "id": "PuLF8iXeKA0",
+        "title": "Friend Class in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8845" }
+      },
+      {
+        "duration": "14:44",
+        "id": "IX09jBr9I1s",
+        "title": "Introduction to Polymorphisam in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8846" }
+      },
+      {
+        "duration": "13:48",
+        "id": "7ab1FGcJBW0",
+        "title": "Virtual Member Function & Pure Virtual Functions",
+        "_id": { "$oid": "611bd7508c8a8c09572c8847" }
+      },
+      {
+        "duration": "12:13",
+        "id": "OtDysNsdF1s",
+        "title": "C++ Exception Handling(Try Throw Catch)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8848" }
+      },
+      {
+        "duration": "12:46",
+        "id": "eFNgoraf20A",
+        "title": "CLion C/C++ ISE-EAP build(First Impression)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8849" }
+      },
+      {
+        "duration": "7:55",
+        "id": "HTy3D98C188",
+        "title": "C++ Function Templates",
+        "_id": { "$oid": "611bd7508c8a8c09572c884a" }
+      },
+      {
+        "duration": "3:43",
+        "id": "SeO4gfZwrGI",
+        "title": "C++ Function Templates with Multiple Parameters",
+        "_id": { "$oid": "611bd7508c8a8c09572c884b" }
+      },
+      {
+        "duration": "8:57",
+        "id": "L8lmOLoCrB4",
+        "title": "Class Templates",
+        "_id": { "$oid": "611bd7508c8a8c09572c884c" }
+      },
+      {
+        "duration": "8:08",
+        "id": "5LBcuhdAb-o",
+        "title": "Template Specialization in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c884d" }
+      },
+      {
+        "duration": "12:57",
+        "id": "SNLZEhWZ1og",
+        "title": "How to add c++ 11 support to code::blocks compiler",
+        "_id": { "$oid": "611bd7508c8a8c09572c884e" }
+      },
+      {
+        "duration": "10:19",
+        "id": "13TrhiKLZg8",
+        "title": "Create a Text File and Write in It",
+        "_id": { "$oid": "611bd7508c8a8c09572c884f" }
+      },
+      {
+        "duration": "14:28",
+        "id": "lzxWNtjii8U",
+        "title": "How to Read from a .txt file using c++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8850" }
+      },
+      {
+        "duration": "18:48",
+        "id": "TXbuATMIVNY",
+        "title": "How to Install and Setup Eclipse IDE for C/C++ Development on Windows",
+        "_id": { "$oid": "611bd7508c8a8c09572c8851" }
+      },
+      {
+        "duration": "18:19",
+        "id": "vSio4fvNgzg",
+        "title": "C++ Vectors",
+        "_id": { "$oid": "611bd7508c8a8c09572c8852" }
+      },
+      {
+        "duration": "14:52",
+        "id": "POYRev0zk2k",
+        "title": "C++ Map",
+        "_id": { "$oid": "611bd7508c8a8c09572c8853" }
+      },
+      {
+        "duration": "10:31",
+        "id": "8p76pJsUP44",
+        "title": "How to Setup openGL and GLUT in Visual Studio(C++)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8854" }
+      },
+      {
+        "duration": "7:10",
+        "id": "aS5_jrlbKmA",
+        "title": "How to Install Codeblocks IDE on Windows with compilers(GCC,G++)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8855" }
+      },
+      {
+        "duration": "8:44",
+        "id": "KwOLqfyQ7TU",
+        "title": "How to Install Qt Creator IDE on Windows 8.1/Windows 10(Open Source Version)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8856" }
+      },
+      {
+        "duration": "15:32",
+        "id": "3Slij6zL6mmA",
+        "title": "How To Create First Qt GUI Widget Application in C++ Using Qt creator",
+        "_id": { "$oid": "611bd7508c8a8c09572c8857" }
+      },
+      {
+        "duration": "7:28:30",
+        "id": "MhYECGUzdA4",
+        "title": "C++ Tutorial | Learn C++ programming | Full C++ Programming Course",
+        "_id": { "$oid": "611bd7508c8a8c09572c8858" }
+      },
+      {
+        "duration": "8:29",
+        "id": "-H_EylqBNDA",
+        "title": "How to Create First C++ Hello World Project using Xcode Mac OS X",
+        "_id": { "$oid": "611bd7508c8a8c09572c8859" }
+      },
+      {
+        "duration": "15.08",
+        "id": "6pABlQl1ZP0",
+        "title": "How to Install OpenCV in Ubuntu for C/C++(Ubuntu 18.04,Ubuntu 20.04)",
+        "_id": { "$oid": "611bd7508c8a8c09572c885a" }
+      },
+      {
+        "duration": "16:52",
+        "id": "KdweixONFvA",
+        "title": "What Is JSON? JSON Crash Course",
+        "_id": { "$oid": "611bd7508c8a8c09572c885b" }
+      },
+      {
+        "duration": "23:36",
+        "id": "Dlw02CaEusY",
+        "title": "Set Up C++ Development With Visual Studio Code on Windows 10(VS Code)",
+        "_id": { "$oid": "611bd7508c8a8c09572c885c" }
+      },
+      {
+        "duration": "13:04",
+        "id": "zaokK25DITo",
+        "title": "How to Setup Atom For C/C++ Development on Windows 10",
+        "_id": { "$oid": "611bd7508c8a8c09572c885d" }
+      },
+      {
+        "duration": "21:39",
+        "id": "C893qy0c5do",
+        "title": "Introduction to Linked Lists-Linked List Implementation in C/C++ -Data Structure Tutorial",
+        "_id": { "$oid": "611bd7508c8a8c09572c885e" }
+      },
+      {
+        "duration": "7:21",
+        "id": "W-oqv3uezlY",
+        "title": "Visualization of Sorting Algorithms | 11 Sorting Algorithms in 7 Minutes",
+        "_id": { "$oid": "611bd7508c8a8c09572c885f" }
+      },
+      {
+        "duration": "16:52",
+        "id": "RsOEfAYIr0U",
+        "title": "Introduction to C++ | Installing CodeBlocks on Windows 10",
+        "_id": { "$oid": "611bd7508c8a8c09572c8860" }
+      },
+      {
+        "duration": "10:54",
+        "id": "7j834VpIb0E",
+        "title": "What is compiler ? Difference Between Compiler and Interpreter",
+        "_id": { "$oid": "611bd7508c8a8c09572c8861" }
+      },
+      {
+        "duration": "16:12",
+        "id": "SukVA3w6l3E",
+        "title": "C++ Output (Print Text) | Output Statements in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8862" }
+      },
+      {
+        "duration": "25:07",
+        "id": "DTxc1rA2Itg",
+        "title": "C++ Input (Input Statements in C++) | Escape sequences",
+        "_id": { "$oid": "611bd7508c8a8c09572c8863" }
+      },
+      {
+        "duration": "10:26",
+        "id": "mXT3d3ZRVYs",
+        "title": "Top 7 Programming Languages To Learn In 2020 | Best Programming Languages 2020",
+        "_id": { "$oid": "611bd7508c8a8c09572c8864" }
+      },
+      {
+        "duration": "8:54",
+        "id": "GK39mFS9fKc",
+        "title": "ASCII Value",
+        "_id": { "$oid": "611bd7508c8a8c09572c8865" }
+      },
+      {
+        "duration": "14:24",
+        "id": "ae-gENE5wvE",
+        "title": "Conditional Statement- IF, IF Else and Nested IF Else",
+        "_id": { "$oid": "611bd7508c8a8c09572c8866" }
+      },
+      {
+        "duration": "11:24",
+        "id": "6PfmUiZTWBM",
+        "title": "Logical Operators",
+        "_id": { "$oid": "611bd7508c8a8c09572c8867" }
+      },
+      {
+        "duration": "11:48",
+        "id": "ghToze5bboE",
+        "title": "Switch Statement in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8868" }
+      },
+      {
+        "duration": "10:50",
+        "id": "6F6ECKek1Dc",
+        "title": "C++ For Loop | Loops in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8869" }
+      },
+      {
+        "duration": "28:19",
+        "id": "bVAH2772w3Q",
+        "title": "C++ While Loop | Loops in C++ | Print the pattern by using Loop",
+        "_id": { "$oid": "611bd7508c8a8c09572c886a" }
+      },
+      {
+        "duration": "18:24",
+        "id": "cyyfke88sro",
+        "title": "C++ Do-While Loop | Jump Statements (C++)",
+        "_id": { "$oid": "611bd7508c8a8c09572c886b" }
+      },
+      {
+        "duration": "16:30",
+        "id": "awVkDykjCbc",
+        "title": "Functions in C++ | Understand C++ Function With Examples",
+        "_id": { "$oid": "611bd7508c8a8c09572c886c" }
+      },
+      {
+        "duration": "9:00",
+        "id": "jhrjYank-wg",
+        "title": "Function return values + Function parameters and arguments",
+        "_id": { "$oid": "611bd7508c8a8c09572c886d" }
+      },
+      {
+        "duration": "9:16",
+        "id": "y7GNJlilbvg",
+        "title": "Different ways of calling functions C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c886e" }
+      },
+      {
+        "duration": "10:15",
+        "id": "i4BCSEPz25o",
+        "title": "C++ Recursion with example",
+        "_id": { "$oid": "611bd7508c8a8c09572c886f" }
+      },
+      {
+        "duration": "15:43",
+        "id": "3FM0KzuDiRg",
+        "title": "Understand C++ Arrays in Detail with Examples",
+        "_id": { "$oid": "611bd7508c8a8c09572c8870" }
+      },
+      {
+        "duration": "44:32",
+        "id": "KrH1qNVYKO0",
+        "title": "How to Create Tic-Tac-Toe in C++ | Tic-Tac-Toe game in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8871" }
+      },
+      {
+        "duration": "30:56",
+        "id": "Mwd1dX--HaU",
+        "title": "C++ Pointers",
+        "_id": { "$oid": "611bd7508c8a8c09572c8872" }
+      },
+      {
+        "duration": "13:51",
+        "id": "QBXoWOc7T_Q",
+        "title": "C++ Structures | Struct declaration | C++ Data Structures",
+        "_id": { "$oid": "611bd7508c8a8c09572c8873" }
+      },
+      {
+        "duration": "26:46",
+        "id": "xjnM1iWvo2g",
+        "title": "Loops in C++ | For, While, and Do While Loops in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8874" }
+      },
+      {
+        "duration": "1:03:39",
+        "id": "43i3FLtsD-0",
+        "title": "Functions In C++ | Declaration, Call, Return Values, Parameter Passing, Function overloading",
+        "_id": { "$oid": "611bd7508c8a8c09572c8875" }
+      },
+      {
+        "duration": "22:16",
+        "id": "h1NlXUaDpmk",
+        "title": "C++ Classes and Objects",
+        "_id": { "$oid": "611bd7508c8a8c09572c8876" }
+      },
+      {
+        "duration": "42:41",
+        "id": "tt5h-zF8dUI",
+        "title": "C++ Snake Game | C++ Snake Terminal Game",
+        "_id": { "$oid": "611bd7508c8a8c09572c8877" }
+      },
+      {
+        "duration": "43:23",
+        "id": "fpgDeQ_EW1A",
+        "title": "C++ Snake Game | C++ Snake Terminal Game (Part - 2)",
+        "_id": { "$oid": "611bd7508c8a8c09572c8878" }
+      },
+      {
+        "duration": "12:10",
+        "id": "x3KoYy4czXU",
+        "title": "Inheritance in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c8879" }
+      },
+      {
+        "duration": "20:16",
+        "id": "ADM2KkHp-rE",
+        "title": "Types of Inheritance in C++",
+        "_id": { "$oid": "611bd7508c8a8c09572c887a" }
+      },
+      {
+        "duration": "14:01",
+        "id": "DirkdQjBTnM",
+        "title": "Multiple Inheritance in C++ | The Diamond Problem",
+        "_id": { "$oid": "611bd7508c8a8c09572c887b" }
+      },
+      {
+        "duration": "20:01",
+        "id": "nrR7smJpguY",
+        "title": "Overloading and Overriding in C++ | Override Vs Overload",
+        "_id": { "$oid": "611bd7508c8a8c09572c887c" }
+      },
+      {
+        "duration": "9:56",
+        "id": "XNHSSduMBbY",
+        "title": "Pure Virtual Functions and Abstract Classes",
+        "_id": { "$oid": "611bd7508c8a8c09572c887d" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  }
+]

@@ -5,6 +5,7 @@ const ReviewSchema = new Schema ({
     first_name : {type: String , required : true},
     last_name : {type: String , required : true},
     rating : {type: Number , required : true},
+    image : {type: String},
     message : {type: String }
 })
 

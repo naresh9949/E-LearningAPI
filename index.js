@@ -13,6 +13,8 @@ const feedbackRoutes = require("./router/feedback.js");
 const quizRoutes = require("./router/quiz.js");
 const homeRoutes = require("./router/home.js");
 
+const courseDashboardRoutes = require("./router/Dashboard/course");
+
 
 mongoose
   .connect(process.env.MONGO_URL)
@@ -34,6 +36,9 @@ app.use("/api/review", reviewRoutes);
 app.use("/api/feedback", feedbackRoutes);
 app.use("/api/quiz", quizRoutes);
 app.use("/api/home", homeRoutes);
+
+
+app.use("/dashboard/api/course", courseDashboardRoutes);
 
 app.listen(process.env.PORT || 5000, () => {
   console.log(`Example AP listening at http://localhost:3000`);

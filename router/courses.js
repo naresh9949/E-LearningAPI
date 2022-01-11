@@ -7,7 +7,7 @@ const {
   } = require("./verifyToken");
 
 
-  
+
 router.post('/wait/AddCourse',verifyTokenAndAdmin,(req,res)=>{
     const course = new Course(req.body);
     course.save().then((course)=>{
@@ -44,7 +44,7 @@ router.get('/GetPopularCourses',(req,res)=>{
 });
 
 
-//get popular courses
+
 router.get('/GetCourse/:id',(req,res)=>{
     const course_id = req.params.id;
     Courses.find({_id:course_id}).then(course=>{

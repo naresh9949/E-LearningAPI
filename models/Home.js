@@ -11,7 +11,9 @@ const homeSchema = new Schema ({
     facebookLink : {type: String , required:true},
     instagramLink : {type: String , required:true},
     twitterLink : {type: String , required:true},
-    whatsappLink :{type: String , required:true}
+    whatsappLink :{type: String , required:true},
+    users : [String],
+    email : {type: String ,unique:true}
     
 },{timestamps:true})
 

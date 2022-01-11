@@ -2,6 +2,7 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema 
 const courseSchema = new Schema ({
     name : {type: String , required : true,unique: true},
+    playListId : {type: String , required : true,unique: true},
     description : {type: String , required : true,unique: true},
     price : {type: String , default:"FREE"},
     popular : {type: Boolean,required : true,default:false},

@@ -32,7 +32,8 @@ router.post('/addReview',verifyToken,(req,res)=>{
     first_name : req.body.first_name,
     last_name : req.body.last_name,
     rating : req.body.rating,
-    message : req.body.message
+    message : req.body.message,
+    image : req.body.image
    })
    review.save().then((result)=>{
        res.status(200).json({message:"review successfully saved"})

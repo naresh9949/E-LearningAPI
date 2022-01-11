@@ -45,6 +45,13 @@ const {
       })
   })
 
+
+
+//   router.post('/newsLetter',(req,res)=>{
+//       const userMail = req.body.email;
+
+//   })
+
   module.exports = router;
 
   

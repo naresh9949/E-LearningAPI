@@ -31,6 +31,10 @@ router.get('/GetCourses',(req,res)=>{
 
 
 
+
+
+
+
 router.get('/GetPopularCourses',(req,res)=>{
     var courseProjection = {
         name:true,
@@ -56,6 +60,19 @@ router.get('/GetCourse/:id',(req,res)=>{
     });
 });
 
+
+
+//get popular courses
+router.get('/GetCourseByName/:name',(req,res)=>{
+    const name = req.params.name;
+    Courses.findOne({name:name}).then(course=>{
+        if(!course)
+        res.status(404).json({message:"invalid course id"});
+        res.status(200).json(course);
+    }).catch(err=>{
+        res.status(404).json({message:"invalid course id"});
+    });
+});
 
 
 router.get('/SearchCourses',(req,res)=>{

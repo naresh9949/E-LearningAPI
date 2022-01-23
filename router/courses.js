@@ -22,7 +22,8 @@ router.get('/GetCourses',(req,res)=>{
         name:true,
         catrgory:true, 
         image : true,
-        classes:true
+        classes:true,
+        channelName:true
     };
     Courses.find({},courseProjection).then((courses)=>{
         res.status(200).json(courses);
@@ -40,7 +41,9 @@ router.get('/GetPopularCourses',(req,res)=>{
         name:true,
         catrgory:true, 
         image : true,
-        classes:true
+        classes:true,
+        price : true,
+        channelName:true
     };
     Courses.find({popular:true},courseProjection).then((courses)=>{
         res.status(200).json(courses);
@@ -49,37 +52,57 @@ router.get('/GetPopularCourses',(req,res)=>{
 
 
 
-router.get('/GetCourse/:id',(req,res)=>{
-    const course_id = req.params.id;
-    Courses.find({_id:course_id}).then(course=>{
-        if(!course)
-        res.status(401).json({message:"invalid course id"});
-        res.status(200).json(course);
-    }).catch(err=>{
-        res.status(401).json({message:"invalid course id"});
-    });
-});
+// router.get('/GetCourse/:id',(req,res)=>{
+//     const course_id = req.params.id;
+//     Courses.find({_id:course_id}).then(course=>{
+//         if(!course)
+//         res.status(401).json({message:"invalid course id"});
+//         res.status(200).json(course);
+//     }).catch(err=>{
+//         res.status(401).json({message:"invalid course id"});
+//     });
+// });
 
 
 
-//get popular courses
+
 router.get('/GetCourseByName/:name',(req,res)=>{
     const name = req.params.name;
-    Courses.findOne({name:name}).then(course=>{
+    var courseProjection = {
+        name:true,
+        description:true, 
+        cos:true,
+        image : true,
+        classes:true,
+        noenrolls:true,
+        price : true,
+        video_content:true,
+        channelName:true
+    };
+    Courses.findOne({name:name},courseProjection).then(course=>{
         if(!course)
-        res.status(404).json({message:"invalid course id"});
+            res.status(404).json({message:"invalid course Name"});
         res.status(200).json(course);
     }).catch(err=>{
-        res.status(404).json({message:"invalid course id"});
+        res.status(404).json({message:"invalid course Name"});
     });
 });
 
 
-router.get('/SearchCourses',(req,res)=>{
-    const search_query = req.query.search_query;
-    const tags = req.query.tags;
-    console.log(search_query,tags);
-    res.status(200).json({message : search_query})
+router.get('/searchCourse',(req,res)=>{
+    const search_query = req.query.search_query; 
+    var courseProjection = {
+        name:true,
+        image : true,
+        classes:true,
+        price : true,
+        channelName:true
+    };
+    Courses.find({name: new RegExp(search_query,'i') },courseProjection).then(items=>{
+        console.log(items)
+    }).catch(err=>{
+        res.status(404).json({message:"Something went wrong"});
+    });
 });
 
 

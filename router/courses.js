@@ -88,13 +88,13 @@ router.get('/getByCategory/:category',(req,res)=>{
     const category = req.params.category;
     var courseProjection = {
         name:true,
-        catrgory:true, 
+        category:true, 
         image : true,
         classes:true
     };
-    Courses.find({catrgory:category},courseProjection).then(courses=>{
+    Courses.find({category:category},courseProjection).then(courses=>{
         if(!courses)
-        res.status(401).json({message:"invalid course category"});
+        res.status(201).json({message:"invalid course category"});
         res.status(200).json(courses);
     }).catch(err=>{
         res.status(401).json({message:"invalid course category"});

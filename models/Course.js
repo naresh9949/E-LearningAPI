@@ -9,7 +9,7 @@ const courseSchema = new Schema ({
     rating : {type: Number , default:4},
     noenrolls : {type: Number , default : 0},
     branch : {type: String , default:""},
-    catrgory : {type: String , default:""},
+    category : {type: String , default:""},
     channelName : {type: String},
     classes : {type: Number ,required : true,default:"0"},
     image : {type: String , default:'#'},
@@ -23,8 +23,8 @@ const courseSchema = new Schema ({
         section_title : {type: String , required : true},
         videos : [{
             duration : {type: String,default:"0"},
-            id : {type: String,default:""},
-            title: {type: String , default:""}
+            videoId : {type: String,default:""},
+            title: {type: String , required : true}
         }]
     }],
     comments :[{

@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema 
 const homeSchema = new Schema ({
+    name:{type: String , required:true,default:"Home"},
     bannerPage : {type: String , required:true},
     courseImage : {type: String , required:true},
     quickLearnImage : {type: String , required:true},
@@ -13,7 +14,10 @@ const homeSchema = new Schema ({
     twitterLink : {type: String , required:true},
     whatsappLink :{type: String , required:true},
     users : [String],
-    email : {type: String ,unique:true}
+    email : {type: String ,unique:true},
+    branchs : [],
+    institutes : [],
+    categories:[]
     
 },{timestamps:true})
 

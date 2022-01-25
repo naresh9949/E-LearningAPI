@@ -1,11 +1,11 @@
 const router = require("express").Router();
-const Quiz = require("../models/Quiz");
-const Home = require("./../models/Home");
+const Quiz = require("./../../models/Quiz");
+const Home = require("./../../models/Home");
 const {
     verifyToken,
     verifyTokenAndAuthorization,
     verifyTokenAndAdmin,
-  } = require("./verifyToken");
+  } = require("./../verifyToken");
 
 
 //get home details
@@ -51,35 +51,44 @@ const {
     var projection = {
       branchs:true,
   };
-    Home.findOne({},projection).then(data=>{
+    Home.findOne({name:"Home"},projection).then(data=>{
       res.status(200).json(data.branchs)
     })
   })
 
 
-  router.get('/getInstitutions',(req,res)=>{
-    var projection = {
-        institutes:true,
-  };
-    Home.findOne({name:"Home"},projection).then(data=>{
-      res.status(200).json(data.institutes)
+  router.post('/createBranch',(req,res)=>{
+    const branch = req.body.branch;
+    if(!branch)
+      res.status(403).json({message:'Branch required'})
+      
+      Home.updateOne({name:'Home'},{ $push: { branchs: branch } }).then(data=>{
+      res.status(200).json(data)
+    })
+  })
+
+  router.post('/createInstitutions',(req,res)=>{
+    const institute = req.body.institute;
+    if(!institute)
+      res.status(403).json({message:'Institute required'})
+      
+      Home.updateOne({name:'Home'},{ $push: { institutes: institute } }).then(data=>{
+      res.status(200).json(data)
     })
   })
 
 
-  router.get('/getCategories',(req,res)=>{
-    var projection = {
-      categories:true,
-  };
-    Home.findOne({name:"Home"},projection).then(data=>{
-      res.status(200).json(data.categories)
+  router.post('/createCategory',(req,res)=>{
+    const category = req.body.category;
+    if(!category)
+      res.status(403).json({message:'Category required'})
+      
+      Home.updateOne({name:'Home'},{ $push: { categories: category } }).then(data=>{
+      res.status(200).json(data)
     })
   })
 
-//   router.post('/newsLetter',(req,res)=>{
-//       const userMail = req.body.email;
 
-//   })
 
   module.exports = router;
 

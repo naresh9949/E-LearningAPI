@@ -2,12 +2,12 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 const userSchema = new Schema ({
     email : {type: String , required : true,unique:true},
-    first_name : {type: String,default:""},
-    last_name : {type: String,default:""},
-    branch : {type: String , default:"Engineering"},
-    institute_name : {type: String},
-    address : {type: Object},
-    mobile : {type: String},
+    first_name : {type: String,default:null},
+    last_name : {type: String,default:null},
+    branch : {type: String , default:null},
+    institute_name : {type: String,default:null},
+    address : {type: Object,default:null},
+    mobile : {type: String,default:null},
     password : {type: String , required : true},
     verified : {type: Boolean , required : true,default:false},
     image : {type: String , required : true,default:"#"},
@@ -19,7 +19,7 @@ const userSchema = new Schema ({
         videos : []
     }],
     createdQuizzes : [{
-        id : {type: String , required : true,unique:true},
+        id : {type: String , required : true},
     }],
     quizzes:[{
         id : {type: String , required : true},

@@ -30,6 +30,7 @@ const courseSchema = new Schema ({
     comments :[{
         first_name : {type: String ,required : true},
         last_name : {type: String ,required : true},
+        id : {type: String, required: true},
         comment : {type: String ,required : true},
         date : {type: Date ,required : true},
         replys : [{

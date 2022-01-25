@@ -6,6 +6,8 @@ const {
   verifyTokenAndAuthorization,
   verifyTokenAndAdmin, 
 } = require("./verifyToken");
+const { response } = require("express");
+const Course = require("../models/Course");
 
 // GET The user with given id
 router.get("/:id", verifyTokenAndAuthorization, (req, res) => {
@@ -54,16 +56,28 @@ router.patch("/:id", verifyTokenAndAuthorization, (req, res) => {
 });
 
 
-router.patch("/Enroll/:id", verifyTokenAndAuthorization, (req, res) => {
-    const id = req.params.id;
-    const courseid = req.query.courseid;
-    if(!courseid)
-      return res.status(404).json({ message: "invalid arguments" });
 
-    User.findOneAndUpdate({ _id: id }, { $push: {courses : {courseId:courseid,date:new Date()}} })
-      .exec()
-      .then((user) => {
-        res.status(200).json(user);
+// enroll course
+router.post("/enroll",verifyTokenAndAuthorization, async(req, res) => {
+  const userId = req.user._id;
+  const courseid = req.body.courseid;
+  if(!courseid)
+    return res.status(201).json({ message: "invalid Course ID" });
+
+  var enrolledCourses = await User.findOne({_id:userId},{courses:true});
+  enrolledCourses = enrolledCourses.courses;
+  for(let i=0;i<enrolledCourses.length;i++)
+  {
+      if(enrolledCourses[i].courseId == courseid)
+        return res.status(400).json({message:"course already enrolled!!!"})
+  }
+
+  User.findOneAndUpdate({ _id: userId }, { $push: {courses : {courseId:courseid,date:new Date()}} }).then((course) => {
+        //console.log(course)
+        Course.findOneAndUpdate( {_id: courseid},{$inc : {'noenrolls' : 1}}, {new: true}).then(
+          res.status(200)
+        );
+        res.status(200).json({message:"You've Enrolled"});
       })
       .catch((err) => {
         res.status(500).json({
@@ -71,10 +85,33 @@ router.patch("/Enroll/:id", verifyTokenAndAuthorization, (req, res) => {
           message: err,
         });
       });
-  });
+  })
 
+
+
+
+
+router.post("/addVideo", (req,res)=>{
+  const userId = req.body._id;
+  const courseid = req.body.courseid;
+  const videoId = req.body.videoid;
+
+  if(!userId)
+    return res.status(204).json({ message: "Invalid user" });
+  if(!courseid)
+    return res.status(204).json({ message: "Invalid course" });
+  if(!videoId)
+    return res.status(204).json({ message: "unable to find video" });
+
+  //User.findOneAndUpdate({ 'req.body._id': userId }, { "$push": {'courses' : {'videos' : videoId} }})
+  User.findOneAndUpdate({ _id:userId,"courses.courseId": req.body.courseid},{ $push: { "courses.videos": videoId } } ).then((course) => {
+      console.log(course)
+      //res.status(200).json({message:""});
+    }).catch(err=>{
+      res.status(401).json({message:"Something wrong"})
+    }) 
+})
   
-
 
 
 

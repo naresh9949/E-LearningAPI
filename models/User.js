@@ -15,7 +15,8 @@ const userSchema = new Schema ({
     isNotificationsAllowed : {type: Boolean , required : true,default:true},
     courses : [{
         courseId : {type: String , required : true,unique : true},
-        date : {type: Date,required : true}
+        date : {type: Date,required : true},
+        videos : []
     }],
     createdQuizzes : [{
         id : {type: String , required : true,unique:true},

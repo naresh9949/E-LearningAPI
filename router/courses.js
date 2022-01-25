@@ -17,7 +17,10 @@ router.post('/wait/AddCourse',verifyTokenAndAdmin,(req,res)=>{
     })
 });
 
-router.get('/GetCourses',(req,res)=>{
+
+
+
+router.get('/getCourses',(req,res)=>{
     var courseProjection = {
         name:true,
         catrgory:true, 
@@ -25,9 +28,10 @@ router.get('/GetCourses',(req,res)=>{
         classes:true,
         channelName:true
     };
-    Courses.find({},courseProjection).then((courses)=>{
-        res.status(200).json(courses);
-    })
+    Courses.find({$query: {}, $orderby: {$natural : -1}},courseProjection).limit(20).then((courses)=>{
+        console.log(courses)
+        res.status(200).json()
+    })   
 });
 
 
@@ -89,6 +93,8 @@ router.get('/GetCourseByName/:name',(req,res)=>{
 });
 
 
+
+//search course
 router.get('/searchCourse',(req,res)=>{
     const search_query = req.query.search_query; 
     var courseProjection = {
@@ -99,11 +105,18 @@ router.get('/searchCourse',(req,res)=>{
         channelName:true
     };
     Courses.find({name: new RegExp(search_query,'i') },courseProjection).then(items=>{
-        console.log(items)
+        if(!items)
+            res.status(404).json({message:"No such courses available"});
+        res.status(200).json(items);
     }).catch(err=>{
         res.status(404).json({message:"Something went wrong"});
     });
 });
+
+
+
+
+
 
 
 // get by category

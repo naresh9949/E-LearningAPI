@@ -1,6 +1,3 @@
-// addCourse
-// editCourse
-
 const router = require("express").Router();
 var VideoParser = require("video-parser");
 const Course = require("./../../models/Course");
@@ -27,20 +24,45 @@ parser.on("error", function (err) {
 });
 
 function format(time) {
-  // Hours, minutes and seconds
-  var hrs = ~~(time / 3600);
-  var mins = ~~((time % 3600) / 60);
-  var secs = ~~time % 60;
+    // Hours, minutes and seconds
+    var hrs = ~~(time / 3600);
+    var mins = ~~((time % 3600) / 60);
+    var secs = ~~time % 60;
+ 
+    // Output like "1:01" or "4:03:59" or "123:03:59"
+    var ret = "";
+    if (hrs > 0) {
+       ret += "" + hrs + ":" + (mins < 10 ? "0" : "");
+    }
+    ret += "" + mins + ":" + (secs < 10 ? "0" : "");
+    ret += "" + secs;
+    return ret;
+ }
 
-  // Output like "1:01" or "4:03:59" or "123:03:59"
-  var ret = "";
-  if (hrs > 0) {
-    ret += "" + hrs + ":" + (mins < 10 ? "0" : "");
-  }
-  ret += "" + mins + ":" + (secs < 10 ? "0" : "");
-  ret += "" + secs;
-  return ret;
-}
+
+ // Dashboard search course
+router.get('/searchCourse',(req,res)=>{
+    const search_query = req.body.search_query;
+    const category = req.body.catrgory;
+    const branch = req.body.branch;
+
+    var courseProjection = {
+        name:true,
+        image : true,
+        classes:true,
+        price : true,
+        channelName:true
+    };
+    Course.find({name: new RegExp(search_query,'i'), catrgory: (req.body.catrgory) ? category:/.*/, branch: (req.body.branch) ? branch:/.*/ },courseProjection).then(items=>{
+        if(!items)
+            res.status(404).json({message:"No such courses available"});
+        res.status(200).json(items);
+    }).catch(err=>{
+        res.status(404).json({message:"Something went wrong"});
+        });
+});
+
+
 
 router.get("/searchCourse", (req, res) => {
   const search_query = req.body.search_query;
@@ -72,49 +94,82 @@ router.get("/searchCourse", (req, res) => {
     });
 });
 
-router.post("/createcourse", async (req, res) => {
-  const ps = new PlaylistSummary(config);
 
-  const courseData = req.body;
-  if (!req.body.name)
-    return res.status(201).json({ message: "Course Name required" });
-  if (!req.body.playListId)
-    return res.status(201).json({ message: "playlist Id required" });
-  if (!req.body.branch)
-    return res.status(201).json({ message: "Branch required" });
-  if (!req.body.channelName)
-    return res.status(201).json({ message: "Channel Name required" });
-  if (!req.body.category)
-    return res.status(201).json({ message: "Category required" });
-  if (!req.body.description)
-    return res.status(201).json({ message: "Description required" });
-  if (!req.body.cos)
-    return res.status(201).json({ message: "Course outcomes required" });
+//delete course
+router.post('/deleteCourse',(req,res)=>{
+    const courseid = req.body.courseid;
+    if(!courseid)
+        res.status(200).json({message:"Course id is required"})
 
-  var videos = [];
+    Course.findOneAndDelete({ _id: courseid }).then((courses)=>{
+        res.status(200).json({message:"Course deleted successfully"})
+    }).catch(err=>{
+        res.status(201).json({message:"something went wrong"})
+    })
+})
 
-  const data = await ps.getPlaylistItems(req.body.playListId);
-  videos = data.items;
 
-  for (let i = 0; i < videos.length; i++) videos[i].duration = "0:00";
 
-  var time = [];
+//make popular
+router.post('/makePopular',(req,res)=>{
+    const courseid = req.body.courseid;
+    if(!courseid)
+        res.status(200).json({message:"Course id is required"})
 
-  for (var i = 0; i < videos.length; i++) {
-    await parser.parse(function (err, video) {
-      if (video) {
-        time.push(video.duration);
-      } else {
-        time.push(0);
-      }
-    }, videos[i].videoUrl);
-  }
+    Course.findOneAndUpdate({_id: courseid},[{$set:{popular:{$eq:[false,"$popular"]}}}]).then((course)=>{
+        res.status(200).json({message:"updated successfully"})
+    }).catch(err=>{
+        res.status(201).json({message:"something went wrong"})
+    })
+})
 
-  if (time.length !== videos.length)
-    return res.status(504).json({ message: "failed at matching length" });
 
-  for (let i = 0; i < videos.length; i++) {
-    videos[i].duration = format(time[i]);
+router.post('/createcourse',async(req,res)=>{
+
+   
+    const ps = new PlaylistSummary(config)
+    
+    const courseData = req.body;
+    if(!req.body.name)
+        return res.status(201).json({message :"Course Name required"})
+    if(!req.body.playListId)
+        return res.status(201).json({message :"playlist Id required"});
+    if(!req.body.branch)
+    return res.status(201).json({message :"Branch required"});
+    if(!req.body.channelName)
+    return res.status(201).json({message :"Channel Name required"});
+    if(!req.body.category)
+    return res.status(201).json({message :"Category required"});
+    if(!req.body.description)
+    return res.status(201).json({message :"Description required"});
+    if(!req.body.cos)  
+    return res.status(201).json({message :"Course outcomes required"});
+        
+    var videos = [];
+
+    const data = await ps.getPlaylistItems(req.body.playListId);
+    videos = data.items;
+    
+    for(let i=0;i<videos.length;i++)
+    videos[i].duration = "0:00"
+
+    var time = [];
+
+    for (var i = 0; i < videos.length; i++) {
+        await parser.parse(function(err, video) {
+            if(video){
+                time.push(video.duration);
+            }else{
+                time.push(0);
+            }
+        }, videos[i].videoUrl)
+    }
+    
+    if(time.length!==videos.length)
+    return res.status(504).json({message:"failed at matching length"})
+    
+    for(let i=0;i<videos.length;i++){
+    videos[i].duration = format(time[i])
     delete videos[i].videoUrl;
   }
 
@@ -204,4 +259,6 @@ router.post("/editcourse", (req, res) => {
   const update = {};
   Courses.findOneAndUpdate(filter);
 });
+
+
 module.exports = router;

@@ -17,17 +17,21 @@ router.post('/wait/AddCourse',verifyTokenAndAdmin,(req,res)=>{
     })
 });
 
-router.get('/GetCourses',(req,res)=>{
+
+
+
+router.get('/getCourses',(req,res)=>{
     var courseProjection = {
         name:true,
         catrgory:true, 
         image : true,
         classes:true,
-        channelName:true
+        channelName:true,
+        noenrolls : true
     };
-    Courses.find({},courseProjection).then((courses)=>{
-        res.status(200).json(courses);
-    })
+    Courses.find({$query: {}, $orderby: {$natural : -1}},courseProjection).limit(20).then((courses)=>{
+        res.status(200).json(courses)
+    })   
 });
 
 
@@ -52,16 +56,7 @@ router.get('/GetPopularCourses',(req,res)=>{
 
 
 
-// router.get('/GetCourse/:id',(req,res)=>{
-//     const course_id = req.params.id;
-//     Courses.find({_id:course_id}).then(course=>{
-//         if(!course)
-//         res.status(401).json({message:"invalid course id"});
-//         res.status(200).json(course);
-//     }).catch(err=>{
-//         res.status(401).json({message:"invalid course id"});
-//     });
-// });
+
 
 
 
@@ -77,7 +72,10 @@ router.get('/GetCourseByName/:name',(req,res)=>{
         noenrolls:true,
         price : true,
         video_content:true,
-        channelName:true
+        channelName:true,
+        popular: true,
+        branch:true,
+        category:true
     };
     Courses.findOne({name:name},courseProjection).then(course=>{
         if(!course)
@@ -89,6 +87,8 @@ router.get('/GetCourseByName/:name',(req,res)=>{
 });
 
 
+
+//search course
 router.get('/searchCourse',(req,res)=>{
     const search_query = req.query.search_query; 
     var courseProjection = {
@@ -99,11 +99,18 @@ router.get('/searchCourse',(req,res)=>{
         channelName:true
     };
     Courses.find({name: new RegExp(search_query,'i') },courseProjection).then(items=>{
-        console.log(items)
+        if(!items)
+            res.status(404).json({message:"No such courses available"});
+        res.status(200).json(items);
     }).catch(err=>{
         res.status(404).json({message:"Something went wrong"});
     });
 });
+
+
+
+
+
 
 
 // get by category

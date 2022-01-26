@@ -7,6 +7,8 @@ const {
   verifyTokenAndAuthorization,
   verifyTokenAndAdmin,
 } = require("./verifyToken");
+const { response } = require("express");
+const Course = require("../models/Course");
 
 let options = {
   maxAge: 1000 * 60 * 60 * 24 * 7,
@@ -129,6 +131,67 @@ router.post("/updateuser", verifyTokenAndAuthorization, async (req, res) => {
       return res.status(403).json({ message: "something went wrong!" });
     });
 });
+
+
+// enroll course
+router.post("/enroll",verifyToken, async(req, res) => {
+  const userId = req.user.id;
+  const courseid = req.body.courseId;
+  if(!courseid)
+    return res.status(201).json({ message: "invalid Course ID" });
+
+
+  var enrolledCourses = await User.findOne({_id:userId},{courses:true});
+  console.log(userId)
+  enrolledCourses = enrolledCourses.courses;
+  for(let i=0;i<enrolledCourses.length;i++)
+  {
+      if(enrolledCourses[i].courseId == courseid)
+        return res.status(202).json({message:"course already enrolled!!!"})
+  }
+
+  User.findOneAndUpdate({ _id: userId }, { $push: {courses : {courseId:courseid,date:new Date()}} }).then(async(course) =>{
+        //console.log(course)
+        await Course.findOneAndUpdate( {_id: courseid},{$inc : {'noenrolls' : 1}}, {new: true});
+        return res.status(200).json({message:"You've Enrolled"});
+      })
+
+      .catch((err) => {
+        res.status(202).json({
+          error: true,
+          message: err,
+        });
+      });
+  })
+
+
+
+
+
+router.post("/addVideo",verifyToken, (req,res)=>{
+  const userId = req.user.id;
+  const courseid = req.body.courseId;
+  const videoId = req.body.videoId;
+
+  if(!userId)
+    return res.status(204).json({ message: "Invalid user" });
+  if(!courseid)
+    return res.status(204).json({ message: "Invalid course" });
+  if(!videoId)
+    return res.status(204).json({ message: "unable to find video" });
+
+  //User.findOneAndUpdate({ 'req.body._id': userId }, { "$push": {'courses' : {'videos' : videoId} }})
+  User.findOneAndUpdate({ _id:userId,"courses.courseId": req.body.courseid},{ $push: { "courses.videos": videoId } } ).then((course) => {
+      console.log(course)
+      //res.status(200).json({message:""});
+    }).catch(err=>{
+      res.status(401).json({message:"Something wrong"})
+    }) 
+})
+  
+
+
+
 
 router.post("/updateuseraccount", verifyToken, async (req, res) => {
   const email = req.user.email;

@@ -38,10 +38,17 @@
     "@types/webidl-conversions" "*"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@yimura/scraper@^1.2.3":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@yimura/scraper/-/scraper-1.2.3.tgz#ca90d9748b8eeb3b04e87cf62b3ea82a1eedc0c6"
   integrity sha512-4wuTvMnkH/3j+FVL1sV9z+VFZPxAJAciYoZoa+By8ljxF0PYYhB162q2eW+3lzkONFsXcvg6Hjm22rBEhwxujA==
+=======
+"abbrev@1":
+  "integrity" "sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q=="
+  "resolved" "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz"
+  "version" "1.1.1"
+>>>>>>> b4332186e8581fb6b7583dd28c0a270ffd4f9400
 
 abbrev@1:
   version "1.1.1"
@@ -937,11 +944,30 @@ gaxios@^4.0.0:
   resolved "https://registry.yarnpkg.com/gaxios/-/gaxios-4.3.2.tgz#845827c2dc25a0213c8ab4155c7a28910f5be83f"
   integrity sha512-T+ap6GM6UZ0c4E6yb1y/hy2UB6hTrqhglp3XfmU9qbLCGRYhLVV5aRPpC4EmoG8N8zOnkYCgoBz+ScvGAARY6Q==
   dependencies:
+<<<<<<< HEAD
     abort-controller "^3.0.0"
     extend "^3.0.2"
     https-proxy-agent "^5.0.0"
     is-stream "^2.0.0"
     node-fetch "^2.6.1"
+=======
+    "brace-expansion" "^1.1.7"
+
+"minimist@^1.2.0":
+  "integrity" "sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw=="
+  "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
+  "version" "1.2.5"
+
+"mongodb-connection-string-url@^2.0.0":
+  "integrity" "sha512-Qf9Zw7KGiRljWvMrrUFDdVqo46KIEiDuCzvEN97rh/PcKzk2bd6n9KuzEwBwW9xo5glwx69y1mI6s+jFUD/aIQ=="
+  "resolved" "https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-2.1.0.tgz"
+  "version" "2.1.0"
+=======
+"@yimura/scraper@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@yimura/scraper/-/scraper-1.2.3.tgz#ca90d9748b8eeb3b04e87cf62b3ea82a1eedc0c6"
+  integrity sha512-4wuTvMnkH/3j+FVL1sV9z+VFZPxAJAciYoZoa+By8ljxF0PYYhB162q2eW+3lzkONFsXcvg6Hjm22rBEhwxujA==
+>>>>>>> b4332186e8581fb6b7583dd28c0a270ffd4f9400
 
 gcp-metadata@^4.2.0:
   version "4.3.1"
@@ -2500,11 +2526,19 @@ mongodb-connection-string-url@^2.0.0:
   "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
   "version" "1.2.5"
 
+<<<<<<< HEAD
 "mongodb-connection-string-url@^2.0.0":
   "integrity" "sha512-Qf9Zw7KGiRljWvMrrUFDdVqo46KIEiDuCzvEN97rh/PcKzk2bd6n9KuzEwBwW9xo5glwx69y1mI6s+jFUD/aIQ=="
   "resolved" "https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-2.1.0.tgz"
   "version" "2.1.0"
 >>>>>>> ee0325d5319c51507056552c400e7f9fce499324
+=======
+mongodb-connection-string-url@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-2.1.0.tgz"
+  integrity sha512-Qf9Zw7KGiRljWvMrrUFDdVqo46KIEiDuCzvEN97rh/PcKzk2bd6n9KuzEwBwW9xo5glwx69y1mI6s+jFUD/aIQ==
+>>>>>>> be71ab02abca18e15b1101c4268cc07eadb2adba
+>>>>>>> b4332186e8581fb6b7583dd28c0a270ffd4f9400
   dependencies:
     "@types/whatwg-url" "^8.2.1"
     "whatwg-url" "^9.1.0"
@@ -2519,7 +2553,11 @@ mongodb-connection-string-url@^2.0.0:
     "mongodb-connection-string-url" "^2.0.0"
   optionalDependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
     saslprep "^1.0.3"
+=======
+    "saslprep" "^1.0.3"
+>>>>>>> b4332186e8581fb6b7583dd28c0a270ffd4f9400
 
 mongoose@^6.0.12:
   version "6.0.12"
@@ -3152,9 +3190,17 @@ string-width@^4.0.0, string-width@^4.1.0, string-width@^4.2.2:
   resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
   dependencies:
+<<<<<<< HEAD
     emoji-regex "^8.0.0"
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.1"
+=======
+    "axios" "^0.21.1"
+    "debug" "^4.3.2"
+    "ramda" "^0.27.1"
+=======
+    saslprep "^1.0.3"
+>>>>>>> b4332186e8581fb6b7583dd28c0a270ffd4f9400
 
 string_decoder@~0.10.x:
   version "0.10.31"
@@ -4111,7 +4157,13 @@ yt-channel-info@^2.2.0:
   "resolved" "https://registry.npmjs.org/youtube-playlist-summary/-/youtube-playlist-summary-2.1.6.tgz"
   "version" "2.1.6"
   dependencies:
+<<<<<<< HEAD
     "axios" "^0.21.1"
     "debug" "^4.3.2"
     "ramda" "^0.27.1"
 >>>>>>> ee0325d5319c51507056552c400e7f9fce499324
+=======
+    axios "^0.21.1"
+    querystring "^0.2.0"
+>>>>>>> be71ab02abca18e15b1101c4268cc07eadb2adba
+>>>>>>> b4332186e8581fb6b7583dd28c0a270ffd4f9400

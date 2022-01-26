@@ -7,7 +7,6 @@ const {
   verifyTokenAndAuthorization,
   verifyTokenAndAdmin,
 } = require("./verifyToken");
-const { response } = require("express");
 const Course = require("../models/Course");
 
 let options = {
@@ -55,6 +54,7 @@ router.post("/verify", (req, res) => {
     });
 });
 
+
 router.patch("/Enroll/:id", verifyTokenAndAuthorization, (req, res) => {
   const id = req.params.id;
   const courseid = req.query.courseid;
@@ -75,6 +75,9 @@ router.patch("/Enroll/:id", verifyTokenAndAuthorization, (req, res) => {
       });
     });
 });
+
+
+
 
 // Update The firstname and lastname,clg,branch,mobile
 router.post("/updateuser", verifyTokenAndAuthorization, async (req, res) => {
@@ -133,6 +136,7 @@ router.post("/updateuser", verifyTokenAndAuthorization, async (req, res) => {
 });
 
 
+
 // enroll course
 router.post("/enroll",verifyTokenAndAuthorization, async(req, res) => {
   const userId = req.user._id;
@@ -149,7 +153,6 @@ router.post("/enroll",verifyTokenAndAuthorization, async(req, res) => {
   }
 
   User.findOneAndUpdate({ _id: userId }, { $push: {courses : {courseId:courseid,date:new Date()}} }).then((course) => {
-        //console.log(course)
         Course.findOneAndUpdate( {_id: courseid},{$inc : {'noenrolls' : 1}}, {new: true}).then(
           res.status(200)
         );
@@ -162,6 +165,36 @@ router.post("/enroll",verifyTokenAndAuthorization, async(req, res) => {
         });
       });
   })
+
+
+
+//my Enrollments
+router.get('/myEnrollments',async(req,res)=>{
+  const userId = req.body._id;
+  var courseProjection = {
+    courses:true
+  };
+  const data = await User.findOne({_id:userId},courseProjection);
+  //console.log(data)
+  var courseids = []
+  for(let i=0;i<data.courses.length;i++)
+  {
+    courseids.push(data.courses[i].courseId);
+  }
+  var Projection = {
+      name:true,
+      image : true,
+      classes:true,
+      channelName:true
+
+  };
+  Course.find({ '_id': { $in: courseids } },Projection).then((records)=>{
+    res.status(200).json(records)
+  }).catch(err=>{
+    res.status(203).json({message:"something wenr wrong"})
+  })
+  
+})
 
 
 
@@ -191,14 +224,7 @@ router.post("/addVideo", (req,res)=>{
 
 
 
-router.put("/updateuser/hello", (req, res) => {
-  //const id = req.params.id;
-  const nums = req.query.num;
-  const query_string = req.query.query_string;
 
-  console.log(nums, query_string);
-
-  res.status(200).json({ message: "user updated successfully" });
 router.post("/updateuseraccount", verifyToken, async (req, res) => {
   const email = req.user.email;
   console.log(req.body)
@@ -247,13 +273,13 @@ router.post("/updateuseraccount", verifyToken, async (req, res) => {
     });
 });
 
+
+
 router.post("/updateusernotification", verifyToken, async (req, res) => {
   const email = req.user.email;
   console.log(req.body)
   if (!email) return res.status(403).json({ message: "invalid email" });
 
-
-  
   User.findOneAndUpdate({ email: req.user.email }, {isNotificationsAllowed:req.body.isNotificationsAllowed},{new:true})
     .then(async (user) => {
       const cookieUser = {
@@ -277,5 +303,3 @@ router.post("/updateusernotification", verifyToken, async (req, res) => {
 });
 
 module.exports = router;
-
-// 1106307

@@ -43,6 +43,8 @@ function format(time) {
     return ret;
  }
 
+
+ // Dashboard search course
 router.get('/searchCourse',(req,res)=>{
     const search_query = req.body.search_query;
     const category = req.body.catrgory;
@@ -55,7 +57,7 @@ router.get('/searchCourse',(req,res)=>{
         price : true,
         channelName:true
     };
-    Courses.find({name: new RegExp(search_query,'i'), catrgory: (req.body.catrgory) ? category:/.*/, branch: (req.body.branch) ? branch:/.*/ },courseProjection).then(items=>{
+    Course.find({name: new RegExp(search_query,'i'), catrgory: (req.body.catrgory) ? category:/.*/, branch: (req.body.branch) ? branch:/.*/ },courseProjection).then(items=>{
         if(!items)
             res.status(404).json({message:"No such courses available"});
         res.status(200).json(items);
@@ -66,13 +68,38 @@ router.get('/searchCourse',(req,res)=>{
 
 
 
-  
+//delete course
+router.post('/deleteCourse',(req,res)=>{
+    const courseid = req.body.courseid;
+    if(!courseid)
+        res.status(200).json({message:"Course id is required"})
+
+    Course.findOneAndDelete({ _id: courseid }).then((courses)=>{
+        res.status(200).json({message:"Course deleted successfully"})
+    }).catch(err=>{
+        res.status(201).json({message:"something went wrong"})
+    })
+})
 
 
- 
+
+//make popular
+router.post('/makePopular',(req,res)=>{
+    const courseid = req.body.courseid;
+    if(!courseid)
+        res.status(200).json({message:"Course id is required"})
+
+    Course.findOneAndUpdate({_id: courseid},[{$set:{popular:{$eq:[false,"$popular"]}}}]).then((course)=>{
+        res.status(200).json({message:"updated successfully"})
+    }).catch(err=>{
+        res.status(201).json({message:"something went wrong"})
+    })
+})
 
 
-  router.post('/createcourse',async(req,res)=>{
+
+
+router.post('/createcourse',async(req,res)=>{
 
    
     const ps = new PlaylistSummary(config)

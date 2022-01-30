@@ -92,6 +92,7 @@ router.get('/GetCourseByName/:name',(req,res)=>{
 //search course
 router.get('/searchCourse',(req,res)=>{
     const search_query = req.query.search_query; 
+    console.log(search_query)
     var courseProjection = {
         name:true,
         image : true,
@@ -99,12 +100,13 @@ router.get('/searchCourse',(req,res)=>{
         price : true,
         channelName:true
     };
+    
     Courses.find({name: new RegExp(search_query,'i') },courseProjection).then(items=>{
         if(!items)
-            res.status(404).json({message:"No such courses available"});
+            res.status(202).json({message:"No such courses available"});
         res.status(200).json(items);
     }).catch(err=>{
-        res.status(404).json({message:"Something went wrong"});
+        res.status(202).json({message:"Something went wrong"});
     });
 });
 

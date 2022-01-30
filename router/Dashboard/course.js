@@ -64,37 +64,6 @@ router.get('/searchCourse',(req,res)=>{
 
 
 
-router.get("/searchCourse", (req, res) => {
-  const search_query = req.body.search_query;
-  const category = req.body.catrgory;
-  const branch = req.body.branch;
-
-  var courseProjection = {
-    name: true,
-    image: true,
-    classes: true,
-    price: true,
-    channelName: true,
-  };
-  Courses.find(
-    {
-      name: new RegExp(search_query, "i"),
-      catrgory: req.body.catrgory ? category : /.*/,
-      branch: req.body.branch ? branch : /.*/,
-    },
-    courseProjection
-  )
-    .then((items) => {
-      if (!items)
-        res.status(404).json({ message: "No such courses available" });
-      res.status(200).json(items);
-    })
-    .catch((err) => {
-      res.status(404).json({ message: "Something went wrong" });
-    });
-});
-
-
 //delete course
 router.post('/deleteCourse',(req,res)=>{
     const courseid = req.body.courseid;

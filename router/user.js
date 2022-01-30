@@ -171,8 +171,8 @@ router.post("/enroll",verifyToken, async(req, res) => {
 
 
 //my Enrollments
-router.get('/myEnrollments',async(req,res)=>{
-  const userId = req.body._id;
+router.get('/myEnrollments',verifyToken,async(req,res)=>{
+  const userId = req.user.id;
   var courseProjection = {
     courses:true
   };

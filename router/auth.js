@@ -76,6 +76,7 @@ router.post('/signin',async (req,res)=>{
             verified:user.verified
         },process.env.JWT_SEC,{expiresIn:'3d'});
         res.cookie("authToken", accessToken ,options)
+        console.log(accessToken)
         return res.status(200).json('') 
     })
 })

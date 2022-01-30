@@ -18,7 +18,6 @@ router.post('/signup',async (req,res)=>{
     const email = req.body.email;
     const password = req.body.password;
     
-    
     const newUser = User({
         email:email,
         password:CryptoJs.AES.encrypt(password, process.env.PASS_SEC).toString()
@@ -34,8 +33,8 @@ router.post('/signup',async (req,res)=>{
                     email:result.email,
                     verified:result.verified
                 },process.env.JWT_SEC,{expiresIn:'3d'});
-                res.cookie("authToken", accessToken ,options)
-                return res.status(201).json('')
+                
+                return res.status(201).json({token:accessToken})
             
             }).catch((err)=>{
                 console.log(err)
@@ -75,9 +74,7 @@ router.post('/signin',async (req,res)=>{
             email:user.email,
             verified:user.verified
         },process.env.JWT_SEC,{expiresIn:'3d'});
-        res.cookie("authToken", accessToken ,options)
-        console.log(accessToken)
-        return res.status(200).json('') 
+        return res.status(200).json({token:accessToken}) 
     })
 })
 
@@ -100,9 +97,7 @@ router.post('/google',async(req,res)=>{
                     email:user.email,
                     verified:true
                 },process.env.JWT_SEC,{expiresIn:'3d'});
-                console.log(user);
-                res.cookie("authToken", accessToken ,options)
-                return res.status(200).json('')
+                return res.status(200).json({token:accessToken})
             })
             
         }
@@ -124,8 +119,7 @@ router.post('/google',async(req,res)=>{
                     verified:result.verified
                 },process.env.JWT_SEC,{expiresIn:'3d'});
 
-                res.cookie("authToken", accessToken ,options)
-                return res.status(201).json({email:email})
+                return res.status(201).json({token:accessToken})
             
             }).catch((err)=>{
                 console.log(err)
@@ -161,8 +155,7 @@ router.post('/fb',async(req,res)=>{
                         verified:true
                     },process.env.JWT_SEC,{expiresIn:'3d'});
     
-                    res.cookie('authToken',accessToken, options)
-                    return res.status(200).json('')
+                    return res.status(200).json({token:accessToken})
                 })
                 
             }
@@ -183,8 +176,7 @@ router.post('/fb',async(req,res)=>{
                         verified:result.verified
                     },process.env.JWT_SEC,{expiresIn:'3d'});
     
-                    res.cookie('authToken',accessToken, options)
-                    return res.status(201).json('')
+                    return res.status(201).json({token:accessToken})
                 
                 }).catch((err)=>{
                     console.log(err)

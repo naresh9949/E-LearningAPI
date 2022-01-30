@@ -14,7 +14,7 @@ let options = {
 };
 
 // GET The user with given id
-router.get("/getUserInfo", verifyToken, (req, res) => {
+router.post("/getUserInfo", verifyToken, (req, res) => {
   const email = req.user.email;
   if (!email) return res.status(400).json({ message: "email is required" });
 
@@ -32,7 +32,6 @@ router.get("/getUserInfo", verifyToken, (req, res) => {
   };
   User.findOne({ email: email }, projection)
     .then((user) => {
-      res.cookie("user", user, options);
       res.status(200).json(user);
     })
     .catch((err) => {
@@ -55,13 +54,13 @@ router.post("/verify", (req, res) => {
 });
 
 
-router.patch("/Enroll/:id", verifyTokenAndAuthorization, (req, res) => {
-  const id = req.params.id;
+router.patch("/Enroll/:id", verifyToken, (req, res) => {
+  const email = req.user.email;
   const courseid = req.query.courseid;
   if (!courseid) return res.status(404).json({ message: "invalid arguments" });
 
   User.findOneAndUpdate(
-    { _id: id },
+    { email: email },
     { $push: { courses: { courseId: courseid, date: new Date() } } }
   )
     .exec()
@@ -80,10 +79,10 @@ router.patch("/Enroll/:id", verifyTokenAndAuthorization, (req, res) => {
 
 
 // Update The firstname and lastname,clg,branch,mobile
-router.post("/updateuser", verifyTokenAndAuthorization, async (req, res) => {
+router.post("/updateuser", verifyToken, async (req, res) => {
   const name = req.body.first_name + " " + req.body.last_name;
 
-  const email = req.body.email;
+  const email = req.user.email;
 
   if (!email) return res.status(403).json({ message: "invalid email" });
 
@@ -171,7 +170,7 @@ router.post("/enroll",verifyToken, async(req, res) => {
 
 
 //my Enrollments
-router.get('/myEnrollments',verifyToken,async(req,res)=>{
+router.post('/myEnrollments',verifyToken,async(req,res)=>{
   const userId = req.user.id;
   var courseProjection = {
     courses:true
@@ -267,7 +266,6 @@ router.post("/updateuseraccount", verifyToken, async (req, res) => {
         branch: user.branch,
         image: user.image,
       };
-      res.cookie("user", cookieUser, options);
       res.status(201).json(cookieUser);
     })
     .catch((err) => {

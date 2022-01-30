@@ -23,7 +23,7 @@ const homeDashboardRoutes = require("./router/Dashboard/home");
 
 const corsConfig = {
   credentials: true,
-  origin:true
+  origin:[process.env.FRONTEND_URL]
 }; 
 
 

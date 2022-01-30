@@ -100,7 +100,7 @@ router.post('/google',async(req,res)=>{
                     email:user.email,
                     verified:true
                 },process.env.JWT_SEC,{expiresIn:'3d'});
-
+                console.log(user);
                 res.cookie("authToken", accessToken ,options)
                 return res.status(200).json('')
             })

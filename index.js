@@ -23,7 +23,7 @@ const homeDashboardRoutes = require("./router/Dashboard/home");
 
 const corsConfig = {
   credentials: true,
-  origin:[process.env.FRONTEND_URL]
+  origin:[process.env.FRONTEND_URL,'http://localhost:3002','https://quick-learner-dashboard.herokuapp.com/login']
 }; 
 
 

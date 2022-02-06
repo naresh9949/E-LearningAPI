@@ -36,7 +36,7 @@ router.post('/addReview',verifyToken,(req,res)=>{
     image : req.body.image
    })
    review.save().then((result)=>{
-       res.status(200).json({message:"review successfully saved"})
+       res.status(201).json({message:"review successfully saved"})
    }).catch(err=>{
     res.status(404).json({error:true,message : "review submission failed"})
    })

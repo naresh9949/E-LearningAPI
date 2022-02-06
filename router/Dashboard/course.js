@@ -65,7 +65,7 @@ router.get('/searchCourse',(req,res)=>{
 
 
 //delete course
-router.post('/deleteCourse',(req,res)=>{
+router.post('/deleteCourse',verifyTokenAndAdmin,(req,res)=>{
     const courseid = req.body.courseid;
     if(!courseid)
         res.status(200).json({message:"Course id is required"})
@@ -80,7 +80,7 @@ router.post('/deleteCourse',(req,res)=>{
 
 
 //make popular
-router.post('/makePopular',(req,res)=>{
+router.post('/makePopular',verifyTokenAndAdmin,(req,res)=>{
     const courseid = req.body.courseid;
     if(!courseid)
         res.status(200).json({message:"Course id is required"})
@@ -93,7 +93,7 @@ router.post('/makePopular',(req,res)=>{
 })
 
 
-router.post('/createcourse',async(req,res)=>{
+router.post('/createcourse',verifyTokenAndAdmin,async(req,res)=>{
 
    
     const ps = new PlaylistSummary(config)
@@ -173,7 +173,7 @@ router.post('/createcourse',async(req,res)=>{
   return res.status(200).json(course);
 });
 
-router.post("/addcourse", (req, res) => {
+router.post("/addcourse",verifyTokenAndAdmin, (req, res) => {
   const {
     name,
     playListId,
@@ -222,12 +222,49 @@ router.post("/addcourse", (req, res) => {
     });
 });
 
-router.post("/editcourse", (req, res) => {
-  const id = req.body.id;
-  const filter = { _id: id };
-  const update = {};
-  Courses.findOneAndUpdate(filter);
+router.post("/editcourse", async(req, res) => {
+  const id = req.body.courseId;
+  var courseProjection = {
+    name:true,
+    image : true,
+    classes:true,
+    price : true,
+    channelName:true,
+    description:true,
+    branch:true,
+    category:true,
+    cos:true,
+    tags:true
+};
+  var req_course;
+  try{
+   req_course = await Course.findOne({_id:id},courseProjection);
+  }catch(err){
+    return res.status(202).json({message:'course Id not Found'});
+  }
+  if(!req_course)
+    return res.status(202).json({message:'course Id not Found'});
+
+  const update_obj = {
+    name: req.body.name ? req.body.name : req_course.name,
+    description: req.body.description ? req.body.description : req_course.description,
+    branch: req.body.branch ? req.body.branch : req_course.branch,
+    category: req.body.category ? req.body.category : req_course.category,
+    channelName: req.body.channelName ? req.body.channelName : req_course.channelName,
+    image: req.body.image ? req.body.image : req_course.image,
+    cos: req.body.cos ? req.body.cos : req_course.cos,
+    tags: req.body.tags ? req.body.tags : req_course.tags,
+  }
+
+  Course.findOneAndUpdate({_id:id},update_obj,{new:true}).then(course=>{
+    return res.status(201).json(update_obj);
+  }).catch(err=>{
+    return res.status(202).json(err);
+  })
+
 });
+
+
 
 
 module.exports = router;

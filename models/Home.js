@@ -17,7 +17,9 @@ const homeSchema = new Schema ({
     email : {type: String ,unique:true},
     branchs : [],
     institutes : [],
-    categories:[]
+    categories:[],
+    terms:[],
+    privacy : []
     
 },{timestamps:true})
 

@@ -74,7 +74,7 @@ router.post('/signin',async (req,res)=>{
             email:user.email,
             verified:user.verified
         },process.env.JWT_SEC,{expiresIn:'3d'});
-        return res.status(200).json({token:accessToken}) 
+        return res.status(200).json({token:accessToken,admin:user.isAdmin}) 
     })
 })
 

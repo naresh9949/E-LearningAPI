@@ -16,6 +16,7 @@ const userSchema = new Schema ({
     courses : [{
         courseId : {type: String , required : true,unique : true},
         date : {type: Date,required : true},
+        note : {type: String,default : '<p>Add Note<p/>'},
         videos : []
     }],
     createdQuizzes : [{

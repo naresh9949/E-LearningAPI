@@ -2,6 +2,8 @@ const router = require("express").Router();
 const User = require("./../models/User");
 const passport = require("passport");
 const { SendVerificationLink } = require("./../Utils/Email");
+const { calculatePersentage } = require("./../Utils/calculatePersentage");
+
 const {
   verifyToken,
   verifyTokenAndAuthorization,
@@ -213,12 +215,64 @@ router.post("/addVideo",verifyToken, (req,res)=>{
   if(!videoId)
     return res.status(204).json({ message: "unable to find video" });
 
-  //User.findOneAndUpdate({ 'req.body._id': userId }, { "$push": {'courses' : {'videos' : videoId} }})
-  User.findOneAndUpdate({ _id:userId,"courses.courseId": req.body.courseid},{ $push: { "courses.videos": videoId } } ).then((course) => {
-      console.log(course)
-      //res.status(200).json({message:""});
+  
+  User.findOneAndUpdate({ _id:userId,"courses.courseId": courseid},{ $push: { "courses.$.videos": videoId } } ).then((user) => {
+      let vidCount = 0;
+      const courses = user.courses;
+      for(let i=0;i<courses.length;i++)
+      {
+        if(courses[i].courseId===courseid){
+        vidCount = courses[i].videos.length;
+        break;
+        }
+      }
+      Course.findOne({_id:courseid},{classes:true}).then(course=>{
+        let totalCount = course.classes;
+        if(vidCount!==totalCount)
+          vidCount++;
+        const result = calculatePersentage(vidCount,totalCount);
+        res.status(201).json(result);
+      })
+      
     }).catch(err=>{
-      res.status(401).json({message:"Something wrong"})
+      res.status(202).json({message:err})
+    }) 
+})
+
+
+router.post("/addNote",verifyToken, (req,res)=>{
+  const userId = req.user.id;
+  const courseId = req.body.courseId;
+  const content = req.body.content;
+  if(!courseId || content===null || content===undefined)
+    return res.status(202).json({ message: "all fields are required" });
+ 
+  User.findOneAndUpdate({ _id:userId,"courses.courseId":courseId},{"courses.$.note": content}).then((c) => {
+      res.status(201).json({message:"added successfully"});
+    }).catch(err=>{
+      res.status(202).json({message:"Something wrong"})
+    }) 
+})
+
+
+router.post("/getNote",verifyToken, (req,res)=>{
+  const userId = req.user.id;
+  const courseId = req.body.courseId;
+ 
+  if(!courseId)
+    return res.status(202).json({ message: "all fields are required" });
+ 
+  User.findOne({ _id:userId,"courses.courseId":courseId},{courses:true}).then((c) => {
+    console.log(c)
+      const courses = c.courses;
+      for(let i=0;i<courses.length;i++)
+      {
+        if(courses[i].courseId===courseId)
+          res.status(200).json(courses[i].note);
+      }
+      res.status(202).json({message:'course not found'});
+    }).catch(err=>{
+      res.status(202).json({message:"Something wrong"})
     }) 
 })
   

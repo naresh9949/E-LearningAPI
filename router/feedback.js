@@ -16,20 +16,19 @@ router.get('/Getfeedbacks',(req,res)=>{
 
 
 router.post('/Addfeedback',(req,res)=>{
-   if(!req.body.first_name ||!req.body.email || !req.body.subject || !req.body.message)
-   res.status(404).json({error:true,message : "all fields are required"})
+   if(!req.body.name || !req.body.email || !req.body.subject || !req.body.message)
+   return res.status(202).json({error:true,message : "all fields are required"})
    
    const feedback = new Feedback({
-    first_name : req.body.first_name,
-    last_name : req.body.last_name?req.body.last_name:null,
+    name : req.body.name,
     email : req.body.email,
     subject : req.body.subject,
     message : req.body.message
    })
    feedback.save().then((result)=>{
-       res.status(200).json({message:"Feedback successfully saved"})
+    return res.status(201).json({message:"Feedback successfully saved"})
    }).catch(err=>{
-    res.status(404).json({error:true,message : "Feedback submission failed"})
+    return res.status(202).json({error:err,message : "Feedback submission failed"})
    })
 })
 

@@ -18,10 +18,9 @@ const {
       })
   })
 
-
-
+  
 //update home details
-  router.post('/updateHomeDetails', async (req,res)=>{
+  router.post('/updateHomeDetails',verifyTokenAndAdmin, async (req,res)=>{
       const data = await Home.find({}); 
       const home = data[0];
       const newHome = {
@@ -46,7 +45,6 @@ const {
   })
 
 
-
   router.get('/getBranches',(req,res)=>{
     var projection = {
       branchs:true,
@@ -57,7 +55,7 @@ const {
   })
 
 
-  router.post('/createBranch',(req,res)=>{
+  router.post('/createBranch',verifyTokenAndAdmin,(req,res)=>{
     const branch = req.body.branch;
     if(!branch)
       res.status(403).json({message:'Branch required'})
@@ -67,7 +65,7 @@ const {
     })
   })
 
-  router.post('/createInstitutions',(req,res)=>{
+  router.post('/createInstitutions',verifyTokenAndAdmin,(req,res)=>{
     const institute = req.body.institute;
     if(!institute)
       res.status(403).json({message:'Institute required'})
@@ -78,7 +76,7 @@ const {
   })
 
 
-  router.post('/createCategory',(req,res)=>{
+  router.post('/createCategory',verifyTokenAndAdmin,(req,res)=>{
     const category = req.body.category;
     if(!category)
       res.status(403).json({message:'Category required'})
@@ -89,6 +87,43 @@ const {
   })
 
 
+  router.post('/addTermsAndConditions',verifyTokenAndAdmin,()=>{
+    const term_condition = req.body.term_condition;
+    if(!term_condition || !term_condition.head || !term_condition.body)
+      res.status(202).json({message:'Term and Condition Object is Required'})
+      
+      Home.updateOne({name:'Home'},{ $push: { terms: term_condition } }).then(data=>{
+      res.status(200).json(data)
+    })
+  })
+
+  router.post('/addPravacy',verifyTokenAndAdmin,()=>{
+    const privacy = req.body.privacy;
+    if(!privacy || !privacy.head || !privacy.body)
+      res.status(202).json({message:'Term and Condition Object is Required'})
+      
+      Home.updateOne({name:'Home'},{ $push: { privacy: privacy } }).then(data=>{
+      res.status(200).json(data)
+    })
+  })
+
+  router.post('/getTermsAndConditions',(req,res)=>{
+    var projection = {
+      terms:true,
+  };
+    Home.findOne({name:"Home"},projection).then(data=>{
+      res.status(200).json(data.terms)
+    })
+  })
+
+  router.post('/getPravacy',(req,res)=>{
+    var projection = {
+      privacy:true,
+  };
+    Home.findOne({name:"Home"},projection).then(data=>{
+      res.status(200).json(data.privacy)
+    })
+  })
 
   module.exports = router;
 

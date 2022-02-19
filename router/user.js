@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const User = require("./../models/User");
 const passport = require("passport");
-const { SendVerificationLink } = require("./../Utils/Email");
+const { SendVerificationLink,SendCourseEnrollment } = require("../Utils/emailHandler");
 const { calculatePersentage } = require("./../Utils/calculatePersentage");
 
 const {
@@ -155,10 +155,13 @@ router.post("/enroll",verifyToken, async(req, res) => {
         return res.status(202).json({message:"course already enrolled!!!"})
   }
 
-  User.findOneAndUpdate({ _id: userId }, { $push: {courses : {courseId:courseid,date:new Date()}} }).then(async(course) =>{
+  User.findOneAndUpdate({ _id: userId }, { $push: {courses : {courseId:courseid,date:new Date()}} }).then(async(user) =>{
         //console.log(course)
-        await Course.findOneAndUpdate( {_id: courseid},{$inc : {'noenrolls' : 1}}, {new: true});
-        return res.status(200).json({message:"You've Enrolled"});
+        await Course.findOneAndUpdate( {_id: courseid},{$inc : {'noenrolls' : 1}}, {new: true}).then(async(course)=>{
+          await SendCourseEnrollment(req.user.email,user.first_name+" "+user.last_name,course.name,process.env.FRONTEND_URL+"/courseplayer/"+course.name)
+          return res.status(200).json({message:"You've Enrolled"});
+        }); 
+       
       })
 
       .catch((err) => {
@@ -178,7 +181,6 @@ router.post('/myEnrollments',verifyToken,async(req,res)=>{
     courses:true
   };
   const data = await User.findOne({_id:userId},courseProjection);
-  //console.log(data)
   var courseids = []
   for(let i=0;i<data.courses.length;i++)
   {
@@ -192,9 +194,23 @@ router.post('/myEnrollments',verifyToken,async(req,res)=>{
 
   };
   Course.find({ '_id': { $in: courseids } },Projection).then((records)=>{
-    res.status(200).json(records)
+    let result = [];
+    for(let i=0;i<data.courses.length;i++)
+    {
+      for(let j=0;j<records.length;j++)
+      {
+       
+        
+        if(data.courses[i].courseId == records[j]._id.toString()){
+        percentage = calculatePersentage(data.courses[i].videos.length,records[j].classes);
+        const obj = {...records[j]._doc,percentage:percentage};
+        result.push(obj);
+        }
+      }
+    }
+    res.status(200).json(result)
   }).catch(err=>{
-    res.status(203).json({message:"something wenr wrong"})
+    res.status(203).json({message:"something went wrong"})
   })
   
 })

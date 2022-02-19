@@ -1,4 +1,6 @@
 const router = require("express").Router();
+const User = require("../models/User");
+const { calculatePersentage } = require("./../Utils/calculatePersentage");
 const Courses = require("./../models/Course");
 const {
   verifyToken,
@@ -74,7 +76,7 @@ router.get("/GetCourseByName/:name", (req, res) => {
     });
 });
 
-router.get("/GetCoursePlayer/:name", (req, res) => {
+router.post("/GetCoursePlayer/:name",verifyToken, (req, res) => {
   const name = req.params.name;
   var courseProjection = {
     name: true,
@@ -82,14 +84,35 @@ router.get("/GetCoursePlayer/:name", (req, res) => {
     video_content: true,
     channelName: true,
     comments: true,
+    classes: true,
   };
   Courses.findOne({ name: name }, courseProjection)
     .then((course) => {
-      if (!course) res.status(404).json({ message: "invalid course Name" });
-      res.status(200).json(course);
+      if (!course) res.status(202).json({ message: "invalid course Name" });
+      User.findOne({_id : req.user.id},{courses:true}).then(user=>{
+        const courses = user.courses;
+        let cur_course;
+        let flag = false;
+        for(let i=0;i<courses.length;i++)
+        {
+          if(courses[i].courseId===course._id.toString()){
+          flag = true;
+          cur_course = courses[i];
+          break;
+          }
+        }
+
+        const percentage = calculatePersentage(cur_course.videos.length,course.classes);
+
+        if(!flag)
+        return res.status(202).json({message:"course is not Enrolled"});
+
+        return res.status(200).json({...course._doc,videos:cur_course.videos,percentage:percentage});
+      })
+     
     })
     .catch((err) => {
-      res.status(404).json({ message: "invalid course Name" });
+      return res.status(202).json({ message: "invalid course Name" });
     });
 });
 

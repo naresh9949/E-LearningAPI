@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 const userSchema = new Schema ({
-    email : {type: String , required : true,unique:true},
+    email : {type: String , required : true,unique:true,index:true},
     first_name : {type: String,default:null},
     last_name : {type: String,default:null},
     branch : {type: String , default:null},
@@ -14,7 +14,7 @@ const userSchema = new Schema ({
     isAdmin : {type: Boolean , required : true,default:false},
     isNotificationsAllowed : {type: Boolean , required : true,default:true},
     courses : [{
-        courseId : {type: String , required : true,unique : true},
+        courseId : {type: String , required : true,unique: true},
         date : {type: Date,required : true},
         note : {type: String,default : '<p>Add Note<p/>'},
         videos : []

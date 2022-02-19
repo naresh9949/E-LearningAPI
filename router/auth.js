@@ -6,6 +6,7 @@ require('./passport.config')
 const { OAuth2Client } = require('google-auth-library')
 const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID)
 const axios = require('axios')
+const {SendVerificationLink} = require('./../Utils/emailHandler');
 
 
 let options = {
@@ -33,7 +34,6 @@ router.post('/signup',async (req,res)=>{
                     email:result.email,
                     verified:result.verified
                 },process.env.JWT_SEC,{expiresIn:'3d'});
-                
                 return res.status(201).json({token:accessToken})
             
             }).catch((err)=>{
